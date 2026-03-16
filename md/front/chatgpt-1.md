@@ -1,281 +1,427 @@
-Yes — here it is in a more digestible table format.
+## 1. Brief summary of constraints
 
-## 1. Summary of constraints
+I understand the garden as a **small west-facing Bedford Park / Chiswick front garden** with a **fixed layout** that must stay as drawn:
 
-| Item            | Requirement                                                                                  |
-| --------------- | -------------------------------------------------------------------------------------------- |
-| Layout          | Fixed. No redesign of path, gate, shed, wall, fence, hedge, house frontage, or shingle court |
-| Main strategy   | Layered boundary planting with open central shingle court                                    |
-| Access          | Keep clear route from gate to door and turning access to shed                                |
-| Shed access     | Maintain about 1 m clear space in front of shed                                              |
-| Central area    | Must stay mostly open for bike manoeuvring                                                   |
-| Tap access      | Keep planting low and accessible near tap on right side of bay                               |
-| Privacy         | Evergreen screening along front boundary, but not hedge-like                                 |
-| Style           | Structured but natural; tidy but not formal                                                  |
-| Orientation     | West-facing                                                                                  |
-| Soil            | Should suit typical London clay                                                              |
-| Heights         | Most plants under 1.5 m; selected boundary plants up to about 2 m                            |
-| Seasonal effect | Evergreen structure plus flowering and winter interest                                       |
+| Constraint                                                              | What it means for planting                                                                            |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Path, gate, front wall/fence, house façade, shed, right hedge all fixed | Planting must fit around them, not alter them                                                         |
+| Open central shingle court must remain                                  | Keep the middle visually open and usable for bike manoeuvring                                         |
+| Bike shed needs clear access                                            | Maintain at least **1.0 m clear space in front of shed** and easy turning space from path into garden |
+| House wall bed is shallow and interrupted by bay/tap                    | Use restrained wall planting and climbers that do not smother the façade or block the tap             |
+| Front boundary planting must give privacy                               | Use **airy evergreen layers**, not a clipped hedge                                                    |
+| Height limits                                                           | Most planting **below 1.5 m**, with only selected boundary/back-of-bed plants reaching **1.5–2.0 m**  |
+| Style                                                                   | Structured but natural; tidy, layered, and appropriate to Victorian Chiswick                          |
+| Soil and aspect                                                         | Plants must suit **London clay**, sheltered urban conditions, and **west-facing** sun pattern         |
 
 ---
 
-## 2. Overall planting structure
+## 2. Planting structure for the whole garden
 
-| Layer                    | Role                                        | Best location                        | Height guide             |
-| ------------------------ | ------------------------------------------- | ------------------------------------ | ------------------------ |
-| Evergreen structure      | Year-round shape and privacy                | Front boundary, left strip, wall bed | 0.8–2 m                  |
-| Flowering shrubs         | Seasonal interest and softness              | Front boundary and wall bed          | 0.8–1.8 m                |
-| Perennials / lower layer | Fill gaps, soften edges, extend season      | All beds                             | 20–60 cm                 |
-| Climbers                 | Soften house wall and add vertical interest | House wall near door / bay           | Trained flat             |
-| Optional focal plant     | Compact statement plant in open court       | Central shingle court                | Compact, non-obstructive |
+The best approach is a **layered boundary planting framework** with the centre left open.
 
----
+| Layer                                 | Role in the design                                              | Typical height                   |
+| ------------------------------------- | --------------------------------------------------------------- | -------------------------------- |
+| Upper evergreen structure             | Gives year-round bones, privacy, and winter presence            | 1.2–2.0 m                        |
+| Mid shrubs                            | Flowering volume and seasonal interest                          | 0.8–1.5 m                        |
+| Lower perennials/subshrubs            | Softness, long flowering season, and repetition                 | 0.3–0.8 m                        |
+| Ground/edging layer                   | Neatness, weed suppression, and visual stitching between plants | 0.15–0.35 m                      |
+| Climbers                              | Soften house wall and near-door area without using floor space  | variable, trained flat           |
+| Optional focal plant in shingle court | One compact specimen for identity and seasonal interest         | c. 1.2–2.5 m depending on choice |
 
-## 3. Zone-by-zone approach
+### Overall layout logic by zone
 
-| Zone   | Location              | Purpose                                      | Planting approach                                                     |
-| ------ | --------------------- | -------------------------------------------- | --------------------------------------------------------------------- |
-| Zone 1 | Left Hedge Strip      | Improve hedge base, soften path edge         | Narrow layered strip with evergreen rhythm and low underplanting      |
-| Zone 2 | House Wall Bed        | Soften façade, add climber, plant around bay | Restrained planting, one climber, compact shrubs, tap kept accessible |
-| Zone 3 | Front Boundary Bed    | Privacy and main ornamental display          | Layered evergreen + flowering shrubs + front edging plants            |
-| Zone 4 | Central Shingle Court | Circulation and openness                     | Mostly open; optional one compact focal plant only                    |
-
----
-
-# 4. Planting Scheme A — Classic Bedford Park Evergreen + White/Pink
-
-## Scheme A overview
-
-| Aspect      | Description                            |
-| ----------- | -------------------------------------- |
-| Style       | Calm, elegant, classic Bedford Park    |
-| Feel        | Evergreen-backed, white/pink flowering |
-| Strength    | Best all-round year-round structure    |
-| Maintenance | Moderate, fairly manageable            |
-
-## Scheme A — Zone table
-
-| Zone                      | Plants                     | Approx qty | Spacing  | Mature size               |
-| ------------------------- | -------------------------- | ---------: | -------- | ------------------------- |
-| Zone 1 — Left Hedge Strip | Sarcococca confusa         |          4 | 60–70 cm | 1–1.5 m h x 1–1.2 m w     |
-|                           | Skimmia japonica ‘Rubella’ |          3 | 60 cm    | 0.8–1.2 m h x 0.8–1.2 m w |
-|                           | Helleborus x hybridus      |          6 | 35–40 cm | 35–45 cm h x 45 cm w      |
-|                           | Heuchera                   |          7 | 30–35 cm | 25–35 cm h x 35–45 cm w   |
-|                           | Liriope muscari            |          6 | 30–35 cm | 30–45 cm h x 30–40 cm w   |
-
-| Zone                    | Plants                             | Approx qty | Spacing  | Mature size                              |
-| ----------------------- | ---------------------------------- | ---------: | -------- | ---------------------------------------- |
-| Zone 2 — House Wall Bed | Trachelospermum jasminoides        |          1 | 1 plant  | trained climber, 3–5 m spread on support |
-|                         | Hydrangea quercifolia ‘Snow Queen’ |          1 | 1–1.2 m  | 1.2–1.8 m h x 1.2–1.8 m w                |
-|                         | Skimmia japonica                   |          2 | 60 cm    | 0.8–1.2 m h x 0.8–1.2 m w                |
-|                         | Brunnera macrophylla               |          3 | 35–40 cm | 35–45 cm h x 45 cm w                     |
-|                         | Helleborus                         |          4 | 35–40 cm | 35–45 cm h x 45 cm w                     |
-|                         | Heuchera                           |          5 | 30–35 cm | 25–35 cm h x 35–45 cm w                  |
-
-| Zone                        | Plants                      | Approx qty | Spacing   | Mature size             |
-| --------------------------- | --------------------------- | ---------: | --------- | ----------------------- |
-| Zone 3 — Front Boundary Bed | Choisya ‘White Dazzler’     |          3 | 90–100 cm | 1.2–1.5 m h x 1–1.2 m w |
-|                             | Hydrangea paniculata ‘Bobo’ |          2 | 75–90 cm  | 0.8–1.2 m h x 1–1.2 m w |
-|                             | Osmanthus x burkwoodii      |          2 | 90–100 cm | 1.5–2 m h x 1.5 m w     |
-|                             | Nepeta ‘Walker’s Low’       |          5 | 35–40 cm  | 45–60 cm h x 60 cm w    |
-|                             | Geranium ‘Rozanne’          |          5 | 35–40 cm  | 40–50 cm h x 60 cm w    |
-|                             | Erigeron karvinskianus      |          6 | 30–35 cm  | 25–40 cm h x 30–40 cm w |
-
-| Zone                   | Plants                                         |        Qty | Notes                                          |
-| ---------------------- | ---------------------------------------------- | ---------: | ---------------------------------------------- |
-| Zone 4 — Central Court | Compact Camellia or Viburnum tinus ‘Eve Price’ | 1 optional | Only if positioned so bike turning still works |
+| Zone                               | Planting role                                                                                      |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Zone 1 — Left Hedge Strip**      | Shade-tolerant layered strip to improve the base of the hedge and make the entry path feel planted |
+| **Zone 2 — House Wall Bed**        | Slim, elegant wall border with climber, restrained shrubs/perennials, and clear tap access         |
+| **Zone 3 — Front Boundary Bed**    | Main privacy and seasonal display bed; strongest evergreen framework here                          |
+| **Zone 4 — Central Shingle Court** | Kept mostly open; optional compact focal specimen only if it does not interrupt bike turning       |
 
 ---
 
-# 5. Planting Scheme B — Softer, More Romantic Bedford Park
+## 3. Zone-by-zone planting recommendations
 
-## Scheme B overview
+### Zone 1 — Left Hedge Strip
 
-| Aspect      | Description                           |
-| ----------- | ------------------------------------- |
-| Style       | Softer, more floral, slightly looser  |
-| Feel        | Domestic, romantic, more cottage-like |
-| Strength    | Long flowering season                 |
-| Maintenance | Slightly higher to keep tidy          |
+| Requirement                 | Recommendation                                                   |
+| --------------------------- | ---------------------------------------------------------------- |
+| Improve existing hedge base | Use a repeated underplanting rhythm rather than bulky shrubs     |
+| Likely part-shade           | Choose plants tolerant of morning shade and dry root competition |
+| Keep path edge neat         | Low edging and restrained mounding plants near the path          |
 
-## Scheme B — Zone table
-
-| Zone                      | Plants                   | Approx qty | Spacing  | Mature size               |
-| ------------------------- | ------------------------ | ---------: | -------- | ------------------------- |
-| Zone 1 — Left Hedge Strip | Nandina domestica        |          4 | 60–75 cm | 1–1.5 m h x 0.8–1 m w     |
-|                           | Skimmia japonica         |          2 | 60 cm    | 0.8–1.2 m h x 0.8–1.2 m w |
-|                           | Epimedium x perralchicum |          7 | 35 cm    | 30–40 cm h x 40–50 cm w   |
-|                           | Geranium macrorrhizum    |          7 | 35–40 cm | 30–40 cm h x 45 cm w      |
-|                           | Hakonechloa macra        |          5 | 40 cm    | 35–45 cm h x 45–60 cm w   |
-
-| Zone                    | Plants                                 | Approx qty | Spacing   | Mature size                      |
-| ----------------------- | -------------------------------------- | ---------: | --------- | -------------------------------- |
-| Zone 2 — House Wall Bed | Rosa ‘The Generous Gardener’           |          1 | 1 plant   | climber/shrub rose, trained flat |
-|                         | Clematis viticella cultivar            |          1 | with rose | 2.5–4 m trained through support  |
-|                         | Hydrangea macrophylla compact cultivar |          1 | 90–100 cm | 1–1.2 m h x 1–1.2 m w            |
-|                         | Alchemilla mollis                      |          5 | 35 cm     | 30–45 cm h x 45 cm w             |
-|                         | Heuchera                               |          5 | 30–35 cm  | 25–35 cm h x 35–45 cm w          |
-|                         | Liriope muscari                        |          4 | 30–35 cm  | 30–45 cm h x 30–40 cm w          |
-
-| Zone                        | Plants                             | Approx qty | Spacing  | Mature size             |
-| --------------------------- | ---------------------------------- | ---------: | -------- | ----------------------- |
-| Zone 3 — Front Boundary Bed | Viburnum tinus ‘Eve Price’         |          2 | 100 cm   | 1.8–2.5 m h x 1.5–2 m w |
-|                             | Abelia x grandiflora               |          2 | 90 cm    | 1.2–1.8 m h x 1.5 m w   |
-|                             | Hydrangea paniculata ‘Little Lime’ |          2 | 90 cm    | 1–1.5 m h x 1–1.5 m w   |
-|                             | Nepeta ‘Walker’s Low’              |          6 | 35–40 cm | 45–60 cm h x 60 cm w    |
-|                             | Stachys byzantina                  |          5 | 35 cm    | 20–40 cm h x 45 cm w    |
-|                             | Erigeron karvinskianus             |          6 | 30–35 cm | 25–40 cm h x 30–40 cm w |
-|                             | Sesleria autumnalis                |          5 | 35–40 cm | 30–45 cm h x 35–45 cm w |
-
-| Zone                   | Plants                                |        Qty | Notes                                                             |
-| ---------------------- | ------------------------------------- | ---------: | ----------------------------------------------------------------- |
-| Zone 4 — Central Court | Magnolia stellata or compact Camellia | 1 optional | Magnolia only if placed carefully to avoid future spread conflict |
+**Good plant types here:** Sarcococca, Skimmia, hellebores, hardy geraniums, Liriope, ferns in shadier pockets, Brunnera or Heuchera depending on scheme.
 
 ---
 
-# 6. Planting Scheme C — Cleaner, More Structured Contemporary Green
+### Zone 2 — House Wall Bed
 
-## Scheme C overview
+| Requirement                | Recommendation                                                |
+| -------------------------- | ------------------------------------------------------------- |
+| Soften house wall          | Use one trained climber or a very small number of wall plants |
+| Near front door            | Fragrant or elegant plants work well here                     |
+| Bay window/tap constraints | Keep bulk low around tap; avoid thorny or sprawling plants    |
 
-| Aspect      | Description                           |
-| ----------- | ------------------------------------- |
-| Style       | Crisp, restrained, more architectural |
-| Feel        | Cleaner and more contemporary         |
-| Strength    | Strong evergreen form and repetition  |
-| Maintenance | Moderate, visually tidy               |
-
-## Scheme C — Zone table
-
-| Zone                      | Plants             | Approx qty | Spacing  | Mature size             |
-| ------------------------- | ------------------ | ---------: | -------- | ----------------------- |
-| Zone 1 — Left Hedge Strip | Ilex crenata domes |          4 | 60–70 cm | 0.8–1.2 m h x 0.8–1 m w |
-|                           | Liriope muscari    |          7 | 30–35 cm | 30–45 cm h x 30–40 cm w |
-|                           | Heuchera           |          6 | 30–35 cm | 25–35 cm h x 35–45 cm w |
-|                           | Helleborus         |          5 | 35–40 cm | 35–45 cm h x 45 cm w    |
-
-| Zone                    | Plants                              | Approx qty | Spacing  | Mature size                       |
-| ----------------------- | ----------------------------------- | ---------: | -------- | --------------------------------- |
-| Zone 2 — House Wall Bed | Trachelospermum jasminoides         |          1 | 1 plant  | trained climber, 3–5 m on support |
-|                         | Pittosporum tenuifolium ‘Golf Ball’ |          2 | 70–80 cm | 0.8–1 m h x 0.8–1 m w             |
-|                         | Hydrangea paniculata ‘Little Lime’  |          1 | 90 cm    | 1–1.5 m h x 1–1.5 m w             |
-|                         | Brunnera macrophylla                |          3 | 35–40 cm | 35–45 cm h x 45 cm w              |
-|                         | Heuchera                            |          4 | 30–35 cm | 25–35 cm h x 35–45 cm w           |
-|                         | Carex oshimensis ‘Evergold’         |          4 | 35–40 cm | 30–40 cm h x 40–50 cm w           |
-
-| Zone                        | Plants                  | Approx qty | Spacing   | Mature size               |
-| --------------------------- | ----------------------- | ---------: | --------- | ------------------------- |
-| Zone 3 — Front Boundary Bed | Pittosporum ‘Tom Thumb’ |          3 | 75–90 cm  | 0.8–1.2 m h x 0.8–1.2 m w |
-|                             | Choisya ‘White Dazzler’ |          2 | 90–100 cm | 1.2–1.5 m h x 1–1.2 m w   |
-|                             | Skimmia japonica        |          2 | 60 cm     | 0.8–1.2 m h x 0.8–1.2 m w |
-|                             | Nepeta ‘Walker’s Low’   |          5 | 35–40 cm  | 45–60 cm h x 60 cm w      |
-|                             | Geranium ‘Rozanne’      |          5 | 35–40 cm  | 40–50 cm h x 60 cm w      |
-|                             | Sesleria autumnalis     |          5 | 35–40 cm  | 30–45 cm h x 35–45 cm w   |
-|                             | Erigeron karvinskianus  |          5 | 30–35 cm  | 25–40 cm h x 30–40 cm w   |
-
-| Zone                   | Plants                                           |        Qty | Notes                                              |
-| ---------------------- | ------------------------------------------------ | ---------: | -------------------------------------------------- |
-| Zone 4 — Central Court | Amelanchier ‘Obelisk’ or Viburnum tinus specimen | 1 optional | Use only if kept narrow and away from turning zone |
+**Good plant types here:** Trachelospermum jasminoides, Clematis armandii in the milder/sheltered part, climbing rose with underplanting, Hydrangea arborescens in wider pocket, lavender or nepeta where sunnier.
 
 ---
 
-# 7. Structural plants comparison
+### Zone 3 — Front Boundary Bed
 
-| Plant                       | Evergreen?       | Best use                          | Mature size           | Notes                             |
-| --------------------------- | ---------------- | --------------------------------- | --------------------- | --------------------------------- |
-| Sarcococca confusa          | Yes              | Narrow shaded strip, winter scent | 1–1.5 m x 1–1.2 m     | Very suitable for left strip      |
-| Skimmia japonica            | Yes              | Evergreen mid-layer               | 0.8–1.2 m x 0.8–1.2 m | Excellent for clay and part shade |
-| Choisya ‘White Dazzler’     | Yes              | Airy privacy and flower           | 1.2–1.5 m x 1–1.2 m   | Good all-rounder                  |
-| Osmanthus x burkwoodii      | Yes              | Boundary structure                | 1.5–2 m x 1.5 m       | Elegant and fragrant              |
-| Viburnum tinus ‘Eve Price’  | Yes              | Privacy or focal shrub            | 1.8–2.5 m x 1.5–2 m   | Very practical                    |
-| Nandina domestica           | Mostly evergreen | Light framework                   | 1–1.5 m x 0.8–1 m     | Airy, not bulky                   |
-| Ilex crenata                | Yes              | Clipped domes / structure         | 0.8–1.2 m x 0.8–1 m   | Crisp and tidy                    |
-| Pittosporum ‘Golf Ball’     | Yes              | Compact mounds                    | 0.8–1 m x 0.8–1 m     | Great in sheltered London gardens |
-| Pittosporum ‘Tom Thumb’     | Yes              | Front bed structure               | 0.8–1.2 m x 0.8–1.2 m | Dark foliage contrast             |
-| Trachelospermum jasminoides | Yes              | Wall climber                      | 3–5 m trained         | Best evergreen climber here       |
+| Requirement                            | Recommendation                                                                                              |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Evergreen privacy without hedge effect | Use repeated evergreen shrubs with spaces between forms, mixed with flowering shrubs and grasses/perennials |
+| Visible from street and house          | This is the main ornamental zone                                                                            |
+| Shed behind right side                 | Keep plants in front of shed elegant, not bulky into access route                                           |
+
+**Good plant types here:** Osmanthus, Pittosporum, Sarcococca, Skimmia, Hydrangea, Nandina, Hebe, roses, salvias, Stipa, Geranium, Erigeron.
 
 ---
 
-# 8. Flowering shrubs comparison
+### Zone 4 — Central Shingle Court
 
-| Plant                               | Flower season           | Mature size           | Best scheme | Notes                             |
-| ----------------------------------- | ----------------------- | --------------------- | ----------- | --------------------------------- |
-| Hydrangea quercifolia               | Summer to autumn        | 1.2–1.8 m x 1.2–1.8 m | A           | Great autumn colour and structure |
-| Hydrangea paniculata ‘Bobo’         | Summer to autumn        | 0.8–1.2 m x 1–1.2 m   | A           | Compact, long flowering           |
-| Hydrangea paniculata ‘Little Lime’  | Summer to autumn        | 1–1.5 m x 1–1.5 m     | B, C        | Reliable and neat                 |
-| Hydrangea macrophylla compact forms | Summer                  | 1–1.2 m x 1–1.2 m     | B           | Good local character              |
-| Abelia x grandiflora                | Long summer season      | 1.2–1.8 m x 1.5 m     | B           | Airy and long-flowering           |
-| Rose + Clematis combination         | Summer to autumn        | trained               | B           | Very Bedford Park / Victorian     |
-| Choisya ‘White Dazzler’             | Spring, repeat possible | 1.2–1.5 m x 1–1.2 m   | A, C        | Evergreen with flowers            |
+| Requirement                  | Recommendation                                                  |
+| ---------------------------- | --------------------------------------------------------------- |
+| Must remain open             | No broad planting islands                                       |
+| Can include focal plant      | Only if compact, lifted canopy or tight footprint               |
+| Bike turning space essential | Place only where it does not narrow the practical movement zone |
+
+**Best approach:** either keep fully open, or use **one compact specimen** in a very restrained gravel pocket.
 
 ---
 
-# 9. Lower-layer / edging plants comparison
+## 4. Structural plants
 
-| Plant                  | Height   | Spread   | Best role                                |
-| ---------------------- | -------- | -------- | ---------------------------------------- |
-| Helleborus             | 35–45 cm | 45 cm    | Winter/spring interest in shadier spots  |
-| Heuchera               | 25–35 cm | 35–45 cm | Evergreen-ish foliage and edging         |
-| Liriope muscari        | 30–45 cm | 30–40 cm | Neat evergreen grassy edging             |
-| Brunnera               | 35–45 cm | 45 cm    | Shadier wall bed                         |
-| Geranium ‘Rozanne’     | 40–50 cm | 60 cm    | Long flowering ground layer              |
-| Geranium macrorrhizum  | 30–40 cm | 45 cm    | Robust cover in drier rooty spots        |
-| Nepeta ‘Walker’s Low’  | 45–60 cm | 60 cm    | Sunny loose edging                       |
-| Erigeron karvinskianus | 25–40 cm | 30–40 cm | Soft front edge and wall/fence softening |
-| Stachys byzantina      | 20–40 cm | 45 cm    | Silvery foliage contrast                 |
-| Sesleria autumnalis    | 30–45 cm | 35–45 cm | Tidy grass for repeated structure        |
-| Hakonechloa macra      | 35–45 cm | 45–60 cm | Soft arching texture                     |
-| Alchemilla mollis      | 30–45 cm | 45 cm    | Soft mounding filler                     |
+These are the backbone plants most useful across the schemes.
 
----
-
-# 10. Central focal plant options table
-
-| Plant                      | Mature size             | Evergreen? | Flower interest      | Maintenance  | Why suitable                                 |
-| -------------------------- | ----------------------- | ---------- | -------------------- | ------------ | -------------------------------------------- |
-| Viburnum tinus ‘Eve Price’ | 1.8–2.5 m h x 1.5–2 m w | Yes        | Winter to spring     | Low          | Strong year-round focus, practical, reliable |
-| Compact Camellia           | 1.8–2.5 m h x 1.5–2 m w | Yes        | Late winter / spring | Low–moderate | Elegant, refined, glossy evergreen presence  |
-| Amelanchier ‘Obelisk’      | 2.5–3.5 m h x 1–1.5 m w | No         | Spring               | Low          | Narrow upright accent, airy not bulky        |
-| Magnolia stellata          | 2–3 m h x 2–3 m w       | No         | Spring               | Low          | Beautiful, classic, but broadens over time   |
-
-### Best practical order for this garden
-
-| Rank | Plant                      | Why                                                           |
-| ---: | -------------------------- | ------------------------------------------------------------- |
-|    1 | Viburnum tinus ‘Eve Price’ | Best balance of evergreen structure, flower, and practicality |
-|    2 | Compact Camellia           | Best refined evergreen specimen                               |
-|    3 | Amelanchier ‘Obelisk’      | Best narrow flowering accent                                  |
-|    4 | Magnolia stellata          | Lovely, but least forgiving on spread                         |
+| Plant                                                 | Typical mature size (H × W) | Best use                                              |
+| ----------------------------------------------------- | --------------------------: | ----------------------------------------------------- |
+| **Sarcococca confusa**                                |       1.2–1.5 m × 1.2–1.5 m | Evergreen structure in shade/part shade; winter scent |
+| **Skimmia japonica ‘Rubella’ / female forms**         |       0.9–1.2 m × 0.9–1.2 m | Compact evergreen mounds with winter buds/berries     |
+| **Osmanthus heterophyllus**                           |       1.5–2.0 m × 1.2–1.8 m | Boundary structure and privacy                        |
+| **Pittosporum tenuifolium ‘Golf Ball’ / ‘Tom Thumb’** |       0.8–1.2 m × 0.8–1.2 m | Neat evergreen form, good for structure               |
+| **Nandina domestica**                                 |       1.0–1.5 m × 0.8–1.2 m | Light evergreen-ish structure with red tints          |
+| **Hydrangea paniculata / arborescens**                |       1.2–1.8 m × 1.2–1.5 m | Seasonal framework and flower mass                    |
+| **Choisya ternata ‘Aztec Pearl’**                     |       1.2–1.8 m × 1.2–1.5 m | Evergreen softness and scented flowers                |
+| **Hebe rakaiensis / compact hebes**                   |       0.6–1.0 m × 0.8–1.0 m | Low evergreen structure                               |
+| **Liriope muscari**                                   |        0.35–0.45 m × 0.35 m | Strong evergreen strappy edge                         |
+| **Ilex crenata (unclipped, lightly shaped)**          |       1.0–1.5 m × 0.8–1.2 m | Fine-textured evergreen structure                     |
 
 ---
 
-# 11. Final comparison of the three schemes
+## 5. Flowering shrubs
 
-| Scheme   | Best for                                    | Pros                                           | Possible drawback                          |
-| -------- | ------------------------------------------- | ---------------------------------------------- | ------------------------------------------ |
-| Scheme A | Most balanced and classic Bedford Park feel | Strong winter structure, elegant, contextual   | Slightly quieter than B in high summer     |
-| Scheme B | Softer, more romantic, more floral look     | Long flowering season, warm domestic character | Can get looser unless maintained           |
-| Scheme C | Cleanest and crispest look                  | Strong repetition, tidy, structured            | Slightly cooler / less traditional in mood |
+| Plant                                                      |     Mature size (H × W) | Notes                                |
+| ---------------------------------------------------------- | ----------------------: | ------------------------------------ |
+| **Hydrangea paniculata ‘Little Lime’ / ‘Bobo’**            |   0.8–1.2 m × 0.8–1.2 m | Compact, reliable, long season       |
+| **Hydrangea arborescens ‘Annabelle’ / ‘Strong Annabelle’** |   1.0–1.4 m × 1.0–1.4 m | Classic Bedford Park feel            |
+| **Rosa ‘Gertrude Jekyll’ (trained) / smaller shrub roses** |   1.2–1.8 m × 1.0–1.2 m | Traditional and fragrant             |
+| **Spiraea japonica cultivars**                             |   0.6–0.9 m × 0.8–1.0 m | Summer colour, easy care             |
+| **Caryopteris × clandonensis**                             |   0.8–1.0 m × 0.8–1.0 m | Late blue flower, sunny spot         |
+| **Salvia microphylla / jamensis types**                    |   0.6–0.9 m × 0.6–0.9 m | Long flowering and light structure   |
+| **Lavandula angustifolia**                                 | 0.45–0.6 m × 0.45–0.6 m | Strong edging and summer scent       |
+| **Abelia × grandiflora**                                   |   1.2–1.5 m × 1.2–1.5 m | Long flowering, airy, semi-evergreen |
 
 ---
 
-# 12. Final recommended planting scheme
+## 6. Lower-layer plants / edging plants
 
-| Recommendation | Reason                                                 |
-| -------------- | ------------------------------------------------------ |
-| **Scheme A**   | Best match to the brief overall                        |
-| Why 1          | Strong evergreen framework without becoming hedge-like |
-| Why 2          | Fits Bedford Park / Chiswick context very well         |
-| Why 3          | Good year-round presence in a front garden             |
-| Why 4          | Balances structure and softness                        |
-| Why 5          | Easier to keep tidy than the softer Scheme B           |
+| Plant                             |      Mature size (H × W) |  Spacing |
+| --------------------------------- | -----------------------: | -------: |
+| **Geranium ‘Rozanne’**            |   0.45–0.6 m × 0.6–0.9 m | 45–60 cm |
+| **Nepeta ‘Walker’s Low’**         |  0.45–0.6 m × 0.6–0.75 m |    45 cm |
+| **Heuchera cultivars**            | 0.25–0.4 m × 0.35–0.45 m | 35–40 cm |
+| **Helleborus orientalis hybrids** |     0.35–0.45 m × 0.45 m | 40–45 cm |
+| **Erigeron karvinskianus**        | 0.25–0.35 m × 0.35–0.5 m | 30–35 cm |
+| **Stachys byzantina**             |   0.25–0.4 m × 0.4–0.5 m | 35–40 cm |
+| **Liriope muscari**               |     0.35–0.45 m × 0.35 m | 30–35 cm |
+| **Alchemilla mollis**             | 0.35–0.45 m × 0.45–0.6 m |    40 cm |
+| **Brunnera macrophylla**          |     0.35–0.45 m × 0.45 m |    40 cm |
+| **Carex oshimensis ‘Evergold’**   |        0.3–0.4 m × 0.4 m | 35–40 cm |
 
-## Best final combination
+---
 
-| Element                | Recommendation                                                          |
-| ---------------------- | ----------------------------------------------------------------------- |
-| Base scheme            | Scheme A                                                                |
-| Optional borrowed idea | Rose + clematis from Scheme B if you want a more romantic entrance wall |
-| Focal plant            | Viburnum tinus ‘Eve Price’ or compact Camellia                          |
-| Overall outcome        | Structured, natural, practical, and appropriate to the house and area   |
+## 7. Plant quantities and approximate spacing
 
-If you want, I can also turn this into one more table with just **“plant name + quantity + where to buy/use”**, almost like a shopping list.
+Below are sensible starting quantities for a garden of this size. Final numbers vary slightly by scheme.
+
+| Zone                            | Suggested mix                                                          | Approx. quantity |
+| ------------------------------- | ---------------------------------------------------------------------- | ---------------: |
+| **Zone 1 — Left Hedge Strip**   | 2–3 evergreen shrubs + 8–12 lower plants                               |     10–15 plants |
+| **Zone 2 — House Wall Bed**     | 1 climber + 1–3 shrubs + 6–10 lower plants                             |      8–14 plants |
+| **Zone 3 — Front Boundary Bed** | 4–6 structural shrubs + 3–5 flowering shrubs + 10–16 perennials/edgers |     18–27 plants |
+| **Zone 4 — Central Court**      | 0 or 1 focal plant                                                     |        0–1 plant |
+
+### Spacing guide
+
+| Plant size class            |                                                                Spacing |
+| --------------------------- | ---------------------------------------------------------------------: |
+| Small edging/perennials     |                                                               30–40 cm |
+| Medium perennials/subshrubs |                                                               40–50 cm |
+| Compact shrubs              |                                                               60–80 cm |
+| Medium shrubs               |                                                              80–100 cm |
+| Boundary structural shrubs  |                                                              90–120 cm |
+| Focal specimen              | allow at least 75–100 cm clear all round from circulation desire lines |
+
+---
+
+## 8. Central focal plant options
+
+These are all suitable for a **small front gravel court** and should stay compact enough if chosen carefully.
+
+| Plant                                                                          |      Mature size (H × W) | Why it suits this garden                                                                                                | Maintenance                              |
+| ------------------------------------------------------------------------------ | -----------------------: | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| **Amelanchier alnifolia ‘Obelisk’** or compact multi-stem amelanchier          | c. 2.5–3.5 m × 1.5–2.0 m | Elegant light structure, spring blossom, berries, autumn colour; airy enough for a small court                          | Light formative pruning only             |
+| **Magnolia stellata**                                                          |    2.0–3.0 m × 2.0–3.0 m | Very appropriate to period London gardens; beautiful spring flowers; stays a shrub/small tree rather than becoming huge | Minimal pruning; avoid harsh cutting     |
+| **Lagerstroemia indica** (compact cultivar, sheltered site)                    |    2.0–3.0 m × 1.5–2.0 m | Long summer interest and sculptural form; good in warm urban sites                                                      | Light pruning; best in a sunny warm spot |
+| **Ceanothus ‘Victoria’ trained as a small standard or compact blue ceanothus** |    1.8–2.5 m × 1.5–2.0 m | Strong spring colour, evergreen mass, works well in west-facing warmth                                                  | Prune lightly after flowering            |
+
+### Best choices here
+
+For this particular garden, my preferred order would be:
+
+1. **Magnolia stellata** — best balance of beauty, compactness, and Bedford Park character
+2. **Compact amelanchier** — light and elegant if you want a more airy effect
+3. **Compact Lagerstroemia** — only if the site is warm and sheltered enough
+4. **Ceanothus** — best where evergreen interest matters most, but slightly bulkier visually
+
+---
+
+## 9. Planting Scheme A — Classic Bedford Park mix
+
+A traditional, soft, slightly romantic scheme with hydrangeas, skimmias, evergreen shrubs, and long-flowering perennials.
+
+### Character
+
+| Aspect         | Description                                       |
+| -------------- | ------------------------------------------------- |
+| Overall feel   | Traditional West London front garden              |
+| Best qualities | Reliable, elegant, balanced, recognisably “local” |
+| Seasonal peak  | Late spring to autumn, with good winter bones     |
+
+### Zone-by-zone planting
+
+#### Zone 1 — Left Hedge Strip
+
+| Plant                         | Qty | Spacing |   Mature size (H × W) |
+| ----------------------------- | --: | ------: | --------------------: |
+| Sarcococca confusa            |   2 |   1.2 m | 1.2–1.5 m × 1.2–1.5 m |
+| Helleborus orientalis hybrids |   4 |   40 cm |         40 cm × 45 cm |
+| Liriope muscari               |   5 |   35 cm |         40 cm × 35 cm |
+| Geranium macrorrhizum         |   4 |   40 cm |         35 cm × 50 cm |
+
+#### Zone 2 — House Wall Bed
+
+| Plant                                    | Qty | Spacing |   Mature size (H × W) |
+| ---------------------------------------- | --: | ------: | --------------------: |
+| Trachelospermum jasminoides on trellis   |   1 |       — |    trained to 2.5–3 m |
+| Hydrangea arborescens ‘Strong Annabelle’ |   2 |   90 cm | 1.1–1.3 m × 1.1–1.3 m |
+| Heuchera (mixed dark green/plum tones)   |   5 |   35 cm |         30 cm × 35 cm |
+| Erigeron karvinskianus                   |   4 |   30 cm |         30 cm × 40 cm |
+
+#### Zone 3 — Front Boundary Bed
+
+| Plant                              | Qty | Spacing | Mature size (H × W) |
+| ---------------------------------- | --: | ------: | ------------------: |
+| Skimmia japonica                   |   3 |   90 cm |       1.0 m × 1.0 m |
+| Osmanthus heterophyllus            |   2 |   1.1 m |   1.8–2.0 m × 1.5 m |
+| Hydrangea paniculata ‘Little Lime’ |   2 |   90 cm |       1.2 m × 1.2 m |
+| Salvia microphylla                 |   3 |   50 cm |       70 cm × 70 cm |
+| Geranium ‘Rozanne’                 |   5 |   50 cm |       50 cm × 75 cm |
+| Alchemilla mollis                  |   5 |   40 cm |       40 cm × 50 cm |
+
+#### Zone 4 — Central Shingle Court
+
+| Plant             |        Qty |                                 Spacing | Mature size (H × W) |
+| ----------------- | ---------: | --------------------------------------: | ------------------: |
+| Magnolia stellata | 1 optional | allow 1 m clear from main movement line |       2–3 m × 2–3 m |
+
+### Structural plants in Scheme A
+
+Sarcococca, Skimmia, Osmanthus, Trachelospermum, Hydrangea framework.
+
+### Why Scheme A works
+
+| Strength               | Reason                                                          |
+| ---------------------- | --------------------------------------------------------------- |
+| Strong winter presence | Evergreens plus hellebores and scented sarcococca               |
+| Fits local character   | Hydrangeas, skimmias, and jasmine feel very at home in Chiswick |
+| Not too loose          | Clear shrub framework keeps it tidy                             |
+
+---
+
+## 10. Planting Scheme B — Elegant evergreen with white and blue flowers
+
+A slightly crisper, more architectural version with evergreen structure, white flowers, silvery tones, and restrained blues/purples.
+
+### Character
+
+| Aspect         | Description                                                     |
+| -------------- | --------------------------------------------------------------- |
+| Overall feel   | Refined, calm, slightly more contemporary but still very London |
+| Best qualities | Excellent winter structure, cleaner look, lower visual clutter  |
+| Seasonal peak  | Spring and summer, with strong evergreen presence all year      |
+
+### Zone-by-zone planting
+
+#### Zone 1 — Left Hedge Strip
+
+| Plant                                   | Qty | Spacing | Mature size (H × W) |
+| --------------------------------------- | --: | ------: | ------------------: |
+| Skimmia japonica ‘Rubella’              |   3 |   85 cm |       1.0 m × 1.0 m |
+| Helleborus orientalis white/green forms |   4 |   40 cm |       40 cm × 45 cm |
+| Carex oshimensis ‘Evergold’             |   5 |   35 cm |       35 cm × 40 cm |
+| Brunnera macrophylla                    |   4 |   40 cm |       40 cm × 45 cm |
+
+#### Zone 2 — House Wall Bed
+
+| Plant                               | Qty | Spacing | Mature size (H × W) |
+| ----------------------------------- | --: | ------: | ------------------: |
+| Trachelospermum jasminoides         |   1 |       — |  trained to 2.5–3 m |
+| Choisya ternata ‘Aztec Pearl’       |   2 |   90 cm |   1.2–1.5 m × 1.2 m |
+| Heuchera ‘Lime’ or soft green forms |   5 |   35 cm |       30 cm × 35 cm |
+| Nepeta ‘Walker’s Low’               |   4 |   45 cm |       45 cm × 60 cm |
+
+#### Zone 3 — Front Boundary Bed
+
+| Plant                               | Qty | Spacing |   Mature size (H × W) |
+| ----------------------------------- | --: | ------: | --------------------: |
+| Osmanthus heterophyllus             |   2 |   1.1 m |     1.8–2.0 m × 1.5 m |
+| Pittosporum tenuifolium ‘Golf Ball’ |   3 |   80 cm | 0.9–1.0 m × 0.9–1.0 m |
+| Hydrangea paniculata ‘Bobo’         |   3 |   80 cm | 0.9–1.2 m × 0.9–1.2 m |
+| Salvia nemorosa ‘Caradonna’         |   5 |   40 cm |      50–60 cm × 45 cm |
+| Stachys byzantina                   |   5 |   35 cm |         30 cm × 45 cm |
+| Erigeron karvinskianus              |   5 |   30 cm |         30 cm × 40 cm |
+
+#### Zone 4 — Central Shingle Court
+
+| Plant                                           |        Qty |                          Spacing | Mature size (H × W) |
+| ----------------------------------------------- | ---------: | -------------------------------: | ------------------: |
+| Compact Amelanchier (multi-stem or narrow form) | 1 optional | allow generous turning clearance | 2.5–3.5 m × 1.5–2 m |
+
+### Structural plants in Scheme B
+
+Osmanthus, Pittosporum, Skimmia, Choisya, Trachelospermum.
+
+### Why Scheme B works
+
+| Strength                    | Reason                                                     |
+| --------------------------- | ---------------------------------------------------------- |
+| Most evergreen of the three | Good for winter and privacy                                |
+| Most visually calm          | Strong repeated forms and restrained palette               |
+| Easy to read from street    | White/blue/silver tones look fresh against brick and fence |
+
+---
+
+## 11. Planting Scheme C — Warmer cottage-leaning scheme, still controlled
+
+A softer, flower-richer palette using pinks, mauves, soft reds, and looser seasonal movement, but still held together by evergreen anchors.
+
+### Character
+
+| Aspect         | Description                                  |
+| -------------- | -------------------------------------------- |
+| Overall feel   | Softer, more floral, more welcoming          |
+| Best qualities | Long flowering season and strong curb appeal |
+| Seasonal peak  | Late spring to autumn                        |
+
+### Zone-by-zone planting
+
+#### Zone 1 — Left Hedge Strip
+
+| Plant                                 | Qty | Spacing |   Mature size (H × W) |
+| ------------------------------------- | --: | ------: | --------------------: |
+| Sarcococca confusa                    |   2 |   1.2 m | 1.2–1.5 m × 1.2–1.5 m |
+| Heuchera in bronze/plum tones         |   5 |   35 cm |         30 cm × 35 cm |
+| Helleborus orientalis pink/plum tones |   4 |   40 cm |         40 cm × 45 cm |
+| Geranium ‘Rozanne’                    |   4 |   50 cm |         50 cm × 75 cm |
+
+#### Zone 2 — House Wall Bed
+
+| Plant                                       | Qty | Spacing |        Mature size (H × W) |
+| ------------------------------------------- | --: | ------: | -------------------------: |
+| Climbing rose (soft pink, repeat-flowering) |   1 |       — | trained flat to c. 2.5–3 m |
+| Clematis viticella companion                |   1 |       — |       threads through rose |
+| Hydrangea paniculata ‘Little Lime’          |   2 |   90 cm |              1.2 m × 1.2 m |
+| Nepeta ‘Walker’s Low’                       |   4 |   45 cm |              45 cm × 60 cm |
+| Alchemilla mollis                           |   4 |   40 cm |              40 cm × 50 cm |
+
+#### Zone 3 — Front Boundary Bed
+
+| Plant                  | Qty | Spacing |   Mature size (H × W) |
+| ---------------------- | --: | ------: | --------------------: |
+| Nandina domestica      |   3 |   80 cm |     1.2–1.5 m × 1.0 m |
+| Skimmia japonica       |   2 |   90 cm |         1.0 m × 1.0 m |
+| Abelia × grandiflora   |   2 |   1.0 m | 1.2–1.5 m × 1.2–1.5 m |
+| Compact shrub rose     |   2 |   90 cm |     1.0–1.2 m × 0.9 m |
+| Salvia microphylla     |   3 |   50 cm |         70 cm × 70 cm |
+| Stipa tenuissima       |   5 |   40 cm |      50–60 cm × 40 cm |
+| Erigeron karvinskianus |   5 |   30 cm |         30 cm × 40 cm |
+
+#### Zone 4 — Central Shingle Court
+
+| Plant                                                      |        Qty |                        Spacing | Mature size (H × W) |
+| ---------------------------------------------------------- | ---------: | -----------------------------: | ------------------: |
+| Lagerstroemia indica compact cultivar or Magnolia stellata | 1 optional | keep clear of bike desire line |     2–3 m × 1.5–3 m |
+
+### Structural plants in Scheme C
+
+Sarcococca, Nandina, Skimmia, Abelia, rose/climber framework.
+
+### Why Scheme C works
+
+| Strength                          | Reason                                        |
+| --------------------------------- | --------------------------------------------- |
+| Most floral and welcoming         | Longer sequence of visible flowers            |
+| Still appropriate to Bedford Park | Feels domestic, planted, and established      |
+| Good colour range                 | Warm pinks, mauves, white, and soft red tones |
+
+---
+
+## 12. Central focal plant options
+
+To keep it all in one place, these are the best focal choices again, with a practical recommendation.
+
+| Option                                 | Best for                           | Watch-outs                                                 |
+| -------------------------------------- | ---------------------------------- | ---------------------------------------------------------- |
+| **Magnolia stellata**                  | Most classic and elegant choice    | Needs enough room for eventual spread                      |
+| **Compact Amelanchier**                | Light, airy, multi-season interest | Slightly taller over time than magnolia                    |
+| **Compact Lagerstroemia**              | Summer flower and sculptural bark  | Best only in warm sheltered spot                           |
+| **Compact Ceanothus / small standard** | Evergreen presence                 | Can look denser; not ideal if maximum openness is priority |
+
+**My single best focal recommendation:** **Magnolia stellata**
+It gives blossom, form, and period character without becoming a large tree.
+
+---
+
+## 13. Final comparison of the three schemes
+
+| Scheme                               | Best qualities                                      | Possible drawback                                    | Best for                            |
+| ------------------------------------ | --------------------------------------------------- | ---------------------------------------------------- | ----------------------------------- |
+| **A — Classic Bedford Park mix**     | Most balanced; very locally appropriate; dependable | Slightly softer and fuller-looking than Scheme B     | A timeless London front garden look |
+| **B — Elegant evergreen white/blue** | Cleanest, calmest, best winter structure            | Slightly less romantic/flower-rich                   | A refined and tidy planted look     |
+| **C — Warm floral scheme**           | Richest flowering display, most welcoming           | Needs a little more deadheading and seasonal editing | A softer, more floral front garden  |
+
+---
+
+## 14. Final recommended planting scheme
+
+**My overall recommendation is Scheme A — Classic Bedford Park mix.**
+
+### Why Scheme A is the strongest fit
+
+| Reason                                     | Why it matters here                                |
+| ------------------------------------------ | -------------------------------------------------- |
+| Matches the house and area best            | It feels most natural in Bedford Park / Chiswick   |
+| Good evergreen structure without heaviness | Delivers privacy but avoids a hedge wall           |
+| Hydrangeas used properly, not excessively  | Fits local context while keeping variety           |
+| Strong winter presence                     | Important because the garden is visible year-round |
+| Moderate maintenance                       | Achievable without becoming fussy                  |
+
+### Suggested refinement to make Scheme A work best
+
+* Keep the **front boundary shrubs slightly staggered**, not in a rigid straight line.
+* Use **one focal plant only**, and only if bike movement remains comfortable.
+* Around the tap, keep planting to **lower perennials and a trained climber**, not bulky shrubs.
+* In front of the shed, keep the planting on the right side **more restrained and upright**, avoiding anything that spills into the manoeuvring zone.
+
+If you want, I can turn Scheme A into a **scaled planting plan with exact positions plant-by-plant for each zone**.
