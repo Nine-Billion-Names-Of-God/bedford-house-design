@@ -31,11 +31,7 @@ export default async function FrontGardenPage() {
             Front garden
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-[color:var(--color-copy)] sm:text-lg">
-            This view isolates the markdown plans under{" "}
-            <code className="rounded-full bg-white/60 px-3 py-1 text-sm text-[color:var(--color-accent-strong)]">
-              md/front
-            </code>
-            .
+            This view isolates the front garden markdown plans.
           </p>
         </section>
 

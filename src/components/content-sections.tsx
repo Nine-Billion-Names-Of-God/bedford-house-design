@@ -24,19 +24,11 @@ function TreeBranch({
             <li key={node.route}>
               <Link
                 href={node.route}
-                className="group block rounded-2xl border border-[color:var(--color-line)] bg-white/55 px-4 py-3 transition-all duration-200 hover:-translate-y-0.5 hover:border-[color:var(--color-accent)] hover:bg-white/85"
+                className="group block rounded-lg border border-[color:var(--color-line)] bg-white/35 px-4 py-3 transition-colors duration-200 hover:border-[color:var(--color-accent)] hover:bg-white/55"
               >
-                <p className="text-sm uppercase tracking-[0.2em] text-[color:var(--color-muted)]">
-                  {node.document.pathLabel}
-                </p>
-                <p className="mt-2 font-medium text-[color:var(--color-foreground)] transition-colors group-hover:text-[color:var(--color-accent-strong)]">
+                <p className="text-[0.95rem] font-medium leading-6 tracking-[-0.01em] text-[color:var(--color-foreground)] transition-colors group-hover:text-[color:var(--color-accent-strong)]">
                   {node.label}
                 </p>
-                {node.document.summary ? (
-                  <p className="mt-2 line-clamp-2 text-sm leading-6 text-[color:var(--color-copy)]">
-                    {node.document.summary}
-                  </p>
-                ) : null}
               </Link>
             </li>
           );
@@ -44,7 +36,7 @@ function TreeBranch({
 
         return (
           <li key={node.route}>
-            <div className="rounded-2xl border border-dashed border-[color:var(--color-line)]/80 bg-white/30 px-4 py-3">
+            <div className="rounded-md border border-dashed border-[color:var(--color-line)]/80 bg-white/20 px-4 py-3">
               <p className="text-xs uppercase tracking-[0.24em] text-[color:var(--color-muted)]">
                 Folder
               </p>
@@ -57,6 +49,76 @@ function TreeBranch({
         );
       })}
     </ul>
+  );
+}
+
+function ModelGroups({ nodes }: { nodes: ContentTreeNode[] }) {
+  const documents = nodes.flatMap((node) =>
+    node.kind === "document" ? [node.document] : [],
+  );
+
+  const groups = documents.reduce<
+    Map<
+      string,
+      { items: typeof documents; modelName: string; modelSlug: string }
+    >
+  >((accumulator, document) => {
+    const existingGroup = accumulator.get(document.modelSlug);
+
+    if (existingGroup) {
+      existingGroup.items.push(document);
+      return accumulator;
+    }
+
+    accumulator.set(document.modelSlug, {
+      items: [document],
+      modelName: document.modelName,
+      modelSlug: document.modelSlug,
+    });
+
+    return accumulator;
+  }, new Map());
+
+  const orderedGroups = [...groups.values()].sort((left, right) =>
+    left.modelSlug.localeCompare(right.modelSlug, undefined, { numeric: true }),
+  );
+
+  orderedGroups.forEach((group) => {
+    group.items.sort((left, right) =>
+      left.slug.localeCompare(right.slug, undefined, { numeric: true }),
+    );
+  });
+
+  return (
+    <div className="space-y-6">
+      {orderedGroups.map((group) => (
+        <section key={group.modelSlug}>
+          <div className="border-b border-[color:var(--color-line)] pb-3">
+            <p className="text-xs uppercase tracking-[0.24em] text-[color:var(--color-muted)]">
+              Model
+            </p>
+            <h3 className="mt-1 text-2xl font-medium text-[color:var(--color-foreground)]">
+              {group.modelName}
+            </h3>
+          </div>
+
+          <ul className="mt-4 space-y-3">
+            {group.items.map((document) => (
+              <li key={document.route}>
+                <Link
+                  href={document.route}
+                  className="group block rounded-lg border border-[color:var(--color-line)] bg-white/35 px-4 py-3 transition-colors duration-200 hover:border-[color:var(--color-accent)] hover:bg-white/55"
+                >
+                  <p className="text-[0.95rem] font-medium leading-6 tracking-[-0.01em] text-[color:var(--color-foreground)] transition-colors group-hover:text-[color:var(--color-accent-strong)]">
+                    {document.listTitle}
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
   );
 }
 
@@ -75,7 +137,7 @@ export function SectionPanel({
 
   return (
     <article
-      className={`rounded-[2rem] border border-[color:var(--color-line)] bg-gradient-to-br ${tone} p-6 shadow-[0_26px_80px_rgba(55,73,58,0.08)] backdrop-blur sm:p-8`}
+      className={`rounded-xl border border-[color:var(--color-line)] bg-gradient-to-br ${tone} p-6 sm:p-8`}
     >
       <div className="flex items-start justify-between gap-4 border-b border-[color:var(--color-line)] pb-5">
         <div>
@@ -86,13 +148,16 @@ export function SectionPanel({
             {node.label}
           </h2>
         </div>
-        <p className="rounded-full border border-[color:var(--color-line)] bg-white/50 px-3 py-1 text-xs uppercase tracking-[0.18em] text-[color:var(--color-muted)]">
+        <p className="rounded-md border border-[color:var(--color-line)] bg-white/35 px-3 py-1 text-xs uppercase tracking-[0.18em] text-[color:var(--color-muted)]">
           {countDocuments(node)} docs
         </p>
       </div>
 
       <div className="mt-6">
-        {node.kind === "folder" ? (
+        {node.kind === "folder" &&
+        node.children.every((childNode) => childNode.kind === "document") ? (
+          <ModelGroups nodes={node.children} />
+        ) : node.kind === "folder" ? (
           <TreeBranch nodes={node.children} />
         ) : (
           <TreeBranch nodes={[node]} />

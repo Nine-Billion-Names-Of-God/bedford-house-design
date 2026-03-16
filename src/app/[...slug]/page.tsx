@@ -59,19 +59,16 @@ export default async function MarkdownDocumentPage({ params }: PageProps) {
       <div className="relative mx-auto max-w-7xl">
         <TopNavigation />
 
-        <div className="rounded-[2rem] border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-6 shadow-[0_28px_90px_rgba(55,73,58,0.08)] backdrop-blur sm:p-8 lg:p-10">
+        <div className="rounded-xl border border-[color:var(--color-line)] bg-[color:var(--color-surface)] p-6 sm:p-8 lg:p-10">
           <div className="flex flex-wrap items-center gap-3 text-sm text-[color:var(--color-muted)]">
             <Link
               href="/"
-              className="rounded-full border border-[color:var(--color-line)] bg-white/65 px-4 py-2 transition-colors hover:border-[color:var(--color-accent)] hover:text-[color:var(--color-accent-strong)]"
+              className="rounded-md border border-[color:var(--color-line)] bg-white/45 px-4 py-2 transition-colors hover:border-[color:var(--color-accent)] hover:bg-white/60 hover:text-[color:var(--color-accent-strong)]"
             >
               All plans
             </Link>
-            <span className="rounded-full bg-[color:var(--color-accent-soft)] px-4 py-2 uppercase tracking-[0.18em] text-[color:var(--color-accent-strong)]">
+            <span className="rounded-md bg-[color:var(--color-accent-soft)] px-4 py-2 uppercase tracking-[0.18em] text-[color:var(--color-accent-strong)]">
               {document.sectionLabel}
-            </span>
-            <span className="text-xs uppercase tracking-[0.18em]">
-              {document.pathLabel}
             </span>
           </div>
 
@@ -80,13 +77,8 @@ export default async function MarkdownDocumentPage({ params }: PageProps) {
               Markdown document
             </p>
             <h1 className="mt-4 max-w-4xl font-[family-name:var(--font-display)] text-5xl leading-none text-[color:var(--color-foreground)] sm:text-6xl">
-              {document.title}
+              {document.displayTitle}
             </h1>
-            {document.summary ? (
-              <p className="mt-5 max-w-3xl text-base leading-8 text-[color:var(--color-copy)] sm:text-lg">
-                {document.summary}
-              </p>
-            ) : null}
           </header>
 
           {document.body.trim() ? (
@@ -95,7 +87,7 @@ export default async function MarkdownDocumentPage({ params }: PageProps) {
               dangerouslySetInnerHTML={{ __html: html }}
             />
           ) : (
-            <section className="mt-10 rounded-[1.75rem] border border-dashed border-[color:var(--color-line)] bg-white/50 px-6 py-10 text-[color:var(--color-copy)]">
+            <section className="mt-10 rounded-lg border border-dashed border-[color:var(--color-line)] bg-white/35 px-6 py-10 text-[color:var(--color-copy)]">
               <p className="text-xs uppercase tracking-[0.24em] text-[color:var(--color-muted)]">
                 Empty document
               </p>

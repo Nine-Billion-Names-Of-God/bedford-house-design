@@ -13,6 +13,11 @@ const MARKDOWN_EXTENSION = ".md";
 
 export type DocumentEntry = {
   body: string;
+  displayTitle: string;
+  listTitle: string;
+  modelName: string;
+  modelSlug: string;
+  optionNumber: number | null;
   pathLabel: string;
   route: string;
   section: string;
@@ -46,18 +51,67 @@ function humanizeSegment(segment: string) {
     .replace(/\b\w/g, (character) => character.toUpperCase());
 }
 
-function extractTitle(source: string, fallback: string) {
-  const lines = source.split(/\r?\n/);
+function formatSectionLabel(section: string) {
+  const normalized = section.toLowerCase();
 
-  for (const line of lines) {
-    const match = line.match(/^\s{0,3}#{1,6}\s+(.+?)\s*$/);
-
-    if (match?.[1]) {
-      return match[1].replace(/[*_`~]/g, "").trim();
-    }
+  if (normalized === "front") {
+    return "Front Garden";
   }
 
-  return humanizeSegment(fallback);
+  if (normalized === "back") {
+    return "Back Garden";
+  }
+
+  return humanizeSegment(section);
+}
+
+function formatModelName(segment: string) {
+  const normalized = segment.toLowerCase();
+
+  if (normalized === "chatgpt") {
+    return "ChatGPT";
+  }
+
+  if (normalized === "claude") {
+    return "Claude";
+  }
+
+  return humanizeSegment(segment);
+}
+
+function formatDocumentTitle(sectionLabel: string, slug: string) {
+  const optionMatch = slug.match(/^(.*)-(\d+)$/);
+
+  if (!optionMatch) {
+    return `${sectionLabel} · ${humanizeSegment(slug)} · Design`;
+  }
+
+  const [, rawModelName, optionNumber] = optionMatch;
+
+  return `${sectionLabel} · ${formatModelName(rawModelName)} · Design Option ${optionNumber}`;
+}
+
+function parseDocumentIdentity(slug: string) {
+  const optionMatch = slug.match(/^(.*)-(\d+)$/);
+
+  if (!optionMatch) {
+    return {
+      listTitle: humanizeSegment(slug),
+      modelName: humanizeSegment(slug),
+      modelSlug: slug.toLowerCase(),
+      optionNumber: null,
+    };
+  }
+
+  const [, rawModelName, rawOptionNumber] = optionMatch;
+  const optionNumber = Number(rawOptionNumber);
+
+  return {
+    listTitle: `Design Option ${optionNumber}`,
+    modelName: formatModelName(rawModelName),
+    modelSlug: rawModelName.toLowerCase(),
+    optionNumber,
+  };
 }
 
 function stripMarkdown(markdown: string) {
@@ -125,20 +179,27 @@ async function readMarkdownDirectory(
     const relativePath = path.relative(CONTENT_ROOT, fullPath);
     const routePath = relativePath.slice(0, -MARKDOWN_EXTENSION.length);
     const segments = routePath.split(path.sep);
-    const title = extractTitle(source, segments.at(-1) ?? entry.name);
+    const slug = segments.at(-1) ?? routePath;
     const section = segments[0] ?? "content";
+    const sectionLabel = formatSectionLabel(section);
+    const documentIdentity = parseDocumentIdentity(slug);
 
     documents.push({
       body: source,
+      displayTitle: formatDocumentTitle(sectionLabel, slug),
+      listTitle: documentIdentity.listTitle,
+      modelName: documentIdentity.modelName,
+      modelSlug: documentIdentity.modelSlug,
+      optionNumber: documentIdentity.optionNumber,
       pathLabel: routePath.split(path.sep).join(" / "),
       route: `/${routePath.split(path.sep).join("/")}`,
       section,
-      sectionLabel: humanizeSegment(section),
+      sectionLabel,
       segments,
-      slug: segments.at(-1) ?? routePath,
+      slug,
       sourcePath: fullPath,
       summary: extractSummary(source),
-      title,
+      title: formatDocumentTitle(sectionLabel, slug),
     });
   }
 
@@ -197,7 +258,7 @@ export async function getContentTree() {
         currentNode.children.push({
           document,
           kind: "document",
-          label: document.title,
+          label: document.listTitle,
           route: document.route,
           segment,
         });
@@ -213,7 +274,8 @@ export async function getContentTree() {
         nextNode = {
           children: [],
           kind: "folder",
-          label: humanizeSegment(segment),
+          label:
+            index === 0 ? formatSectionLabel(segment) : humanizeSegment(segment),
           route: `/${document.segments.slice(0, index + 1).join("/")}`,
           segment,
         };
@@ -229,6 +291,12 @@ export async function getContentTree() {
     nodes.sort((left, right) => {
       if (left.kind !== right.kind) {
         return left.kind === "folder" ? -1 : 1;
+      }
+
+      if (left.kind === "document" && right.kind === "document") {
+        return left.document.slug.localeCompare(right.document.slug, undefined, {
+          numeric: true,
+        });
       }
 
       return left.label.localeCompare(right.label, undefined, {

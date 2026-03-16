@@ -23,7 +23,7 @@ export function TopNavigation() {
         <Link
           key={item.href}
           href={item.href}
-          className="rounded-full border border-[color:var(--color-line)] bg-white/65 px-4 py-2 text-sm text-[color:var(--color-copy)] transition-all duration-200 hover:-translate-y-0.5 hover:border-[color:var(--color-accent)] hover:text-[color:var(--color-accent-strong)]"
+          className="rounded-md border border-[color:var(--color-line)] bg-white/45 px-4 py-2 text-sm text-[color:var(--color-copy)] transition-colors duration-200 hover:border-[color:var(--color-accent)] hover:bg-white/60 hover:text-[color:var(--color-accent-strong)]"
         >
           {item.label}
         </Link>
