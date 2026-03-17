@@ -316,7 +316,7 @@ export async function getContentTree() {
   return root.children;
 }
 
-const PREFERRED_SECTION_ORDER = ["front", "back"];
+const PREFERRED_SECTION_ORDER = ["front", "flower-bed", "back"];
 
 export function orderTopLevelNodes(nodes: ContentTreeNode[]) {
   return [...nodes].sort((left, right) => {

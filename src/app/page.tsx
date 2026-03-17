@@ -21,8 +21,8 @@ export default async function Home() {
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-[color:var(--color-copy)] sm:text-lg">
             The main page lists every markdown document in sequence. Use the top
-            navigation to switch between all plans, front garden, and back
-            garden views.
+            navigation to jump between the generated section views as new
+            markdown folders are added.
           </p>
         </section>
 

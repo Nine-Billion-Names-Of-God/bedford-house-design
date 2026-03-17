@@ -1,10 +1,5 @@
 import Link from "next/link";
-
-const navItems = [
-  { href: "/", label: "All plans" },
-  { href: "/front", label: "Front garden" },
-  { href: "/back", label: "Back garden" },
-];
+import { getOrderedContentTree } from "@/lib/content";
 
 export function PageBackdrop() {
   return (
@@ -16,7 +11,15 @@ export function PageBackdrop() {
   );
 }
 
-export function TopNavigation() {
+export async function TopNavigation() {
+  const sections = await getOrderedContentTree();
+  const navItems = [
+    { href: "/", label: "All plans" },
+    ...sections
+      .filter((node) => node.kind === "folder")
+      .map((node) => ({ href: node.route, label: node.label })),
+  ];
+
   return (
     <nav className="mb-10 flex flex-wrap items-center gap-3">
       {navItems.map((item) => (

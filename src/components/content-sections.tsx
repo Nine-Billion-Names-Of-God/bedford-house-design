@@ -3,6 +3,8 @@ import { type ContentTreeNode, countDocuments } from "@/lib/content";
 
 const sectionTones = {
   back: "from-[rgba(240,228,209,0.92)] via-[rgba(255,250,241,0.86)] to-[rgba(255,255,255,0.72)]",
+  "flower-bed":
+    "from-[rgba(230,218,190,0.92)] via-[rgba(255,247,236,0.86)] to-[rgba(255,255,255,0.72)]",
   front:
     "from-[rgba(215,225,209,0.92)] via-[rgba(255,250,241,0.86)] to-[rgba(255,255,255,0.72)]",
   neutral:

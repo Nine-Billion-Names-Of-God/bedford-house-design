@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: "Bedford Garden",
     template: "%s | Bedford Garden",
   },
-  description: "Local markdown plans for front and back garden design.",
+  description: "Local markdown plans for Bedford Garden design sections.",
 };
 
 export default function RootLayout({
