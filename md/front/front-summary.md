@@ -1,4 +1,4 @@
-## Front Bed - Front Row
+## Zone 3 - Front Bed - Front Row
 
 | Design(s)                              | Zone 3 tallest / back-row suggestion(s)                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -19,7 +19,7 @@
 | Claude-3 Scheme B                      | Osmanthus × burkwoodii at 3a — Back L; Choisya × dewitteana 'Aztec Pearl' at 3a — Back R                      |
 | Claude-3 Scheme C                      | Viburnum tinus 'Eve Price' at 3a — Back L; Sarcococca confusa at 3a — Back R                                  |
 
-## Front Bed - Middle Row
+## Zone 3 - Front Bed - Middle Row
 
 | Design(s)          | Zone 3 middle-row suggestion(s)                                                                                  |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------- |
@@ -42,7 +42,7 @@
 | Claude-3 Scheme B  | Hydrangea paniculata 'Little Lime' at 3a — Mid                                                                   |
 | Claude-3 Scheme C  | Philadelphus 'Manteau d'Hermine' at 3a — Mid                                                                     |
 
-## Front Bed - Edge Row
+## Zone 3 - Front Bed - Edge Row
 
 | Design(s)                                                                       | Zone 3 front / edge-row suggestion(s)                                                                                            |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,3 +68,32 @@
 | Ajuga reptans 'Catlin's Giant' at 3b — Edging                                   |
 | Claude-3 Scheme C                                                               | Astrantia major 'Roma' at 3a — Front; Geranium 'Rozanne' at 3a — Front; Erigeron karvinskianus at 3a — Edging; Hydrangea         |
 | arborescens 'Annabelle' at 3b — Front of shed; Alchemilla mollis at 3b — Edging |
+
+## Zone 1 - Left Hedge
+
+| Design(s)               | Zone 1 — Left Hedge Strip suggestion(s)                                                                                         |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| ChatGPT-1 Scheme A      | Sarcococca confusa + Helleborus orientalis hybrids + Liriope muscari + Geranium macrorrhizum                                    |
+| ChatGPT-1 Scheme B      | Skimmia japonica ‘Rubella’ + Helleborus orientalis white/green forms + Carex oshimensis ‘Evergold’ + Brunnera macrophylla       |
+| ChatGPT-1 Scheme C      | Sarcococca confusa + Heuchera in bronze/plum tones + Helleborus orientalis pink/plum tones + Geranium ‘Rozanne’                 |
+| ChatGPT-2 Scheme A      | Skimmia japonica ‘Rubella’ + Helleborus x hybridus + Geranium macrorrhizum                                                      |
+| ChatGPT-2 Scheme B      | Sarcococca confusa + Astrantia major + Epimedium ‘Frohnleiten’                                                                  |
+| ChatGPT-2 Scheme C      | Skimmia japonica ‘Rubella’ + Nandina domestica + Liriope muscari                                                                |
+| ChatGPT-3 Scheme A      | Sarcococca hookeriana var. humilis + Helleborus × hybridus + Geranium macrorrhizum + Epimedium ‘Frohnleiten’                    |
+| ChatGPT-3 Scheme B      | Sarcococca confusa + Brunnera macrophylla + Helleborus foetidus / hybridus + Liriope muscari                                    |
+| ChatGPT-3 Scheme C      | Skimmia japonica ‘Rubella’ + Epimedium ‘Frohnleiten’ + Geranium macrorrhizum + Hellebores                                       |
+| Claude-1 Scheme A       | Brunnera macrophylla 'Jack Frost' + Liriope muscari + Cyclamen hederifolium + Galanthus nivalis                                 |
+| Claude-1 Scheme B       | Vinca minor 'Alba' + Polystichum setiferum 'Herrenhausen' + Galanthus nivalis + Anemone nemorosa                                |
+| Claude-1 Scheme C       | Carex morrowii 'Ice Dance' + Tiarella cordifolia + Digitalis purpurea 'Camelot Lavender' + Cyclamen hederifolium                |
+| Claude-2 Scheme A       | Vinca minor 'Bowles's Variety' + Polystichum setiferum + Heuchera 'Palace Purple' + Galanthus nivalis + Narcissus 'Thalia'      |
+| Claude-2 Scheme B       | Epimedium × versicolor 'Sulphureum' + Brunnera macrophylla 'Jack Frost' + Hakonechloa macra + Galanthus nivalis + Narcissus     |
+| 'W.P. Milner'           |
+| Claude-2 Scheme C       | Sarcococca hookeriana var. humilis + Polystichum setiferum 'Herrenhausen' + Epimedium × youngianum 'Niveum' + Galanthus nivalis |
+| + Cyclamen hederifolium |
+| Claude-3 Scheme A       | Vinca minor at Carpet; Brunnera 'Jack Frost' at Mid; Galanthus nivalis at Through; Narcissus 'Tête-à-Tête' at Through           |
+| Claude-3 Scheme B       | Epimedium × rubrum at Carpet; Polystichum setiferum (Soft Shield Fern) at Feature; Cyclamen hederifolium at Through; Galanthus  |
+| nivalis at Through      |
+| Claude-3 Scheme C       | Ajuga reptans 'Catlin's Giant' at Carpet; Helleborus × hybridus at Feature; Galanthus nivalis at Through; Cyclamen hederifolium |
+| at Through              |
+
+## Zone 1 - House Wall Bed -
