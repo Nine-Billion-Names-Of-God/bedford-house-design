@@ -89,7 +89,7 @@
 | Claude-3 Scheme C  | Ajuga reptans 'Catlin's Giant' at Carpet; Helleborus × hybridus at Feature; Galanthus nivalis at Through; Cyclamen hederifolium                         |
 | at Through         |
 
-## Zone 1 - House Wall Bed - Climber
+## Zone 2 - House Wall Bed - Climber
 
 | Design(s)                                                                      | Zone 2 vertical / climber layer suggestion(s)                                         |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
@@ -109,7 +109,7 @@
 | Claude-3 Scheme B                                                              | Trachelospermum jasminoides (Star Jasmine) at 2a — Trellis                            |
 | Claude-3 Scheme C                                                              | Clematis armandii 'Apple Blossom' at 2a — Trellis                                     |
 
-## Zone 1 - House Wall Bed - Shrub / Middle
+## Zone 2 - House Wall Bed - Shrub / Middle
 
 | Design(s)          | Zone 2 shrub / middle layer suggestion(s)                                                                              |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
@@ -132,7 +132,7 @@
 | Claude-3 Scheme B  | Pittosporum tobira 'Nanum' at 2b — Shrub                                                                               |
 | Claude-3 Scheme C  | Daphne odora 'Aureomarginata' at 2b — Shrub                                                                            |
 
-## Zone 1 - House Wall Bed - Lower / Base / Edge
+## Zone 2 - House Wall Bed - Lower / Base / Edge
 
 | Design(s)                              | Zone 2 lower / base / edge layer suggestion(s)                                  |
 | -------------------------------------- | ------------------------------------------------------------------------------- |
