@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { SectionPanel } from "@/components/content-sections";
 import { LayoutPreview } from "@/components/layout-preview";
 import { PageBackdrop, TopNavigation } from "@/components/site-shell";
+import { VisualAssetGallery } from "@/components/visual-asset-gallery";
 import { getFolderBySegments } from "@/lib/content";
 
 export async function FolderLandingPage({
@@ -50,6 +51,17 @@ export async function FolderLandingPage({
             />
           ) : null}
         </section>
+
+        {folderNode.visualAssets.length > 0 ? (
+          <section className="mt-10">
+            <VisualAssetGallery
+              assets={folderNode.visualAssets}
+              description="These visuals are auto-discovered from the candidate asset folder that matches this page."
+              eyebrow="Companion Visuals"
+              title={`${folderNode.label} Visuals`}
+            />
+          </section>
+        ) : null}
 
         <section className="mt-10">
           <SectionPanel node={folderNode} />

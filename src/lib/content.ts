@@ -12,6 +12,8 @@ const DESIGNS_ROOT = path.join(process.cwd(), "designs");
 const CONTENT_DIRECTORY_NAME = "content";
 const MARKDOWN_EXTENSION = ".md";
 const META_FILENAME = "_meta.json";
+const RASTER_EXTENSIONS = [".png", ".webp", ".jpg", ".jpeg", ".gif", ".avif"];
+const VECTOR_EXTENSIONS = [".svg"];
 
 type RawAssetMetadata = {
   alt?: string;
@@ -36,6 +38,18 @@ export type AssetConfig = {
   title: string;
 };
 
+export type VisualAsset = {
+  alt: string;
+  caption: string;
+  downloadSrc: string;
+  filename: string;
+  key: string;
+  previewSrc: string;
+  sourcePath: string;
+  title: string;
+  vectorSrc?: string;
+};
+
 export type DocumentEntry = {
   body: string;
   collectionLabel: string;
@@ -54,6 +68,7 @@ export type DocumentEntry = {
   sourcePath: string;
   summary: string | null;
   title: string;
+  visualAssets: VisualAsset[];
 };
 
 export type FolderEntry = {
@@ -70,6 +85,7 @@ export type FolderEntry = {
   segment: string;
   segments: string[];
   sourcePath: string;
+  visualAssets: VisualAsset[];
 };
 
 export type ContentTreeNode =
@@ -86,6 +102,33 @@ type SiteContent = {
   documents: DocumentEntry[];
   folders: FolderEntry[];
   tree: FolderEntry[];
+};
+
+const VISUAL_ASSET_COPY: Record<string, { caption: string; title: string }> = {
+  "back-wall-elevation": {
+    caption: "Back wall elevation view.",
+    title: "Back Wall Elevation",
+  },
+  "left-wall-elevation": {
+    caption: "Left wall elevation view.",
+    title: "Left Wall Elevation",
+  },
+  "right-wall-elevation": {
+    caption: "Right wall elevation view.",
+    title: "Right Wall Elevation",
+  },
+  "side-bay-workbench-view": {
+    caption: "Interior perspective focused on the side bay and workbench area.",
+    title: "Side Bay Workbench View",
+  },
+  "top-down-plan": {
+    caption: "Dimensioned top-down plan.",
+    title: "Top-Down Plan",
+  },
+  "view-from-door": {
+    caption: "Interior perspective from the doorway looking inward.",
+    title: "View From Door",
+  },
 };
 
 function humanizeSegment(segment: string) {
@@ -200,6 +243,15 @@ function buildAssetSrc(domain: string, assetPath: string) {
   return `/design-assets/${[domain, ...assetPath.split("/")].map(encodeURIComponent).join("/")}`;
 }
 
+function describeVisualAsset(baseName: string) {
+  return (
+    VISUAL_ASSET_COPY[baseName] ?? {
+      caption: `${humanizeSegment(baseName)} visual asset.`,
+      title: humanizeSegment(baseName),
+    }
+  );
+}
+
 function compareOrderedValues(
   leftOrder: number | null | undefined,
   rightOrder: number | null | undefined,
@@ -265,6 +317,122 @@ async function readFolderMetadata(
   }
 }
 
+function getVisualAssetDirectory(domain: string, relativeSegments: string[]) {
+  return path.join(DESIGNS_ROOT, domain, "assets", ...relativeSegments);
+}
+
+async function readVisualAssets(
+  domain: string,
+  relativeSegments: string[],
+): Promise<VisualAsset[]> {
+  if (relativeSegments.length < 2) {
+    return [];
+  }
+
+  const directory = getVisualAssetDirectory(domain, relativeSegments);
+
+  if (!(await pathExists(directory))) {
+    return [];
+  }
+
+  const entries = await fs.readdir(directory, { withFileTypes: true });
+  const groupedEntries = new Map<
+    string,
+    {
+      ext: string;
+      filename: string;
+    }[]
+  >();
+
+  entries.forEach((entry) => {
+    if (
+      !entry.isFile() ||
+      entry.name.startsWith(".") ||
+      entry.name === META_FILENAME
+    ) {
+      return;
+    }
+
+    const extension = path.extname(entry.name).toLowerCase();
+
+    if (
+      !RASTER_EXTENSIONS.includes(extension) &&
+      !VECTOR_EXTENSIONS.includes(extension)
+    ) {
+      return;
+    }
+
+    const baseName = entry.name.slice(0, -extension.length);
+    const existingGroup = groupedEntries.get(baseName);
+
+    if (existingGroup) {
+      existingGroup.push({ ext: extension, filename: entry.name });
+      return;
+    }
+
+    groupedEntries.set(baseName, [{ ext: extension, filename: entry.name }]);
+  });
+
+  const orderedAssets = [...groupedEntries.entries()].sort(([left], [right]) => {
+    const leftOrder = Object.keys(VISUAL_ASSET_COPY).indexOf(left);
+    const rightOrder = Object.keys(VISUAL_ASSET_COPY).indexOf(right);
+
+    if (leftOrder !== -1 || rightOrder !== -1) {
+      if (leftOrder === -1) {
+        return 1;
+      }
+
+      if (rightOrder === -1) {
+        return -1;
+      }
+
+      return leftOrder - rightOrder;
+    }
+
+    return left.localeCompare(right, undefined, { numeric: true });
+  });
+
+  return orderedAssets.flatMap(([baseName, files]) => {
+    const previewFile =
+      RASTER_EXTENSIONS.map((extension) =>
+        files.find((file) => file.ext === extension),
+      ).find(Boolean) ??
+      VECTOR_EXTENSIONS.map((extension) =>
+        files.find((file) => file.ext === extension),
+      ).find(Boolean);
+
+    if (!previewFile) {
+      return [];
+    }
+
+    const vectorFile = files.find((file) => file.ext === ".svg");
+    const copy = describeVisualAsset(baseName);
+    const previewRelativePath = [...relativeSegments, previewFile.filename].join("/");
+    const vectorRelativePath = vectorFile
+      ? [...relativeSegments, vectorFile.filename].join("/")
+      : null;
+
+    return [
+      {
+        alt: copy.title,
+        caption: copy.caption,
+        downloadSrc: buildAssetSrc(
+          domain,
+          vectorRelativePath ?? previewRelativePath,
+        ),
+        filename: previewFile.filename,
+        key: `${domain}:${relativeSegments.join("/")}:${baseName}`,
+        previewSrc: buildAssetSrc(domain, previewRelativePath),
+        sourcePath: path.join(directory, previewFile.filename),
+        title: copy.title,
+        vectorSrc: vectorRelativePath
+          ? buildAssetSrc(domain, vectorRelativePath)
+          : undefined,
+      },
+    ];
+  });
+}
+
 function resolveAssetConfig(
   domain: string,
   asset: RawAssetMetadata | undefined,
@@ -308,6 +476,7 @@ async function readFolder({
     (await readFolderMetadata(path.join(folderPath, META_FILENAME)));
   const segment = relativeSegments.at(-1) ?? domain;
   const routeSegments = [domain, ...relativeSegments];
+  const visualAssets = await readVisualAssets(domain, relativeSegments);
   const label =
     metadata.label ??
     (relativeSegments.length === 0 ? humanizeSegment(domain) : humanizeSegment(segment));
@@ -364,6 +533,7 @@ async function readFolder({
         sourcePath: fullPath,
         summary: extractSummary(source),
         title: formatDocumentTitle(label, slug),
+        visualAssets,
       },
       kind: "document",
       label: documentIdentity.listTitle,
@@ -391,6 +561,7 @@ async function readFolder({
     segment,
     segments: routeSegments,
     sourcePath: folderPath,
+    visualAssets,
   };
 }
 

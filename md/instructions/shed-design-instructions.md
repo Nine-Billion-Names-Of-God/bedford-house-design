@@ -373,8 +373,24 @@ In addition to the written design, provide visual outputs for the **final select
 Please include:
 
 - one **dimensioned top-down visual plan**
-- **two or three interior perspective views**
-- **simple wall elevation visuals** if possible
+- **simple wall elevation visuals**
+- **three schematic interior views from the centre of the shed**
+
+The three centre-of-shed schematic views should be:
+
+- looking toward the **left wall**
+- looking toward the **right wall**
+- looking toward the **front wall**
+
+These do **not** need to be realistic renders.
+
+They should be:
+
+- schematic
+- simple
+- honest to the approved design
+- suitable for SVG-style drawing output
+- used to help compare layouts and confirm that all key items have been accounted for
 
 The visuals should show:
 
@@ -386,6 +402,16 @@ The visuals should show:
 - ladder / tool storage
 - central clear floor space
 - relationship to door and windows
+- tool wall / hanging zone if included
+- location of small hand tools, mid-size cutters, and heavy tools where relevant
+- the BBQ, ladders, tiles, Kärcher, toolbox, and other major stored items in at least one visual where their placement is understandable
+
+The centre-of-shed schematic views are especially important because they should make it easy to see:
+
+- the overall visual balance of the storage layout
+- whether the workbench and tool-access wall make sense together
+- whether ladders, hanging tools, BBQ, tiles, and bulky items all have a credible place
+- whether the design still feels usable once all of those items are actually shown
 
 The visual outputs must:
 
@@ -394,6 +420,30 @@ The visual outputs must:
 - match the shelf depths and key measurements
 - help visualize the final design
 - **not** introduce a different arrangement from the written plan
+- stay schematic rather than drifting into decorative or realistic rendering
+
+For the three centre-of-shed schematic views:
+
+- show the storage, hooks, rails, hanging tools, shelves, bench, and bulky items in simplified but recognizable form
+- do **not** omit difficult items just because they are awkward to draw
+- do **not** substitute a cleaner generic wall layout if the written design includes more specific storage features
+- if a tool wall or hanging zone is proposed, it must be visible in at least one of these views
+- if ladders, BBQ, or tile storage are part of the final design, they must be visibly accounted for in these views where appropriate
+
+### Visual export robustness
+
+Treat this as a hard requirement for every generated visual asset:
+
+- compose each visual on a **landscape canvas with generous outer margins**
+- keep all text, dimensions, legends, arrows, labels, callouts, and shadows inside a clear **safe area**
+- do **not** place labels or annotation boxes flush to the right-hand edge, left-hand edge, top edge, or bottom edge
+- leave at least a visible buffer around the full annotated drawing so no important content sits near the crop boundary
+- if perspective views use leader lines and external callouts, pull those callouts inward rather than pushing them beyond the main drawing
+- prefer slightly fewer callouts over clipped callouts
+- assume some render/export pipelines may auto-crop, square-fit, or thumbnail the source unexpectedly
+- therefore the **final PNG asset** must be checked, not just the source drawing
+- if any part of the final PNG is truncated, clipped, or pushed off the right-hand side, regenerate the layout with more internal padding and fewer edge-adjacent notes
+- if needed, scale the whole drawing down within the canvas rather than letting annotations sit at the export boundary
 
 If there is any conflict between visuals and written dimensions, the **written dimensioned plan is the source of truth**.
 

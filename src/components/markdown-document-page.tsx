@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageBackdrop, TopNavigation } from "@/components/site-shell";
+import { VisualAssetGallery } from "@/components/visual-asset-gallery";
 import { getDocumentBySegments, renderMarkdown } from "@/lib/content";
 
 export async function MarkdownDocumentPage({
@@ -47,6 +48,17 @@ export async function MarkdownDocumentPage({
               {document.displayTitle}
             </h1>
           </header>
+
+          {document.visualAssets.length > 0 ? (
+            <div className="mt-10">
+              <VisualAssetGallery
+                assets={document.visualAssets}
+                description="These visuals are auto-discovered from the companion asset folder for this design candidate."
+                eyebrow="Companion Visuals"
+                title="Design Visuals"
+              />
+            </div>
+          ) : null}
 
           {document.body.trim() ? (
             <article
