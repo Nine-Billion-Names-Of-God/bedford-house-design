@@ -37,6 +37,38 @@ When reusing this prompt for another run, update only these variable values and 
 
 ---
 
+## Repository behavior and design independence
+
+This prompt may be run inside a repository that already contains earlier design candidates, markdown files, and generated assets.
+
+Treat this as a hard rule:
+
+- this run must be the model's **best independent attempt** at the best shed storage design
+- do **not** try to be different merely because earlier candidates already exist
+- do **not** deliberately create variation for the sake of novelty
+- do **not** infer from `candidate_slug` that this run should be a "second version", "alternative version", or "more experimental version"
+- do **not** let existing candidate files anchor the layout unnecessarily
+
+If existing designs are visible in the repository:
+
+- you may inspect them only as a **sanity check** or to identify missed constraints, weak assumptions, or clear design flaws
+- you may briefly critique them internally before producing the final answer
+- but the final design must still be driven by the actual brief and your own best judgment
+
+Important decision rule:
+
+- if your honest best judgment says the strongest solution is similar to an existing candidate, that is acceptable
+- if your honest best judgment says a different solution is better, choose the better solution
+- similarity or difference from existing designs is **not** itself a goal
+
+In short:
+
+- use the repository as context only
+- use the brief as the source of truth
+- produce the best design you can, not the most different design you can
+
+---
+
 ## What you must do
 
 1. Briefly confirm your understanding of the key constraints and usable storage zones.
