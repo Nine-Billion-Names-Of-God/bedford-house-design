@@ -19,18 +19,18 @@ Set these values at the start of each run and use them consistently for all repo
 
 - `domain_slug`: `shed`
 - `collection_slug`: `storage`
-- `candidate_slug`: `design-1`
+- `candidate_slug`: `chatgpt-design-1`
 
 For this run, the expected output paths are:
 
 ```text
-designs/shed/content/storage/design-1/design.md
-designs/shed/assets/storage/design-1/top-down-plan.png
-designs/shed/assets/storage/design-1/view-from-door.png
-designs/shed/assets/storage/design-1/side-bay-workbench-view.png
-designs/shed/assets/storage/design-1/back-wall-elevation.png
-designs/shed/assets/storage/design-1/left-wall-elevation.png
-designs/shed/assets/storage/design-1/right-wall-elevation.png
+designs/shed/content/storage/chatgpt-design-1/design.md
+designs/shed/assets/storage/chatgpt-design-1/top-down-plan.png
+designs/shed/assets/storage/chatgpt-design-1/view-from-door.png
+designs/shed/assets/storage/chatgpt-design-1/side-bay-workbench-view.png
+designs/shed/assets/storage/chatgpt-design-1/back-wall-elevation.png
+designs/shed/assets/storage/chatgpt-design-1/left-wall-elevation.png
+designs/shed/assets/storage/chatgpt-design-1/right-wall-elevation.png
 ```
 
 When reusing this prompt for another run, update only these variable values and the corresponding example paths above.
