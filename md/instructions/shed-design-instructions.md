@@ -191,8 +191,8 @@ Provide:
 This should show:
 
 - shed outline
-- front wall with central outward-opening door
-- windows on both sides of the door
+- front wall with central outward-opening **double doors**
+- windows on both sides of the double-door opening
 - back wall storage
 - short wall storage
 - the 60 cm deep zone
@@ -357,7 +357,7 @@ Check that:
 
 - heavy items are not stored dangerously high
 - tiles are stored low and sensibly
-- the door swing is not obstructed
+- the double-door swing is not obstructed
 - the windows are not blocked unnecessarily
 - tall storage on short walls does not extend too far toward the front
 - the central floor area remains usable
@@ -576,14 +576,19 @@ Implication:
 
 ### Front wall
 
-- The **door is central** on the **298 cm front wall**
-- There are **windows on both sides of the door**
-- The door opens **outward**
+- The front wall is **298 cm wide**
+- The shed has a **central pair of outward-opening doors**, not a single door
+- For planning purposes, assume the two side window zones take up approximately **80 cm each**
+- This means the remaining central double-door opening is approximately **138 cm wide** across the **298 cm** front wall
+- There are **windows on both sides of the double-door opening**
+- The front elevation is therefore mostly door, with relatively narrow side zones containing the windows
+- Do **not** assume there is a large amount of usable wall space beside the doors on the front wall
 
 ### Implication
 
 - The front wall should be treated as a **non-storage wall**
 - No meaningful storage should be placed on this wall
+- Do **not** design around a typical single-door assumption with large spare wall areas to either side
 - The usable storage walls are:
   - **back long wall** (298 cm)
   - **left short wall** (175 cm)
@@ -681,6 +686,23 @@ If a workbench is included, it should:
 - not make the shed feel cramped
 - support storage above and/or below where useful
 
+The design should also strongly consider a **tool-access wall zone adjacent to the workbench** for frequently used hand tools and garden cutting tools.
+
+Preferred intent for that zone:
+
+- easy to reach while standing at the workbench
+- wall-mounted rather than loose in boxes
+- suitable for hanging small hand tools and mid-size garden tools
+- organized so commonly used items are visible and quickly retrievable
+
+This may use:
+
+- hooks
+- rails
+- pegs
+- a timber-backed tool board
+- or another simple wall-hung system that is realistic for a DIY shed fit-out
+
 ---
 
 ## 8. Construction preference
@@ -725,6 +747,51 @@ The storage should be **custom-built**.
 - various tools
 - various storage boxes
 
+### Small hand tools that should ideally be wall-hung for easy access
+
+These are not intended to disappear into random boxes if a better-access wall solution is possible.
+
+Examples include:
+
+- secateurs / pruners
+- small pruning tools
+- trowels
+- hand forks
+- hand cultivators
+- gloves
+- frequently used small accessories
+
+### Mid-size garden tools and cutters
+
+These should be explicitly considered in the storage design rather than being absorbed vaguely into "garden tools".
+
+Examples include:
+
+- loppers
+- hedge shears
+- pruning saws
+- similar medium-length cutting or maintenance tools
+
+These should ideally have a dedicated hanging or bracketed storage area, preferably near the workbench / tool-access wall zone, so they remain visible and easy to reach.
+
+### Heavy hand tools
+
+The design should also account for heavier hand tools that should not simply be placed loosely on shelves.
+
+Examples may include:
+
+- heavy steel tools
+- crowbar-like / pry-bar-like tools if present
+- other dense metal hand tools
+
+These should be stored in a way that is:
+
+- secure
+- easy to retrieve
+- not dangerous overhead
+- not likely to fall if bumped
+- appropriate to their weight
+
 ---
 
 ## 10. Ladders
@@ -753,9 +820,11 @@ They should be stored securely and not obstruct access.
 ## 11. BBQ
 
 - Small portable kettle BBQ
-- Small to medium size
-- Does not need a very large dedicated footprint
-- Can likely be stored low or under-bench
+- Approximately **60 cm diameter**
+- Approximately **1.0 m height**
+- Small to medium size, but with meaningful vertical height
+- Does not need a very large floor footprint, but its height must be accounted for when assigning a storage location
+- Can likely be stored low or under-bench only if the design provides enough vertical clearance
 
 ---
 
@@ -788,6 +857,8 @@ The design should account for:
 These should be easy to access:
 
 - garden tools
+- small hand tools such as pruners / secateurs / trowels
+- mid-size cutting tools such as loppers and hedge shears
 - extension cord
 - fertiliser
 - commonly used tools
@@ -809,6 +880,17 @@ These may be stored higher, deeper, or in less convenient locations:
 - spare paints
 - some boxes
 - long-term stored items
+
+### Tool-access implication
+
+The design should explicitly include a dedicated **easy-access hanging zone** for frequently used hand tools and mid-size garden cutters.
+
+Preferred location:
+
+- on the wall near the workbench, if a workbench is included
+- otherwise in another clearly defined, easy-to-reach wall zone
+
+The final design should not assume that all tools are best stored on shelves or in boxes.
 
 ---
 

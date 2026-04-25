@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="1080" viewBox="0 0 3000 1080">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse">
+      <path d="M 0 5 L 10 0 L 8 5 L 10 10 z" fill="#6f7c82" />
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #24313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 18px; fill: #6f7c82; }
+    .label { font-size: 18px; font-weight: 700; }
+    .small { font-size: 15px; fill: #6f7c82; }
+    .tiny { font-size: 13px; fill: #6f7c82; }
+    .dim { font-size: 16px; font-weight: 700; fill: #6f7c82; }
+  </style>
+  <rect x="0" y="0" width="3000" height="1080" fill="#f5efe3"/>
+  <g transform="translate(40 50) scale(0.65)">
+    
+    <rect x="0" y="0" width="3000" height="1080" rx="0" fill="#f5efe3" stroke="none" stroke-width="0" />
+    <text x="110" y="90" class="title" text-anchor="start" >Back Wall Elevation</text>
+    <text x="110" y="124" class="subtitle" text-anchor="start" >Full-width 40 cm shelving spine sized around repeated 60 x 40 cm box modules</text>
+
+    <polygon points="210,900 210,292 806,202.7199999999999 1402,292 1402,900" fill="#fffaf0" stroke="#24313a" stroke-width="4" />
+    <rect x="210" y="292" width="288" height="608" rx="0" fill="#dbe7d5" stroke="#5e7754" stroke-width="3" />
+    <rect x="498" y="202.7199999999999" width="600" height="697.2800000000001" rx="0" fill="#cfe0c7" stroke="#5e7754" stroke-width="3" />
+    <rect x="1098" y="292" width="288" height="608" rx="0" fill="#dbe7d5" stroke="#5e7754" stroke-width="3" />
+
+    <line x1="210" y1="778.4" x2="1402" y2="778.4" stroke="#5e7754" stroke-width="4" />
+<line x1="210" y1="669.6" x2="1402" y2="669.6" stroke="#5e7754" stroke-width="4" />
+<line x1="210" y1="548" x2="1402" y2="548" stroke="#5e7754" stroke-width="4" />
+<line x1="210" y1="426.4" x2="1402" y2="426.4" stroke="#5e7754" stroke-width="4" />
+    <line x1="566" y1="266.4" x2="1046" y2="266.4" stroke="#b73f2d" stroke-width="4" />
+    <line x1="406" y1="298.4" x2="1206" y2="298.4" stroke="#b73f2d" stroke-width="4" stroke-dasharray="10 8"/>
+    <line x1="498" y1="202.7199999999999" x2="498" y2="900" stroke="#5e7754" stroke-width="3" />
+    <line x1="1098" y1="292" x2="1098" y2="900" stroke="#5e7754" stroke-width="3" />
+
+    <rect x="236" y="585.6" width="180" height="76" rx="8" fill="#f7f0e7" stroke="#24313a" stroke-width="2" />
+<rect x="476" y="585.6" width="180" height="76" rx="8" fill="#f7f0e7" stroke="#24313a" stroke-width="2" />
+<rect x="716" y="585.6" width="180" height="76" rx="8" fill="#f7f0e7" stroke="#24313a" stroke-width="2" />
+<rect x="956" y="585.6" width="180" height="76" rx="8" fill="#f7f0e7" stroke="#24313a" stroke-width="2" />
+    <rect x="236" y="464" width="180" height="76" rx="8" fill="#fbf5ec" stroke="#24313a" stroke-width="2" />
+<rect x="476" y="464" width="180" height="76" rx="8" fill="#fbf5ec" stroke="#24313a" stroke-width="2" />
+<rect x="716" y="464" width="180" height="76" rx="8" fill="#fbf5ec" stroke="#24313a" stroke-width="2" />
+<rect x="956" y="464" width="180" height="76" rx="8" fill="#fbf5ec" stroke="#24313a" stroke-width="2" />
+    <rect x="628" y="708.4" width="240" height="60" rx="8" fill="#d7d6cf" stroke="#24313a" stroke-width="2" />
+    <text x="748" y="746.4" class="tiny" text-anchor="middle" >heavy tools</text>
+    <rect x="1130" y="708.4" width="160" height="60" rx="8" fill="#d8c1ae" stroke="#24313a" stroke-width="2" />
+    <text x="1210" y="746.4" class="tiny" text-anchor="middle" >paint trays</text>
+
+    
+    <rect x="1460" y="178" width="356" height="110" rx="16" fill="#fffaf0" stroke="none" stroke-width="0" filter="url(#shadow)"/>
+    <text x="1478" y="208" class="label" text-anchor="start" >Bay widths</text>
+    <text x="1478" y="230" class="small" text-anchor="start" >72 cm + 150 cm + 72 cm = 4 large boxes per shelf run</text>
+    
+    <rect x="1380" y="730" width="460" height="120" rx="16" fill="#fffaf0" stroke="none" stroke-width="0" filter="url(#shadow)"/>
+    <text x="1398" y="760" class="label" text-anchor="start" >High ladder rail</text>
+    <text x="1398" y="782" class="small" text-anchor="start" >2.0 m ladder stored above the working shelf band</text>
+
+    <text x="320" y="651.6" class="small" text-anchor="start" >mid shelf: 4 large boxes per run</text>
+    <text x="320" y="530" class="small" text-anchor="start" >eye-level shelf: 4 large boxes or mixed medium boxes</text>
+    <text x="806" y="252.39999999999998" class="small" text-anchor="middle" >gable-top shelf for light infrequent items</text>
+    <text x="806" y="284.4" class="small" text-anchor="middle" >ladder rack</text>
+
+    
+    <line x1="210" y1="970" x2="1402" y2="970" stroke="#6f7c82" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="210" y1="952" x2="210" y2="988" stroke="#d9cfbc" stroke-width="2" />
+    <line x1="1402" y1="952" x2="1402" y2="988" stroke="#d9cfbc" stroke-width="2" />
+    <text x="806" y="962" class="dim" text-anchor="middle" >298 cm overall</text>
+    
+    <line x1="210" y1="1020" x2="498" y2="1020" stroke="#6f7c82" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="210" y1="1002" x2="210" y2="1038" stroke="#d9cfbc" stroke-width="2" />
+    <line x1="498" y1="1002" x2="498" y2="1038" stroke="#d9cfbc" stroke-width="2" />
+    <text x="354" y="1012" class="dim" text-anchor="middle" >72 cm</text>
+    
+    <line x1="498" y1="1020" x2="1098" y2="1020" stroke="#6f7c82" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="498" y1="1002" x2="498" y2="1038" stroke="#d9cfbc" stroke-width="2" />
+    <line x1="1098" y1="1002" x2="1098" y2="1038" stroke="#d9cfbc" stroke-width="2" />
+    <text x="798" y="1012" class="dim" text-anchor="middle" >150 cm</text>
+    
+    <line x1="1098" y1="1020" x2="1402" y2="1020" stroke="#6f7c82" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="1098" y1="1002" x2="1098" y2="1038" stroke="#d9cfbc" stroke-width="2" />
+    <line x1="1402" y1="1002" x2="1402" y2="1038" stroke="#d9cfbc" stroke-width="2" />
+    <text x="1250" y="1012" class="dim" text-anchor="middle" >72 cm</text>
+    
+    <line x1="120" y1="292" x2="120" y2="900" stroke="#6f7c82" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="102" y1="292" x2="138" y2="292" stroke="#d9cfbc" stroke-width="2" />
+    <line x1="102" y1="900" x2="138" y2="900" stroke="#d9cfbc" stroke-width="2" />
+    <text x="132" y="592" class="dim" text-anchor="start" >190 cm eaves</text>
+    
+    <line x1="1492" y1="202.7199999999999" x2="1492" y2="900" stroke="#6f7c82" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="1474" y1="202.7199999999999" x2="1510" y2="202.7199999999999" stroke="#d9cfbc" stroke-width="2" />
+    <line x1="1474" y1="900" x2="1510" y2="900" stroke="#d9cfbc" stroke-width="2" />
+    <text x="1504" y="547.3599999999999" class="dim" text-anchor="start" >217.9 cm peak</text>
+
+    <text x="110" y="986" class="small" text-anchor="start" >Shelf heights from floor: 38 cm, 72 cm, 110 cm, 148 cm, ladder rail at 188 cm, centre shelf at 198 cm.</text>
+  
+  </g>
+</svg>
