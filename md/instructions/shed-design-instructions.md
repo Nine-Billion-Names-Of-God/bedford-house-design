@@ -389,6 +389,14 @@ Conclude with:
 
 The final deliverable is intended to be saved in a project repository.
 
+Assume the repository stores outputs using this hierarchy:
+
+- `domain_slug` — top-level design area, for example `shed`
+- `collection_slug` — sub-area within that domain, for example `storage`
+- `candidate_slug` — one specific design candidate, for example `design-1`, `chatgpt-1`, or `claude-2`
+
+Use those placeholders consistently in the output paths.
+
 Please produce the output in **two separate parts**:
 
 ### Part A — Markdown document
@@ -396,7 +404,13 @@ Please produce the output in **two separate parts**:
 Generate the full written design as a Markdown document suitable for saving as:
 
 ```text
-docs/shed-storage/shed-storage-design.md
+designs/{domain_slug}/content/{collection_slug}/{candidate_slug}/design.md
+```
+
+Example:
+
+```text
+designs/shed/content/storage/design-1/design.md
 ```
 
 This Markdown document should contain:
@@ -420,18 +434,35 @@ This Markdown document should contain:
 Generate the visuals separately as named assets, suitable for saving under:
 
 ```text
-docs/shed-storage/assets/
+designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/
+```
+
+Example:
+
+```text
+designs/shed/assets/storage/design-1/
 ```
 
 Use clear, stable filenames such as:
 
 ```text
-docs/shed-storage/assets/shed-top-down-plan.png
-docs/shed-storage/assets/shed-view-from-door.png
-docs/shed-storage/assets/shed-side-bay-workbench-view.png
-docs/shed-storage/assets/shed-back-wall-elevation.png
-docs/shed-storage/assets/shed-left-wall-elevation.png
-docs/shed-storage/assets/shed-right-wall-elevation.png
+designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/top-down-plan.png
+designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/view-from-door.png
+designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/side-bay-workbench-view.png
+designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/back-wall-elevation.png
+designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/left-wall-elevation.png
+designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/right-wall-elevation.png
+```
+
+Example:
+
+```text
+designs/shed/assets/storage/design-1/top-down-plan.png
+designs/shed/assets/storage/design-1/view-from-door.png
+designs/shed/assets/storage/design-1/side-bay-workbench-view.png
+designs/shed/assets/storage/design-1/back-wall-elevation.png
+designs/shed/assets/storage/design-1/left-wall-elevation.png
+designs/shed/assets/storage/design-1/right-wall-elevation.png
 ```
 
 If direct file creation is not supported, still provide:
@@ -455,12 +486,12 @@ Example format for that section:
 ```markdown
 ## Visual Assets
 
-- `assets/shed-top-down-plan.png` — Dimensioned top-down plan
-- `assets/shed-view-from-door.png` — Perspective view looking into the shed from the door
-- `assets/shed-side-bay-workbench-view.png` — Perspective view showing the deep bay and workbench area
-- `assets/shed-back-wall-elevation.png` — Back wall elevation
-- `assets/shed-left-wall-elevation.png` — Left wall elevation
-- `assets/shed-right-wall-elevation.png` — Right wall elevation
+- `designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/top-down-plan.png` — Dimensioned top-down plan
+- `designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/view-from-door.png` — Perspective view looking into the shed from the door
+- `designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/side-bay-workbench-view.png` — Perspective view showing the deep bay and workbench area
+- `designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/back-wall-elevation.png` — Back wall elevation
+- `designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/left-wall-elevation.png` — Left wall elevation
+- `designs/{domain_slug}/assets/{collection_slug}/{candidate_slug}/right-wall-elevation.png` — Right wall elevation
 ```
 
 Do **not** use absolute local paths.
