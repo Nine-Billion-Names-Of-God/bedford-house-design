@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="2200" viewBox="0 0 2200 2200">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M 0 6 L 12 0 L 9 6 L 12 12 z" fill="#6d7a83"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 20px; fill: #61727b; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 18px; fill: #61727b; }
+    .dim { font-size: 18px; font-weight: 700; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="2200" height="1600" fill="#f4efe4"/>
+  <g transform="translate(120 80) scale(0.74)">
+  <text x="90" y="86" class="title">Back Wall Elevation · ChatGPT Design 3</text>
+  <text x="90" y="126" class="subtitle">298 cm wall width · 42 cm shelf spine · shelf heights chosen around the known large-box format</text>
+
+  <rect x="90" y="164" width="760" height="116" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+  <text x="122" y="210" class="label">Height note</text>
+  <text x="122" y="246" class="small">The floor plan is fixed. If the true roof ridge is elsewhere, relocate only the highest ladder rack or apex-only light shelf.</text>
+
+  <polyline points="260,1260 260,474 1005,230 1750,474 1750,1260" fill="#fffaf2" stroke="#233139" stroke-width="5" filter="url(#shadow)"/>
+  <line x1="260" y1="1260" x2="1750" y2="1260" stroke="#233139" stroke-width="5"/>
+
+  <line x1="310" y1="1188" x2="1700" y2="1188" stroke="#6c7d86" stroke-width="6"/>
+  <text x="180" y="1194" class="dim">18 cm</text>
+  <line x1="310" y1="1038" x2="1700" y2="1038" stroke="#6c7d86" stroke-width="6"/>
+  <text x="180" y="1044" class="dim">54 cm</text>
+  <line x1="310" y1="888" x2="1700" y2="888" stroke="#6c7d86" stroke-width="6"/>
+  <text x="180" y="894" class="dim">90 cm</text>
+  <line x1="310" y1="738" x2="1700" y2="738" stroke="#6c7d86" stroke-width="6"/>
+  <text x="170" y="744" class="dim">126 cm</text>
+  <line x1="310" y1="588" x2="1700" y2="588" stroke="#6c7d86" stroke-width="6"/>
+  <text x="170" y="594" class="dim">162 cm</text>
+
+  <rect x="310" y="1048" width="342" height="120" rx="18" fill="#f8efe3" stroke="#cba782" stroke-width="2" filter="url(#shadow)"/>
+  <text x="342" y="1096" class="label">B1 84 cm bay</text>
+  <text x="342" y="1128" class="small">one large box per shelf</text>
+  <rect x="706" y="1012" width="598" height="128" rx="18" fill="#f8efe3" stroke="#cba782" stroke-width="2" filter="url(#shadow)"/>
+  <text x="738" y="1062" class="label">B2 130 cm centre bay</text>
+  <text x="738" y="1094" class="small">two large boxes per shelf, direct access from the door</text>
+  <rect x="1362" y="1048" width="342" height="120" rx="18" fill="#f8efe3" stroke="#cba782" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1394" y="1096" class="label">B3 84 cm bay</text>
+  <text x="1394" y="1128" class="small">paint / medium-box zone</text>
+
+  <rect x="362" y="902" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="362" y="1050" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="784" y="902" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="930" y="902" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="784" y="1050" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="930" y="1050" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="1076" y="902" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="1222" y="902" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="1076" y="1050" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="1222" y="1050" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="1414" y="902" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <rect x="1414" y="1050" width="120" height="86" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+
+  <rect x="336" y="1188" width="250" height="58" rx="12" fill="#d6d0c6" stroke="#7d7366" stroke-width="2"/>
+  <text x="462" y="1224" class="small" text-anchor="middle">heavy tools + paint trays</text>
+  <rect x="1410" y="1188" width="236" height="58" rx="12" fill="#d6d0c6" stroke="#7d7366" stroke-width="2"/>
+  <text x="1528" y="1224" class="small" text-anchor="middle">fertiliser overflow / trays</text>
+
+  <line x1="560" y1="474" x2="1450" y2="474" stroke="#d96355" stroke-width="10"/>
+  <text x="1005" y="438" class="label" text-anchor="middle">High rack for the 2.0 m ladder</text>
+  <text x="1005" y="404" class="small" text-anchor="middle">The back wall is the only wall long enough for clean horizontal storage</text>
+  <text x="280" y="492" class="dim">190 cm edge height</text>
+  <text x="1005" y="218" class="dim" text-anchor="middle">217.9 cm centre height</text>
+  <text x="1730" y="492" class="dim" text-anchor="end">190 cm edge height</text>
+
+  <line x1="260" y1="1332" x2="1750" y2="1332" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="260" y1="1314" x2="260" y2="1350" stroke="#c8b99f" stroke-width="2"/>
+  <line x1="1750" y1="1314" x2="1750" y2="1350" stroke="#c8b99f" stroke-width="2"/>
+  <text x="1005" y="1324" class="dim" text-anchor="middle">298 cm overall width</text>
+
+  <line x1="170" y1="474" x2="170" y2="1260" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="152" y1="474" x2="188" y2="474" stroke="#c8b99f" stroke-width="2"/>
+  <line x1="152" y1="1260" x2="188" y2="1260" stroke="#c8b99f" stroke-width="2"/>
+  <text x="184" y="882" class="dim">190 cm at edges</text>
+
+  <rect x="1830" y="320" width="280" height="396" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1860" y="368" class="label">Loading order</text>
+  <text x="1860" y="410" class="small">Bottom deck: heavy tools, paint trays, dense storage.</text>
+  <text x="1860" y="452" class="small">54 / 90 / 126 cm shelves: nine large 60 x 40 x 26 cm boxes.</text>
+  <text x="1860" y="494" class="small">162 cm shelf: medium and small boxes.</text>
+  <text x="1860" y="536" class="small">High rack: long ladder only.</text>
+  </g>
+</svg>

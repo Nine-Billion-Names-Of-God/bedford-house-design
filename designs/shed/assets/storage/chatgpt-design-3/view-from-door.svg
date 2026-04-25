@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="2200" viewBox="0 0 2200 2200">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 20px; fill: #61727b; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 18px; fill: #61727b; }
+    .tiny { font-size: 16px; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="2200" height="1600" fill="#f4efe4"/>
+  <g transform="translate(120 80) scale(0.74)">
+  <text x="90" y="86" class="title">View From The Door · ChatGPT Design 3</text>
+  <text x="90" y="126" class="subtitle">Schematic interior view toward the back wall showing the real bulky-item positions, box spine, and open centre floor.</text>
+
+  <rect x="90" y="166" width="2020" height="1320" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+  <text x="124" y="214" class="label">Looking in from the doorway toward the back wall</text>
+
+  <line x1="240" y1="1360" x2="1100" y2="420" stroke="#8e9da3" stroke-width="4"/>
+  <line x1="1960" y1="1360" x2="1100" y2="420" stroke="#8e9da3" stroke-width="4"/>
+  <line x1="240" y1="1360" x2="1960" y2="1360" stroke="#6b7b84" stroke-width="4"/>
+
+  <rect x="504" y="386" width="1192" height="386" fill="#e8f0e4" stroke="#5c7850" stroke-width="3"/>
+  <line x1="910" y1="386" x2="910" y2="772" stroke="#5c7850" stroke-width="3"/>
+  <line x1="1290" y1="386" x2="1290" y2="772" stroke="#5c7850" stroke-width="3"/>
+  <rect x="548" y="424" width="264" height="124" rx="16" fill="#f8efe3" stroke="#cba782" stroke-width="2" filter="url(#shadow)"/>
+  <text x="580" y="470" class="label">B1</text>
+  <text x="580" y="500" class="small">84 cm bay</text>
+  <rect x="952" y="418" width="296" height="132" rx="16" fill="#f8efe3" stroke="#cba782" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1100" y="470" class="label" text-anchor="middle">B2 main box field</text>
+  <text x="1100" y="500" class="small" text-anchor="middle">130 cm centre bay</text>
+  <rect x="1388" y="424" width="264" height="124" rx="16" fill="#f8efe3" stroke="#cba782" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1420" y="470" class="label">B3</text>
+  <text x="1420" y="500" class="small">paint / box bay</text>
+
+  <line x1="650" y1="330" x2="1550" y2="330" stroke="#d96355" stroke-width="10"/>
+  <text x="1100" y="294" class="small" text-anchor="middle">high back-wall ladder rack for the 2.0 m ladder</text>
+
+  <rect x="212" y="760" width="314" height="500" rx="10" fill="#e2bca1" stroke="#8b5435" stroke-width="3"/>
+  <text x="250" y="826" class="label">Left rear tile dock</text>
+  <text x="250" y="860" class="small">120 x 60 cm deep bay</text>
+  <rect x="246" y="1078" width="240" height="92" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <text x="366" y="1132" class="small" text-anchor="middle">tiles low on deck</text>
+  <rect x="250" y="934" width="236" height="42" rx="12" fill="#f7efe3" stroke="#cba782" stroke-width="2"/>
+  <text x="368" y="960" class="tiny" text-anchor="middle">dock top used as staging shelf</text>
+
+  <rect x="1660" y="782" width="306" height="454" rx="10" fill="#cfe6e1" stroke="#3f6b68" stroke-width="3"/>
+  <text x="1700" y="848" class="label">Right workbench</text>
+  <text x="1700" y="882" class="small">110 x 42 cm</text>
+  <rect x="1686" y="640" width="260" height="110" rx="12" fill="#efe7d8" stroke="#9a8668" stroke-width="2"/>
+  <text x="1714" y="684" class="label">Tool board</text>
+  <text x="1714" y="714" class="small">daily-use hand tools</text>
+
+  <rect x="1686" y="1106" width="126" height="98" rx="12" fill="#d8e5ea" stroke="#6d8796" stroke-width="2"/>
+  <text x="1749" y="1162" class="small" text-anchor="middle">Kärcher</text>
+  <rect x="1828" y="1116" width="112" height="88" rx="12" fill="#d7cbb9" stroke="#876c50" stroke-width="2"/>
+  <text x="1884" y="1168" class="small" text-anchor="middle">toolbox</text>
+
+  <circle cx="1710" cy="1258" r="96" fill="#eef2ea" stroke="#6a7f68" stroke-width="3"/>
+  <text x="1710" y="1264" class="label" text-anchor="middle">BBQ</text>
+  <text x="1710" y="1298" class="tiny" text-anchor="middle">front-right pocket</text>
+
+  <line x1="300" y1="1260" x2="460" y2="980" stroke="#d96355" stroke-width="9"/>
+  <text x="276" y="1316" class="small">folded ladder on shallow clips</text>
+
+  <rect x="780" y="1228" width="646" height="106" rx="14" fill="#edf6ef" stroke="#7b8f7d" stroke-width="2"/>
+  <text x="1103" y="1288" class="label" text-anchor="middle">central floor kept intentionally open</text>
+  <text x="1103" y="1322" class="small" text-anchor="middle">awkward items are shown honestly rather than disappearing into generic shelving</text>
+
+  <rect x="146" y="266" width="464" height="124" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+  <text x="176" y="314" class="label">What this view proves</text>
+  <text x="176" y="350" class="small">The back wall still reads as the main box spine even after the ladders, dock, bench, Kärcher, toolbox, and BBQ are accounted for.</text>
+  </g>
+</svg>

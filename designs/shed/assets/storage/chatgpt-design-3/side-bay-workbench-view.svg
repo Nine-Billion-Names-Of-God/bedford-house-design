@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="2200" viewBox="0 0 2200 2200">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 20px; fill: #61727b; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 18px; fill: #61727b; }
+    .tiny { font-size: 16px; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="2200" height="1600" fill="#f4efe4"/>
+  <g transform="translate(120 80) scale(0.74)">
+  <text x="90" y="86" class="title">Centre-Of-Shed Interior Check · ChatGPT Design 3</text>
+  <text x="90" y="126" class="subtitle">Three schematic checks from the middle of the shed: left wall, front wall, and right workbench wall.</text>
+
+  <rect x="90" y="166" width="634" height="1320" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+  <text x="122" y="214" class="label">Looking left</text>
+  <rect x="154" y="298" width="504" height="920" fill="#fffaf2" stroke="#233139" stroke-width="4"/>
+  <rect x="154" y="738" width="360" height="480" fill="#e2bca1" stroke="#8b5435" stroke-width="3"/>
+  <text x="188" y="804" class="label">Left rear tile dock</text>
+  <text x="188" y="838" class="small">120 x 60 cm</text>
+  <rect x="184" y="1028" width="288" height="96" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2"/>
+  <text x="328" y="1084" class="small" text-anchor="middle">tiles low on deck</text>
+  <rect x="184" y="620" width="250" height="42" rx="10" fill="#f7efe3" stroke="#cba782" stroke-width="2"/>
+  <text x="309" y="646" class="tiny" text-anchor="middle">rear upper shelf for light items</text>
+  <line x1="542" y1="448" x2="542" y2="1110" stroke="#8ba9bc" stroke-width="8"/>
+  <text x="566" y="486" class="small">long-tool clips</text>
+  <line x1="592" y1="470" x2="482" y2="700" stroke="#d96355" stroke-width="10"/>
+  <text x="480" y="448" class="small">folded ladder</text>
+  <rect x="190" y="1264" width="432" height="88" rx="14" fill="#edf6ef" stroke="#7b8f7d" stroke-width="2"/>
+  <text x="406" y="1318" class="label" text-anchor="middle">quiet heavy-storage side</text>
+
+  <rect x="782" y="166" width="634" height="1320" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+  <text x="814" y="214" class="label">Looking toward the front wall</text>
+  <rect x="846" y="298" width="504" height="920" fill="#fffaf2" stroke="#233139" stroke-width="4"/>
+  <rect x="1024" y="432" width="148" height="650" fill="#f3efe4" stroke="#c6b395" stroke-width="4"/>
+  <rect x="876" y="470" width="110" height="278" fill="#d9edf3" stroke="#233139" stroke-width="3"/>
+  <rect x="1190" y="470" width="110" height="278" fill="#d9edf3" stroke="#233139" stroke-width="3"/>
+  <text x="1100" y="752" class="label" text-anchor="middle">double doors</text>
+  <text x="931" y="634" class="small" text-anchor="middle">window</text>
+  <text x="1245" y="634" class="small" text-anchor="middle">window</text>
+  <path d="M 1024 738 A 180 180 0 0 0 1100 914" fill="none" stroke="#c6b395" stroke-width="3" stroke-dasharray="10 8"/>
+  <path d="M 1172 738 A 180 180 0 0 1 1100 914" fill="none" stroke="#c6b395" stroke-width="3" stroke-dasharray="10 8"/>
+  <rect x="934" y="1142" width="332" height="98" rx="14" fill="#edf6ef" stroke="#7b8f7d" stroke-width="2"/>
+  <text x="1100" y="1200" class="label" text-anchor="middle">front stays clear</text>
+  <text x="1100" y="1232" class="small" text-anchor="middle">door swing and light remain credible</text>
+
+  <rect x="1474" y="166" width="634" height="1320" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1506" y="214" class="label">Looking right</text>
+  <rect x="1538" y="298" width="504" height="920" fill="#fffaf2" stroke="#233139" stroke-width="4"/>
+  <rect x="1538" y="760" width="324" height="458" fill="#cfe6e1" stroke="#3f6b68" stroke-width="3"/>
+  <text x="1572" y="826" class="label">Right workbench</text>
+  <text x="1572" y="860" class="small">110 x 42 cm</text>
+  <rect x="1578" y="476" width="280" height="184" rx="12" fill="#efe7d8" stroke="#9a8668" stroke-width="2"/>
+  <text x="1608" y="528" class="label">Tool board</text>
+  <text x="1608" y="560" class="small">secateurs · trowels · gloves</text>
+  <text x="1608" y="590" class="small">loppers · hedge shears · saw</text>
+  <rect x="1578" y="424" width="282" height="36" rx="10" fill="#f7efe3" stroke="#cba782" stroke-width="2"/>
+  <text x="1604" y="448" class="tiny">shallow shelf for fertiliser, jars, and cord</text>
+  <rect x="1578" y="1072" width="134" height="112" rx="12" fill="#d8e5ea" stroke="#6d8796" stroke-width="2"/>
+  <text x="1645" y="1136" class="small" text-anchor="middle">Kärcher</text>
+  <rect x="1728" y="1084" width="120" height="100" rx="12" fill="#d7cbb9" stroke="#876c50" stroke-width="2"/>
+  <text x="1788" y="1142" class="small" text-anchor="middle">toolbox</text>
+  <circle cx="1932" cy="1114" r="90" fill="#eef2ea" stroke="#6a7f68" stroke-width="3"/>
+  <text x="1932" y="1120" class="label" text-anchor="middle">BBQ</text>
+  <line x1="1888" y1="944" x2="2024" y2="944" stroke="#d96355" stroke-width="8"/>
+  <text x="1956" y="916" class="small" text-anchor="middle">cutter rail above BBQ pocket</text>
+  <rect x="1582" y="1264" width="420" height="88" rx="14" fill="#edf6ef" stroke="#7b8f7d" stroke-width="2"/>
+  <text x="1792" y="1318" class="label" text-anchor="middle">active daily-use wall</text>
+  </g>
+</svg>

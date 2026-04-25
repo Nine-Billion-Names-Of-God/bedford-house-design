@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="2200" viewBox="0 0 2200 2200">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M 0 6 L 12 0 L 9 6 L 12 12 z" fill="#6d7a83"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 20px; fill: #61727b; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 18px; fill: #61727b; }
+    .dim { font-size: 18px; font-weight: 700; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="2200" height="1600" fill="#f4efe4"/>
+  <g transform="translate(120 80) scale(0.74)">
+  <text x="90" y="86" class="title">Right Wall Elevation · ChatGPT Design 3</text>
+  <text x="90" y="126" class="subtitle">175 cm wall run · rear 110 cm workbench and tool wall · front 65 cm left open for the BBQ</text>
+
+  <rect x="90" y="164" width="780" height="116" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+  <text x="122" y="210" class="label">Active wall strategy</text>
+  <text x="122" y="246" class="small">This side is kept shallower than the tile dock so it stays the best day-to-day access wall for tools, bench work, and frequent consumables.</text>
+
+  <rect x="280" y="380" width="875" height="880" fill="#fffaf2" stroke="#233139" stroke-width="5" filter="url(#shadow)"/>
+  <rect x="280" y="760" width="550" height="500" fill="#cfe6e1" stroke="#3f6b68" stroke-width="3"/>
+  <line x1="830" y1="380" x2="830" y2="1260" stroke="#3f6b68" stroke-width="3"/>
+
+  <line x1="308" y1="808" x2="804" y2="808" stroke="#6c7d86" stroke-width="6"/>
+  <text x="216" y="814" class="dim">90 cm</text>
+  <line x1="308" y1="604" x2="804" y2="604" stroke="#6c7d86" stroke-width="6"/>
+  <text x="210" y="610" class="dim">135 cm</text>
+  <line x1="308" y1="448" x2="804" y2="448" stroke="#6c7d86" stroke-width="6"/>
+  <text x="200" y="454" class="dim">168 cm</text>
+
+  <rect x="324" y="470" width="462" height="188" rx="12" fill="#efe7d8" stroke="#9a8668" stroke-width="2"/>
+  <text x="354" y="522" class="label">Tool board</text>
+  <text x="354" y="554" class="small">secateurs · trowels · gloves</text>
+  <text x="354" y="586" class="small">loppers · hedge shears · pruning saw</text>
+  <rect x="324" y="410" width="462" height="34" rx="10" fill="#f7efe3" stroke="#cba782" stroke-width="2"/>
+  <text x="354" y="432" class="small">shallow shelf for fertiliser, cord, jars, oils</text>
+
+  <text x="354" y="828" class="label">110 cm workbench</text>
+  <rect x="324" y="1090" width="164" height="118" rx="12" fill="#d8e5ea" stroke="#6d8796" stroke-width="2"/>
+  <text x="406" y="1156" class="small" text-anchor="middle">Kärcher</text>
+  <rect x="510" y="1102" width="140" height="106" rx="12" fill="#d7cbb9" stroke="#876c50" stroke-width="2"/>
+  <text x="580" y="1162" class="small" text-anchor="middle">toolbox</text>
+  <rect x="666" y="1110" width="116" height="98" rx="12" fill="#d6d0c6" stroke="#7d7366" stroke-width="2"/>
+  <text x="724" y="1166" class="small" text-anchor="middle">heavy tools</text>
+
+  <circle cx="980" cy="1110" r="92" fill="#eef2ea" stroke="#6a7f68" stroke-width="3"/>
+  <text x="980" y="1116" class="label" text-anchor="middle">BBQ</text>
+  <text x="980" y="1148" class="small" text-anchor="middle">front 65 cm pocket</text>
+  <line x1="904" y1="648" x2="1056" y2="648" stroke="#d96355" stroke-width="8"/>
+  <text x="980" y="620" class="small" text-anchor="middle">shallow cutter rail only</text>
+
+  <line x1="280" y1="1326" x2="1155" y2="1326" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="280" y1="1308" x2="280" y2="1344" stroke="#c8b99f" stroke-width="2"/>
+  <line x1="1155" y1="1308" x2="1155" y2="1344" stroke="#c8b99f" stroke-width="2"/>
+  <text x="718" y="1318" class="dim" text-anchor="middle">175 cm wall length</text>
+
+  <line x1="280" y1="1380" x2="830" y2="1380" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="280" y1="1362" x2="280" y2="1398" stroke="#c8b99f" stroke-width="2"/>
+  <line x1="830" y1="1362" x2="830" y2="1398" stroke="#c8b99f" stroke-width="2"/>
+  <text x="555" y="1372" class="dim" text-anchor="middle">110 cm rear workbench run</text>
+
+  <line x1="830" y1="1434" x2="1155" y2="1434" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="830" y1="1416" x2="830" y2="1452" stroke="#c8b99f" stroke-width="2"/>
+  <line x1="1155" y1="1416" x2="1155" y2="1452" stroke="#c8b99f" stroke-width="2"/>
+  <text x="992" y="1426" class="dim" text-anchor="middle">65 cm front BBQ pocket</text>
+
+  <line x1="1188" y1="380" x2="1188" y2="1260" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <line x1="1170" y1="380" x2="1206" y2="380" stroke="#c8b99f" stroke-width="2"/>
+  <line x1="1170" y1="1260" x2="1206" y2="1260" stroke="#c8b99f" stroke-width="2"/>
+  <text x="1202" y="834" class="dim">190 cm height</text>
+
+  <rect x="1320" y="420" width="700" height="300" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1350" y="468" class="label">Why this wall stays shallow</text>
+  <text x="1350" y="510" class="small">It is the best daily-use side, so it should not also be the deepest side.</text>
+  <text x="1350" y="552" class="small">Shallow bench depth keeps more turning room in the middle of the shed.</text>
+  <text x="1350" y="594" class="small">The front end remains visually open so the window side does not feel blocked.</text>
+  </g>
+</svg>
