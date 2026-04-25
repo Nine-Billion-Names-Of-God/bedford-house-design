@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1800" viewBox="0 0 2000 1800">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M 0 6 L 12 0 L 9 6 L 12 12 z" fill="#6b7b84" />
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 20px; fill: #61727b; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 18px; fill: #61727b; }
+    .tiny { font-size: 16px; fill: #61727b; }
+    .dim { font-size: 18px; font-weight: 700; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="2000" height="1800" fill="#f4efe4"/>
+  <g transform="translate(90 70) scale(0.54)">
+    <text x="0" y="0" class="title">Back Wall Elevation · ChatGPT Design 2</text>
+    <text x="0" y="40" class="subtitle">298 cm wall width · 42 cm shelf spine · centre treated as the highest usable zone under the apex</text>
+    <rect x="0" y="88" width="928" height="124" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+    <text x="28" y="134" class="label">Elevation note</text>
+    <text x="28" y="172" class="small">The floor plan does not depend on ridge direction, but this drawing assumes the back wall gets the highest centre height.</text>
+    <polyline points="240,1220 240,460 1134,200 2028,460 2028,1220" fill="#fffaf2" stroke="#233139" stroke-width="5" filter="url(#shadow)"/>
+    <line x1="240" y1="1220" x2="2028" y2="1220" stroke="#233139" stroke-width="5" />
+    <line x1="318" y1="1148" x2="1950" y2="1148" stroke="#6c7d86" stroke-width="6" />
+    <text x="130" y="1154" class="dim">18 cm</text>
+    <line x1="318" y1="1012" x2="1950" y2="1012" stroke="#6c7d86" stroke-width="6" />
+    <text x="130" y="1018" class="dim">52 cm</text>
+    <line x1="318" y1="876" x2="1950" y2="876" stroke="#6c7d86" stroke-width="6" />
+    <text x="130" y="882" class="dim">86 cm</text>
+    <line x1="318" y1="740" x2="1950" y2="740" stroke="#6c7d86" stroke-width="6" />
+    <text x="130" y="746" class="dim">120 cm</text>
+    <line x1="318" y1="596" x2="1950" y2="596" stroke="#6c7d86" stroke-width="6" />
+    <text x="130" y="602" class="dim">156 cm</text>
+    <rect x="282" y="1030" width="360" height="94" rx="18" fill="#f8efe3" stroke="#cba782" stroke-width="2" filter="url(#shadow)"/>
+    <text x="312" y="1074" class="label">B1 back-left 80 cm</text>
+    <text x="312" y="1106" class="small">large-box field</text>
+    <rect x="720" y="980" width="840" height="108" rx="18" fill="#f8efe3" stroke="#cba782" stroke-width="2" filter="url(#shadow)"/>
+    <text x="750" y="1030" class="label">B2 back-centre 138 cm</text>
+    <text x="750" y="1062" class="small">main box field + direct doorway access</text>
+    <rect x="1628" y="1030" width="360" height="94" rx="18" fill="#f8efe3" stroke="#cba782" stroke-width="2" filter="url(#shadow)"/>
+    <text x="1658" y="1074" class="label">B3 back-right 80 cm</text>
+    <text x="1658" y="1106" class="small">paints + mixed boxes</text>
+    <rect x="360" y="890" width="126" height="80" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2" />
+    <rect x="360" y="1026" width="126" height="80" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2" />
+    <rect x="920" y="890" width="126" height="80" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2" />
+    <rect x="920" y="1026" width="126" height="80" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2" />
+    <rect x="1240" y="890" width="126" height="80" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2" />
+    <rect x="1240" y="1026" width="126" height="80" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2" />
+    <rect x="1740" y="890" width="126" height="80" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2" />
+    <rect x="1740" y="1026" width="126" height="80" rx="12" fill="#dcc7a6" stroke="#8b7158" stroke-width="2" />
+    <rect x="326" y="1118" width="260" height="62" rx="12" fill="#d6d0c6" stroke="#7d7366" stroke-width="2" />
+    <text x="352" y="1160" class="small">heavy tools + paint trays</text>
+    <rect x="1652" y="1118" width="240" height="62" rx="12" fill="#d6d0c6" stroke="#7d7366" stroke-width="2" />
+    <text x="1678" y="1160" class="small">fertiliser / paint trays</text>
+    <line x1="558" y1="468" x2="1770" y2="468" stroke="#d96355" stroke-width="10" />
+    <text x="1134" y="434" class="label" text-anchor="middle">2.0 m ladder rack</text>
+    <text x="1134" y="400" class="small" text-anchor="middle">placed high on the only wall long enough for secure horizontal storage</text>
+    <text x="258" y="482" class="dim">190 cm edge height</text>
+    <text x="1134" y="192" class="dim" text-anchor="middle">217.9 cm centre height</text>
+    <text x="2022" y="482" class="dim" text-anchor="end">190 cm edge height</text>
+    <line x1="240" y1="1294" x2="2028" y2="1294" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="240" y1="1276" x2="240" y2="1312" stroke="#c8b99f" stroke-width="2" />
+    <line x1="2028" y1="1276" x2="2028" y2="1312" stroke="#c8b99f" stroke-width="2" />
+    <text x="1134" y="1286" class="dim" text-anchor="middle">298 cm overall width</text>
+    <line x1="120" y1="460" x2="120" y2="1220" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="102" y1="460" x2="138" y2="460" stroke="#c8b99f" stroke-width="2" />
+    <line x1="102" y1="1220" x2="138" y2="1220" stroke="#c8b99f" stroke-width="2" />
+    <text x="134" y="840" class="dim">190 cm at wall edges</text>
+    <line x1="2130" y1="200" x2="2130" y2="1220" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="2112" y1="200" x2="2148" y2="200" stroke="#c8b99f" stroke-width="2" />
+    <line x1="2112" y1="1220" x2="2148" y2="1220" stroke="#c8b99f" stroke-width="2" />
+    <text x="2144" y="710" class="dim">217.9 cm at centre</text>
+    <rect x="2240" y="286" width="916" height="414" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+    <text x="2276" y="334" class="label">Why this wall matters</text>
+    <text x="2276" y="382" class="small">1. It is the only uninterrupted 298 cm storage wall.</text>
+    <text x="2276" y="420" class="small">2. Four large boxes fit per full shelf run with sensible clearance.</text>
+    <text x="2276" y="458" class="small">3. The centre aligns with the door opening, so the most-used bay is directly reachable.</text>
+    <text x="2276" y="496" class="small">4. The long ladder lives here instead of consuming short-wall depth.</text>
+    <text x="2276" y="560" class="label">Suggested loading order</text>
+    <text x="2276" y="598" class="small">Bottom shelf: heavy tools, paint trays, dense storage.</text>
+    <text x="2276" y="636" class="small">Middle shelves: the nine 60 x 40 x 26 cm boxes.</text>
+    <text x="2276" y="674" class="small">Top shelf: infrequent boxes and archive items.</text>
+  </g>
+</svg>

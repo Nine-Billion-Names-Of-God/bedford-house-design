@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="3600" viewBox="0 0 3600 3600">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M 0 6 L 12 0 L 9 6 L 12 12 z" fill="#6b7b84" />
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #61727b; }
+    .label { font-size: 20px; font-weight: 700; }
+    .small { font-size: 16px; fill: #61727b; }
+    .tiny { font-size: 14px; fill: #61727b; }
+    .dim { font-size: 16px; font-weight: 700; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="3600" height="3600" fill="#f3eee4"/>
+  <g transform="translate(280 760) scale(0.82)">
+    <text x="0" y="0" class="title">Left Wall Elevation</text>
+    <text x="0" y="36" class="subtitle">175 cm wall length · rear 120 cm used as the 60 cm deep tile dock · front 55 cm stays shallow and open</text>
+
+    <rect x="0" y="78" width="530" height="120" rx="18" fill="#fff9ef" filter="url(#shadow)"/>
+    <text x="28" y="118" class="label">Wall role</text>
+    <text x="28" y="150" class="small">Dense infrequent items on the rear dock, ladder and long tools on the shallow front strip.</text>
+
+    <g transform="translate(300 260)">
+      <rect x="0" y="0" width="875" height="760" fill="#fffaf1" stroke="#25343b" stroke-width="4" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="875" height="760" fill="#e8f0e6"/>
+
+      <rect x="0" y="0" width="600" height="760" fill="#e4c0a4" stroke="#8d5537" stroke-width="3"/>
+      <rect x="600" y="0" width="275" height="760" fill="#efe4d6" stroke="#8d5537" stroke-width="2"/>
+
+      <rect x="36" y="712" width="528" height="40" fill="#c8d7b9" stroke="#617d5b" stroke-width="2"/>
+      <rect x="36" y="380" width="528" height="36" fill="#c8d7b9" stroke="#617d5b" stroke-width="2"/>
+      <rect x="90" y="172" width="420" height="30" fill="#e7e1c8" stroke="#8a7658" stroke-width="2"/>
+
+      <rect x="655" y="210" width="74" height="430" rx="12" fill="#dde8db" stroke="#5b7353" stroke-width="2"/>
+      <text x="692" y="425" class="small" transform="rotate(-90 692 425)" text-anchor="middle">folding ladder 1.5 m</text>
+
+      <rect x="762" y="270" width="42" height="350" rx="10" fill="#d6e7dd" stroke="#4f6f66" stroke-width="2"/>
+      <text x="783" y="445" class="tiny" transform="rotate(-90 783 445)" text-anchor="middle">long tools</text>
+
+      <rect x="126" y="620" width="348" height="62" rx="12" fill="#f6efe2" stroke="#a67a57" stroke-width="2"/>
+      <text x="300" y="658" class="small" text-anchor="middle">tile stacks on low deck</text>
+      <rect x="100" y="284" width="400" height="60" rx="12" fill="#f7e6d9" stroke="#a67a57" stroke-width="2"/>
+      <text x="300" y="320" class="small" text-anchor="middle">deep staging top</text>
+      <rect x="128" y="110" width="340" height="44" rx="12" fill="#eef4e6" stroke="#5c7359" stroke-width="2"/>
+      <text x="298" y="138" class="small" text-anchor="middle">light bulky storage</text>
+
+      <text x="36" y="790" class="small">back corner</text>
+      <text x="744" y="790" class="small">front toward window</text>
+    </g>
+
+    <g transform="translate(190 260)">
+      <line x1="0" y1="760" x2="0" y2="0" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#c8b99f" stroke-width="2"/>
+      <line x1="-18" y1="760" x2="18" y2="760" stroke="#c8b99f" stroke-width="2"/>
+      <text x="14" y="390" class="dim">190 cm wall height</text>
+
+      <line x1="70" y1="712" x2="70" y2="760" stroke="#6b7b84" stroke-width="2"/>
+      <text x="84" y="742" class="dim">12 cm tile deck</text>
+      <line x1="70" y1="380" x2="70" y2="760" stroke="#6b7b84" stroke-width="2"/>
+      <text x="84" y="590" class="dim">95 cm dock top</text>
+      <line x1="70" y1="172" x2="70" y2="760" stroke="#6b7b84" stroke-width="2"/>
+      <text x="84" y="462" class="dim">147 cm upper shelf</text>
+    </g>
+
+    <g transform="translate(300 1070)">
+      <line x1="0" y1="0" x2="875" y2="0" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <line x1="0" y1="-18" x2="0" y2="18" stroke="#c8b99f" stroke-width="2"/>
+      <line x1="875" y1="-18" x2="875" y2="18" stroke="#c8b99f" stroke-width="2"/>
+      <text x="438" y="-8" class="dim" text-anchor="middle">175 cm total length</text>
+
+      <line x1="0" y1="62" x2="600" y2="62" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <line x1="0" y1="44" x2="0" y2="80" stroke="#c8b99f" stroke-width="2"/>
+      <line x1="600" y1="44" x2="600" y2="80" stroke="#c8b99f" stroke-width="2"/>
+      <text x="300" y="54" class="dim" text-anchor="middle">120 cm rear deep zone</text>
+
+      <line x1="600" y1="118" x2="875" y2="118" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+      <line x1="600" y1="100" x2="600" y2="136" stroke="#c8b99f" stroke-width="2"/>
+      <line x1="875" y1="100" x2="875" y2="136" stroke="#c8b99f" stroke-width="2"/>
+      <text x="738" y="110" class="dim" text-anchor="middle">55 cm shallow strip</text>
+    </g>
+
+    <g transform="translate(1660 250)">
+      <rect x="0" y="0" width="1120" height="660" rx="18" fill="#fff9ef" filter="url(#shadow)"/>
+      <text x="34" y="48" class="label">Storage allocation</text>
+      <text x="34" y="92" class="small">Low tile deck: best place for the 60 x 120 cm tiles because weight stays at floor level.</text>
+      <text x="34" y="128" class="small">Deep top at 95 cm: staging or infrequent bulky items, but not everyday tools.</text>
+      <text x="34" y="164" class="small">Upper shelf at 147 cm: only light items, because the left wall is not the active work side.</text>
+
+      <text x="34" y="236" class="label">Why the front stays shallow</text>
+      <text x="34" y="280" class="small">The front 55 cm of the left wall sits closest to the front-side window zone.</text>
+      <text x="34" y="314" class="small">Keeping it open prevents the shed from feeling pinched and preserves incoming light.</text>
+
+      <text x="34" y="386" class="label">Items shown</text>
+      <text x="34" y="430" class="small">Foldable ladder on vertical clips, long-handle garden tools on shallow clips, tile stacks on the low deck.</text>
+      <text x="34" y="464" class="small">This wall is intentionally not the daily-use tool wall.</text>
+    </g>
+  </g>
+</svg>

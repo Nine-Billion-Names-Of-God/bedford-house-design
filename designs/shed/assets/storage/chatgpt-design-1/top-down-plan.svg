@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="3600" viewBox="0 0 3600 3600">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M 0 6 L 12 0 L 9 6 L 12 12 z" fill="#6b7b84" />
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #61727b; }
+    .label { font-size: 20px; font-weight: 700; }
+    .small { font-size: 16px; fill: #61727b; }
+    .tiny { font-size: 14px; fill: #61727b; }
+    .dim { font-size: 16px; font-weight: 700; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="3600" height="3600" fill="#f3eee4"/>
+  <g transform="translate(280 760) scale(0.82)">
+    <text x="0" y="0" class="title">Top-Down Plan · Shed Storage · ChatGPT Design 1</text>
+    <text x="0" y="36" class="subtitle">298 cm x 175 cm shed · front wall kept clear · 42 cm standard depth plus one 60 cm deep rear dock</text>
+
+    <rect x="0" y="74" width="540" height="116" rx="18" fill="#fff9ef" filter="url(#shadow)"/>
+    <text x="28" y="114" class="label">Chosen layout</text>
+    <text x="28" y="146" class="small">Back shelving spine + rear-left tile dock + rear-right workbench / tool wall</text>
+
+    <rect x="340" y="220" width="1490" height="875" fill="#fffaf1" stroke="#26343b" stroke-width="4" filter="url(#shadow)"/>
+    <rect x="344" y="224" width="1482" height="867" fill="#e8f1e8"/>
+
+    <rect x="340" y="220" width="1490" height="210" fill="#cfe1ca" stroke="#5d7953" stroke-width="3"/>
+    <rect x="340" y="220" width="300" height="600" fill="#e4c0a4" stroke="#8d5537" stroke-width="3"/>
+    <rect x="1620" y="220" width="210" height="575" fill="#cfe3e3" stroke="#446a6a" stroke-width="3"/>
+    <rect x="340" y="820" width="90" height="275" fill="#efe3d5" stroke="#8d5537" stroke-width="2"/>
+    <rect x="1620" y="795" width="210" height="300" fill="#eef2e9" stroke="#657b62" stroke-width="2"/>
+
+    <rect x="382" y="254" width="370" height="110" rx="16" fill="#f8efe5" filter="url(#shadow)"/>
+    <text x="405" y="292" class="label">Back bay B1 · 82 cm</text>
+    <text x="405" y="322" class="small">1 large box per shelf</text>
+
+    <rect x="860" y="254" width="450" height="110" rx="16" fill="#f8efe5" filter="url(#shadow)"/>
+    <text x="884" y="292" class="label">Back bay B2 · 134 cm</text>
+    <text x="884" y="322" class="small">2 large boxes per shelf · active centre bay</text>
+
+    <rect x="1410" y="254" width="350" height="110" rx="16" fill="#f8efe5" filter="url(#shadow)"/>
+    <text x="1434" y="292" class="label">Back bay B3 · 82 cm</text>
+    <text x="1434" y="322" class="small">paints and boxes</text>
+
+    <rect x="392" y="522" width="312" height="128" rx="18" fill="#f5d9c9" filter="url(#shadow)"/>
+    <text x="418" y="566" class="label">Left tile dock</text>
+    <text x="418" y="596" class="small">120 x 60 cm</text>
+    <text x="418" y="624" class="small">tiles low · deep top above</text>
+
+    <rect x="1390" y="508" width="388" height="140" rx="18" fill="#d7ece8" filter="url(#shadow)"/>
+    <text x="1416" y="552" class="label">Right workbench</text>
+    <text x="1416" y="582" class="small">115 x 42 cm</text>
+    <text x="1416" y="610" class="small">tool board above · Kärcher and toolbox below</text>
+
+    <rect x="1464" y="870" width="288" height="114" rx="18" fill="#f1f5ea" filter="url(#shadow)"/>
+    <text x="1488" y="912" class="label">BBQ pocket</text>
+    <text x="1488" y="942" class="small">open floor zone</text>
+
+    <rect x="590" y="845" width="700" height="140" rx="18" fill="#edf6ef" filter="url(#shadow)"/>
+    <text x="620" y="892" class="label">Central clear floor</text>
+    <text x="620" y="924" class="small">about 196 cm rear clear width</text>
+    <text x="620" y="954" class="small">about 133 cm clear depth in front of back shelves</text>
+
+    <text x="430" y="1000" class="small">left front shallow strip for folding ladder and long tools</text>
+    <text x="1622" y="1040" class="small" text-anchor="end">front wall remains non-storage</text>
+
+    <rect x="340" y="1095" width="400" height="12" fill="#d9edf3" stroke="#26343b" stroke-width="2"/>
+    <rect x="938" y="1095" width="694" height="12" fill="#f3efe3" stroke="#c6b395" stroke-width="2"/>
+    <rect x="1630" y="1095" width="400" height="12" fill="#d9edf3" stroke="#26343b" stroke-width="2"/>
+    <line x1="740" y1="1101" x2="938" y2="1101" stroke="#c6b395" stroke-width="6"/>
+    <line x1="1632" y1="1101" x2="1830" y2="1101" stroke="#c6b395" stroke-width="6"/>
+    <path d="M 938 1101 A 210 210 0 0 0 1148 1311" fill="none" stroke="#c6b395" stroke-width="3" stroke-dasharray="10 8"/>
+    <path d="M 1632 1101 A 210 210 0 0 1 1422 1311" fill="none" stroke="none"/>
+    <path d="M 1632 1101 A 210 210 0 0 1 1422 1311" fill="none" stroke="#c6b395" stroke-width="3" stroke-dasharray="10 8"/>
+
+    <text x="540" y="1086" class="tiny" text-anchor="middle">left window 80 cm</text>
+    <text x="1285" y="1086" class="tiny" text-anchor="middle">double doors 138 cm</text>
+    <text x="1830" y="1086" class="tiny" text-anchor="middle">right window 80 cm</text>
+
+    <text x="1085" y="1138" class="small" text-anchor="middle">outward-opening double doors</text>
+
+    <line x1="340" y1="168" x2="1830" y2="168" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="340" y1="150" x2="340" y2="186" stroke="#c8b99f" stroke-width="2"/>
+    <line x1="1830" y1="150" x2="1830" y2="186" stroke="#c8b99f" stroke-width="2"/>
+    <text x="1085" y="160" class="dim" text-anchor="middle">298 cm overall width</text>
+
+    <line x1="250" y1="220" x2="250" y2="1095" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="232" y1="220" x2="268" y2="220" stroke="#c8b99f" stroke-width="2"/>
+    <line x1="232" y1="1095" x2="268" y2="1095" stroke="#c8b99f" stroke-width="2"/>
+    <text x="264" y="664" class="dim">175 cm overall depth</text>
+
+    <line x1="1920" y1="220" x2="1920" y2="430" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="1902" y1="220" x2="1938" y2="220" stroke="#c8b99f" stroke-width="2"/>
+    <line x1="1902" y1="430" x2="1938" y2="430" stroke="#c8b99f" stroke-width="2"/>
+    <text x="1936" y="334" class="dim">42 cm back shelving</text>
+
+    <line x1="340" y1="910" x2="640" y2="910" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="340" y1="892" x2="340" y2="928" stroke="#c8b99f" stroke-width="2"/>
+    <line x1="640" y1="892" x2="640" y2="928" stroke="#c8b99f" stroke-width="2"/>
+    <text x="490" y="902" class="dim" text-anchor="middle">60 cm deep dock</text>
+
+    <line x1="730" y1="220" x2="730" y2="820" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="712" y1="220" x2="748" y2="220" stroke="#c8b99f" stroke-width="2"/>
+    <line x1="712" y1="820" x2="748" y2="820" stroke="#c8b99f" stroke-width="2"/>
+    <text x="746" y="536" class="dim">120 cm deep-dock run</text>
+
+    <line x1="1620" y1="840" x2="1830" y2="840" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="1620" y1="822" x2="1620" y2="858" stroke="#c8b99f" stroke-width="2"/>
+    <line x1="1830" y1="822" x2="1830" y2="858" stroke="#c8b99f" stroke-width="2"/>
+    <text x="1725" y="832" class="dim" text-anchor="middle">42 cm workbench</text>
+
+    <line x1="1514" y1="220" x2="1514" y2="795" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="1496" y1="220" x2="1532" y2="220" stroke="#c8b99f" stroke-width="2"/>
+    <line x1="1496" y1="795" x2="1532" y2="795" stroke="#c8b99f" stroke-width="2"/>
+    <text x="1530" y="520" class="dim">115 cm bench run</text>
+
+    <line x1="640" y1="860" x2="1620" y2="860" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="640" y1="842" x2="640" y2="878" stroke="#c8b99f" stroke-width="2"/>
+    <line x1="1620" y1="842" x2="1620" y2="878" stroke="#c8b99f" stroke-width="2"/>
+    <text x="1130" y="852" class="dim" text-anchor="middle">196 cm rear clear width</text>
+
+    <line x1="1310" y1="430" x2="1310" y2="1095" stroke="#6b7b84" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="1292" y1="430" x2="1328" y2="430" stroke="#c8b99f" stroke-width="2"/>
+    <line x1="1292" y1="1095" x2="1328" y2="1095" stroke="#c8b99f" stroke-width="2"/>
+    <text x="1326" y="778" class="dim">133 cm clear depth</text>
+
+    <rect x="2140" y="276" width="812" height="330" rx="18" fill="#fff9ef" filter="url(#shadow)"/>
+    <text x="2174" y="322" class="label">Storage logic</text>
+    <text x="2174" y="362" class="small">1. Full back wall handles the repeatable box storage.</text>
+    <text x="2174" y="396" class="small">2. Single rear-left dock provides the only true 60 cm deep zone.</text>
+    <text x="2174" y="430" class="small">3. Rear-right wall stays active as the workbench and tool wall.</text>
+    <text x="2174" y="464" class="small">4. Front-side strips stay open or shallow to protect light and access.</text>
+    <text x="2174" y="512" class="label">Bulky items shown in plan</text>
+    <text x="2174" y="548" class="small">Tiles on left dock, BBQ front-right, Kärcher and toolbox under bench,</text>
+    <text x="2174" y="580" class="small">long ladder on back-wall rack, folding ladder on left-front strip.</text>
+
+    <rect x="2140" y="670" width="690" height="286" rx="18" fill="#fff9ef" filter="url(#shadow)"/>
+    <text x="2174" y="716" class="label">Legend</text>
+    <rect x="2176" y="754" width="32" height="24" fill="#cfe1ca" stroke="#5d7953" stroke-width="2"/>
+    <text x="2228" y="772" class="small">42 cm back-wall shelving spine</text>
+    <rect x="2176" y="798" width="32" height="24" fill="#e4c0a4" stroke="#8d5537" stroke-width="2"/>
+    <text x="2228" y="816" class="small">60 cm rear-left tile dock</text>
+    <rect x="2176" y="842" width="32" height="24" fill="#cfe3e3" stroke="#446a6a" stroke-width="2"/>
+    <text x="2228" y="860" class="small">42 cm rear-right workbench</text>
+    <rect x="2176" y="886" width="32" height="24" fill="#eef2e9" stroke="#657b62" stroke-width="2"/>
+    <text x="2228" y="904" class="small">Open floor-based bulky-item pocket</text>
+    <text x="2176" y="944" class="small">Safe area maintained around all labels for robust PNG export.</text>
+  </g>
+</svg>

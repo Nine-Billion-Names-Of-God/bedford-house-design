@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1800" viewBox="0 0 2000 1800">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M 0 6 L 12 0 L 9 6 L 12 12 z" fill="#6b7b84" />
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 20px; fill: #61727b; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 18px; fill: #61727b; }
+    .tiny { font-size: 16px; fill: #61727b; }
+    .dim { font-size: 18px; font-weight: 700; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="2000" height="1800" fill="#f4efe4"/>
+  <g transform="translate(90 70) scale(0.54)">
+    <text x="0" y="0" class="title">Right Wall Elevation · ChatGPT Design 2</text>
+    <text x="0" y="40" class="subtitle">175 cm wall length · rear 115 cm bench and tool wall · front 60 cm open BBQ pocket</text>
+    <rect x="0" y="88" width="960" height="124" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+    <text x="28" y="134" class="label">Right-wall role</text>
+    <text x="28" y="172" class="small">This is the active side: bench, tool board, cord, cutters, Kärcher, toolbox, and quick-grab consumables.</text>
+    <rect x="240" y="320" width="1050" height="760" rx="0" fill="#fffaf2" stroke="#233139" stroke-width="4" filter="url(#shadow)"/>
+    <rect x="240" y="916.0" width="690.0" height="364.0" rx="0" fill="#cfe6e1" stroke="#3f6b68" stroke-width="3" />
+    <rect x="284" y="1070" width="220" height="160" rx="12" fill="#d8e5ea" stroke="#6d8796" stroke-width="2" />
+    <text x="318" y="1166" class="label">Kärcher</text>
+    <rect x="544" y="1100" width="220" height="130" rx="12" fill="#d7cbb9" stroke="#876c50" stroke-width="2" />
+    <text x="588" y="1176" class="label">toolbox</text>
+    <rect x="800" y="1050" width="108" height="180" rx="10" fill="#d2d0cb" stroke="#75736d" stroke-width="2" />
+    <text x="854" y="1154" class="small" text-anchor="middle">heavy</text>
+    <text x="854" y="1182" class="small" text-anchor="middle">tool</text>
+    <text x="854" y="1210" class="small" text-anchor="middle">holster</text>
+    <rect x="264" y="636.0" width="642.0" height="44" rx="10" fill="#f7efe3" stroke="#cba782" stroke-width="2" />
+    <text x="288" y="666.0" class="small">shallow upper shelf for fertiliser, gloves, small boxes</text>
+    <rect x="264" y="598.0" width="642.0" height="250" rx="12" fill="#efe7d8" stroke="#9a8668" stroke-width="2" />
+    <text x="284" y="642.0" class="label">tool board</text>
+    <text x="284" y="680.0" class="small">secateurs · trowels · hand forks · gloves</text>
+    <text x="284" y="716.0" class="small">loppers · hedge shears · pruning saw</text>
+    <line x1="970.0" y1="360" x2="970.0" y2="1240" stroke="#d0d7dd" stroke-width="2" stroke-dasharray="10 8"/>
+    <text x="992.0" y="396" class="small">front 60 cm open floor pocket</text>
+    <rect x="1002.0" y="1084" width="276.0" height="146" rx="12" fill="#eef2ea" stroke="#6a7f68" stroke-width="2" />
+    <text x="1052.0" y="1176" class="label">BBQ</text>
+    <line x1="1008.0" y1="942" x2="1220" y2="942" stroke="#d96355" stroke-width="9" />
+    <text x="1028.0" y="910" class="small">cutter rail / extension cord hook</text>
+    <text x="256" y="356" class="dim">190 cm wall height</text>
+    <line x1="240" y1="1356" x2="1290" y2="1356" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="240" y1="1338" x2="240" y2="1374" stroke="#c8b99f" stroke-width="2" />
+    <line x1="1290" y1="1338" x2="1290" y2="1374" stroke="#c8b99f" stroke-width="2" />
+    <text x="765" y="1348" class="dim" text-anchor="middle">175 cm wall length</text>
+    <line x1="240" y1="242" x2="930" y2="242" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="240" y1="224" x2="240" y2="260" stroke="#c8b99f" stroke-width="2" />
+    <line x1="930" y1="224" x2="930" y2="260" stroke="#c8b99f" stroke-width="2" />
+    <text x="585" y="234" class="dim" text-anchor="middle">115 cm rear bench run</text>
+    <line x1="930" y1="278" x2="1290" y2="278" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="930" y1="260" x2="930" y2="296" stroke="#c8b99f" stroke-width="2" />
+    <line x1="1290" y1="260" x2="1290" y2="296" stroke="#c8b99f" stroke-width="2" />
+    <text x="1110" y="270" class="dim" text-anchor="middle">60 cm front BBQ pocket</text>
+    <line x1="144" y1="916.0" x2="144" y2="1280" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="126" y1="916.0" x2="162" y2="916.0" stroke="#c8b99f" stroke-width="2" />
+    <line x1="126" y1="1280" x2="162" y2="1280" stroke="#c8b99f" stroke-width="2" />
+    <text x="158" y="1098.0" class="dim">91 cm bench top</text>
+    <line x1="1378" y1="680.0" x2="1378" y2="1280" stroke="#60707a" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <line x1="1360" y1="680.0" x2="1396" y2="680.0" stroke="#c8b99f" stroke-width="2" />
+    <line x1="1360" y1="1280" x2="1396" y2="1280" stroke="#c8b99f" stroke-width="2" />
+    <text x="1392" y="980.0" class="dim">150 cm shallow shelf</text>
+    <rect x="1580" y="320" width="1180" height="462" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+    <text x="1614" y="366" class="label">Why this side becomes the active wall</text>
+    <text x="1614" y="410" class="small">1. It is the side nearer the house, so it should hold the items used most often.</text>
+    <text x="1614" y="448" class="small">2. A bench plus tool board is more useful here than another block of deep full-height shelving.</text>
+    <text x="1614" y="486" class="small">3. The Kärcher and toolbox stay low underneath without wasting prime shelf frontage.</text>
+    <text x="1614" y="524" class="small">4. The BBQ gets an open pocket instead of stealing bench clearance or blocking the doorway.</text>
+    <text x="1614" y="582" class="label">Heavy-tool safety</text>
+    <text x="1614" y="622" class="small">Dense hand tools should sit in a floor-based holster or crate below bench height, never loose overhead.</text>
+  </g>
+</svg>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="3600" viewBox="0 0 3600 3600">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #61727b; }
+    .label { font-size: 20px; font-weight: 700; }
+    .small { font-size: 16px; fill: #61727b; }
+    .tiny { font-size: 14px; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="3600" height="3600" fill="#f3eee4"/>
+  <g transform="translate(190 760) scale(0.82)">
+    <text x="0" y="0" class="title">Centre-of-Shed Schematic Views</text>
+    <text x="0" y="36" class="subtitle">Three quick-check views from roughly the shed centre: left wall, right wall, and front-wall balance.</text>
+
+    <rect x="0" y="78" width="620" height="120" rx="18" fill="#fff9ef" filter="url(#shadow)"/>
+    <text x="28" y="118" class="label">Purpose</text>
+    <text x="28" y="150" class="small">These views confirm that the written design still feels believable once the awkward items are drawn in.</text>
+
+    <g transform="translate(0 230)">
+      <rect x="0" y="0" width="1020" height="760" rx="20" fill="#fff9ef" filter="url(#shadow)"/>
+      <text x="36" y="48" class="label">Looking left from the centre</text>
+      <text x="36" y="80" class="small">Rear-left deep dock and front-left ladder strip</text>
+
+      <rect x="90" y="120" width="740" height="520" fill="#e8f0e6" stroke="#25343b" stroke-width="4"/>
+      <rect x="90" y="120" width="508" height="520" fill="#e4c0a4" stroke="#8d5537" stroke-width="3"/>
+      <rect x="598" y="120" width="232" height="520" fill="#efe4d6" stroke="#8d5537" stroke-width="2"/>
+      <rect x="128" y="520" width="430" height="60" fill="#c8d7b9" stroke="#617d5b" stroke-width="2"/>
+      <rect x="128" y="312" width="430" height="34" fill="#c8d7b9" stroke="#617d5b" stroke-width="2"/>
+      <rect x="194" y="206" width="294" height="28" fill="#e7e1c8" stroke="#8a7658" stroke-width="2"/>
+      <rect x="222" y="438" width="248" height="58" rx="12" fill="#f6efe2" stroke="#a67a57" stroke-width="2"/>
+      <text x="346" y="473" class="small" text-anchor="middle">tiles low on 60 cm deep deck</text>
+      <rect x="646" y="196" width="66" height="316" rx="12" fill="#dde8db" stroke="#5b7353" stroke-width="2"/>
+      <text x="679" y="354" class="tiny" transform="rotate(-90 679 354)" text-anchor="middle">folding ladder</text>
+      <rect x="744" y="258" width="36" height="250" rx="10" fill="#d6e7dd" stroke="#4f6f66" stroke-width="2"/>
+      <text x="762" y="382" class="tiny" transform="rotate(-90 762 382)" text-anchor="middle">long tools</text>
+    </g>
+
+    <g transform="translate(1130 230)">
+      <rect x="0" y="0" width="1020" height="760" rx="20" fill="#fff9ef" filter="url(#shadow)"/>
+      <text x="36" y="48" class="label">Looking right from the centre</text>
+      <text x="36" y="80" class="small">Rear-right workbench, hanging tools, and front BBQ pocket</text>
+
+      <rect x="90" y="120" width="740" height="520" fill="#e8f0e6" stroke="#25343b" stroke-width="4"/>
+      <rect x="90" y="120" width="486" height="520" fill="#d4e8e5" stroke="#446a6a" stroke-width="3"/>
+      <rect x="576" y="120" width="254" height="520" fill="#eef2e9" stroke="#657b62" stroke-width="2"/>
+      <rect x="126" y="402" width="414" height="34" fill="#c9ddd8" stroke="#4f6f66" stroke-width="2"/>
+      <rect x="126" y="332" width="414" height="36" fill="#dbe7d6" stroke="#60785b" stroke-width="2"/>
+      <rect x="126" y="168" width="414" height="28" fill="#e8dfc5" stroke="#8a7658" stroke-width="2"/>
+      <rect x="152" y="444" width="180" height="154" rx="12" fill="#f6efe2" stroke="#a67a57" stroke-width="2"/>
+      <text x="242" y="530" class="small" text-anchor="middle">Kärcher</text>
+      <rect x="350" y="466" width="154" height="132" rx="12" fill="#f1e2d7" stroke="#9a6c58" stroke-width="2"/>
+      <text x="427" y="540" class="small" text-anchor="middle">toolbox</text>
+      <rect x="632" y="448" width="164" height="150" rx="12" fill="#dde8db" stroke="#5b7353" stroke-width="2"/>
+      <text x="714" y="532" class="small" text-anchor="middle">BBQ</text>
+      <line x1="154" y1="300" x2="520" y2="300" stroke="#4f6f66" stroke-width="6"/>
+      <circle cx="188" cy="250" r="10" fill="#60785b"/>
+      <circle cx="250" cy="250" r="10" fill="#60785b"/>
+      <circle cx="312" cy="250" r="10" fill="#60785b"/>
+      <rect x="430" y="228" width="34" height="82" rx="12" fill="#dce8df" stroke="#4f6f66" stroke-width="2"/>
+      <text x="447" y="268" class="tiny" transform="rotate(-90 447 268)" text-anchor="middle">saw</text>
+    </g>
+
+    <g transform="translate(2260 230)">
+      <rect x="0" y="0" width="1020" height="760" rx="20" fill="#fff9ef" filter="url(#shadow)"/>
+      <text x="36" y="48" class="label">Looking toward the front from the centre</text>
+      <text x="36" y="80" class="small">Door and window relationship, with both front-side storage strips staying visually light</text>
+
+      <polygon points="160,602 860,602 760,170 260,170" fill="#eef3ea" stroke="#25343b" stroke-width="4"/>
+      <rect x="324" y="186" width="148" height="236" fill="#d9edf3" stroke="#25343b" stroke-width="3"/>
+      <rect x="548" y="186" width="148" height="236" fill="#d9edf3" stroke="#25343b" stroke-width="3"/>
+      <rect x="472" y="170" width="76" height="432" fill="#f3efe3" stroke="#c6b395" stroke-width="3"/>
+      <line x1="510" y1="170" x2="510" y2="602" stroke="#c6b395" stroke-width="2"/>
+      <text x="398" y="442" class="small" text-anchor="middle">left window</text>
+      <text x="622" y="442" class="small" text-anchor="middle">right window</text>
+      <text x="510" y="636" class="small" text-anchor="middle">double doors kept clear</text>
+      <rect x="170" y="362" width="52" height="160" rx="12" fill="#dde8db" stroke="#5b7353" stroke-width="2"/>
+      <text x="196" y="442" class="tiny" transform="rotate(-90 196 442)" text-anchor="middle">ladder strip</text>
+      <rect x="806" y="430" width="82" height="120" rx="12" fill="#dde8db" stroke="#5b7353" stroke-width="2"/>
+      <text x="847" y="498" class="tiny" text-anchor="middle">BBQ pocket</text>
+      <text x="164" y="560" class="tiny">left front kept shallow</text>
+      <text x="748" y="560" class="tiny">right front kept open</text>
+    </g>
+  </g>
+</svg>

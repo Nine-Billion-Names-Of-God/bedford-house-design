@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1800" viewBox="0 0 2000 1800">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto-start-reverse">
+      <path d="M 0 6 L 12 0 L 9 6 L 12 12 z" fill="#6b7b84" />
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 20px; fill: #61727b; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 18px; fill: #61727b; }
+    .tiny { font-size: 16px; fill: #61727b; }
+    .dim { font-size: 18px; font-weight: 700; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="2000" height="1800" fill="#f4efe4"/>
+  <g transform="translate(90 70) scale(0.54)">
+    <text x="0" y="0" class="title">Interior Views · ChatGPT Design 2</text>
+    <text x="0" y="40" class="subtitle">Left panel: view from the doorway toward the back wall. Right panel: centre-of-shed check toward the front wall and window / door zone.</text>
+    <rect x="0" y="118" width="1510" height="1380" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+    <text x="28" y="160" class="label">From the doorway looking to the back wall</text>
+    <line x1="166" y1="1386" x2="755" y2="396" stroke="#8e9da3" stroke-width="4" />
+    <line x1="1344" y1="1386" x2="755" y2="396" stroke="#8e9da3" stroke-width="4" />
+    <line x1="166" y1="1386" x2="1344" y2="1386" stroke="#6b7b84" stroke-width="4" />
+    <rect x="296" y="336" width="918" height="360" rx="0" fill="#e8f0e4" stroke="#5c7850" stroke-width="3" />
+    <rect x="308" y="350" width="220" height="106" rx="12" fill="#f8efe3" stroke="#cba782" stroke-width="2" />
+    <text x="338" y="404" class="label">B1</text>
+    <rect x="564" y="350" width="402" height="120" rx="12" fill="#f8efe3" stroke="#cba782" stroke-width="2" />
+    <text x="740" y="408" class="label" text-anchor="middle">B2 main box field</text>
+    <rect x="1002" y="350" width="220" height="106" rx="12" fill="#f8efe3" stroke="#cba782" stroke-width="2" />
+    <text x="1032" y="404" class="label">B3</text>
+    <line x1="366" y1="288" x2="1136" y2="288" stroke="#d96355" stroke-width="10" />
+    <text x="752" y="258" class="small" text-anchor="middle">2.0 m ladder rack</text>
+    <rect x="126" y="616" width="220" height="360" rx="10" fill="#e2bca1" stroke="#8b5435" stroke-width="3" />
+    <text x="156" y="672" class="label">left tile dock</text>
+    <text x="156" y="706" class="small">tiles low</text>
+    <rect x="1144" y="628" width="236" height="304" rx="10" fill="#cfe6e1" stroke="#3f6b68" stroke-width="3" />
+    <text x="1178" y="680" class="label">right bench</text>
+    <text x="1178" y="714" class="small">tool wall above</text>
+    <rect x="1164" y="846" width="110" height="82" rx="10" fill="#d8e5ea" stroke="#6d8796" stroke-width="2" />
+    <text x="1218" y="896" class="tiny" text-anchor="middle">Kärcher</text>
+    <rect x="1284" y="860" width="96" height="68" rx="10" fill="#d7cbb9" stroke="#876c50" stroke-width="2" />
+    <text x="1332" y="900" class="tiny" text-anchor="middle">toolbox</text>
+    <rect x="466" y="1266" width="520" height="96" rx="14" fill="#edf6ef" stroke="#7b8f7d" stroke-width="2" />
+    <text x="726" y="1324" class="label" text-anchor="middle">central floor kept open</text>
+    <text x="726" y="1358" class="small" text-anchor="middle">awkward items shown, not hidden</text>
+    <rect x="1620" y="118" width="1510" height="1380" rx="18" fill="#fff9ef" stroke="#d0c2aa" stroke-width="2" filter="url(#shadow)"/>
+    <text x="1648" y="160" class="label">From the centre looking toward the front wall</text>
+    <line x1="1806" y1="1386" x2="2115" y2="556" stroke="#8e9da3" stroke-width="4" />
+    <line x1="2944" y1="1386" x2="2635" y2="556" stroke="#8e9da3" stroke-width="4" />
+    <line x1="1806" y1="1386" x2="2944" y2="1386" stroke="#6b7b84" stroke-width="4" />
+    <rect x="2135" y="516" width="480" height="520" rx="0" fill="#f3efe4" stroke="#c6b395" stroke-width="4" />
+    <text x="2375" y="786" class="label" text-anchor="middle">double doors</text>
+    <path d="M 2135 776 A 210 210 0 0 0 2345 986" fill="none" stroke="#c6b395" stroke-width="3" stroke-dasharray="10 8"/>
+    <path d="M 2615 776 A 210 210 0 0 1 2405 986" fill="none" stroke="#c6b395" stroke-width="3" stroke-dasharray="10 8"/>
+    <rect x="1855" y="556" width="200" height="260" rx="0" fill="#d9edf3" stroke="#233139" stroke-width="3" />
+    <rect x="2695" y="556" width="200" height="260" rx="0" fill="#d9edf3" stroke="#233139" stroke-width="3" />
+    <text x="1955" y="706" class="label" text-anchor="middle">window</text>
+    <text x="2795" y="706" class="label" text-anchor="middle">window</text>
+    <line x1="1725" y1="956" x2="1855" y2="756" stroke="#d96355" stroke-width="9" />
+    <text x="1713" y="1016" class="small">folded ladder</text>
+    <rect x="2863" y="956" width="150" height="160" rx="12" fill="#eef2ea" stroke="#6a7f68" stroke-width="2" />
+    <text x="2939" y="1048" class="label" text-anchor="middle">BBQ</text>
+    <line x1="2823" y1="896" x2="3025" y2="896" stroke="#d96355" stroke-width="8" />
+    <text x="2927" y="866" class="small" text-anchor="middle">cutter rail</text>
+    <rect x="2155" y="1264" width="440" height="100" rx="14" fill="#edf6ef" stroke="#7b8f7d" stroke-width="2" />
+    <text x="2375" y="1328" class="label" text-anchor="middle">front stays clear of storage</text>
+    <text x="2375" y="1362" class="small" text-anchor="middle">doors and windows remain credible and usable</text>
+  </g>
+</svg>

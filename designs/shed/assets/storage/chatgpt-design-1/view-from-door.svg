@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3600" height="3600" viewBox="0 0 3600 3600">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: Helvetica, Arial, sans-serif; fill: #22313a; }
+    .title { font-size: 34px; font-weight: 700; }
+    .subtitle { font-size: 19px; fill: #61727b; }
+    .label { font-size: 20px; font-weight: 700; }
+    .small { font-size: 16px; fill: #61727b; }
+    .tiny { font-size: 14px; fill: #61727b; }
+  </style>
+  <rect x="0" y="0" width="3600" height="3600" fill="#f3eee4"/>
+  <g transform="translate(260 760) scale(0.82)">
+    <text x="0" y="0" class="title">View From Door</text>
+    <text x="0" y="36" class="subtitle">Schematic view looking inward from the front doors, showing the actual storage arrangement rather than a generic clean wall.</text>
+
+    <rect x="0" y="78" width="620" height="120" rx="18" fill="#fff9ef" filter="url(#shadow)"/>
+    <text x="28" y="118" class="label">What this view checks</text>
+    <text x="28" y="150" class="small">Whether the central floor still feels usable once the tiles, bench, ladders, Kärcher, toolbox, and BBQ are all honestly placed.</text>
+
+    <g transform="translate(120 236)">
+      <polygon points="260,720 1280,720 1620,120 0,120" fill="#e9efe4" stroke="#24343b" stroke-width="4" filter="url(#shadow)"/>
+      <polygon points="0,120 820,0 1620,120 1280,720 260,720" fill="none" stroke="#24343b" stroke-width="4"/>
+      <polygon points="0,120 240,720 260,720 0,120" fill="#e1d7c6"/>
+      <polygon points="1620,120 1280,720 1260,720 1620,120" fill="#dfe8e1"/>
+
+      <polygon points="370,160 1240,160 1038,460 564,460" fill="#cfe1ca" stroke="#5d7953" stroke-width="3"/>
+      <polygon points="382,462 1032,462 1032,662 382,662" fill="#eef4e6" stroke="#5d7953" stroke-width="2"/>
+      <line x1="586" y1="160" x2="586" y2="662" stroke="#5d7953" stroke-width="6"/>
+      <line x1="824" y1="160" x2="824" y2="662" stroke="#5d7953" stroke-width="6"/>
+
+      <rect x="416" y="518" width="126" height="88" rx="12" fill="#f6efe2" stroke="#a67a57" stroke-width="2"/>
+      <rect x="626" y="518" width="156" height="88" rx="12" fill="#f6efe2" stroke="#a67a57" stroke-width="2"/>
+      <rect x="870" y="518" width="126" height="88" rx="12" fill="#f1e2d7" stroke="#9a6c58" stroke-width="2"/>
+      <text x="479" y="570" class="tiny" text-anchor="middle">boxes</text>
+      <text x="704" y="570" class="tiny" text-anchor="middle">active shelf field</text>
+      <text x="933" y="570" class="tiny" text-anchor="middle">paints</text>
+
+      <line x1="560" y1="246" x2="1040" y2="246" stroke="#415f62" stroke-width="10"/>
+      <text x="800" y="228" class="tiny" text-anchor="middle">2.0 m ladder on high rack</text>
+
+      <polygon points="176,196 382,160 382,662 244,662 176,276" fill="#e4c0a4" stroke="#8d5537" stroke-width="3"/>
+      <polygon points="176,196 382,160 564,460 380,492" fill="#efcfbf" stroke="#8d5537" stroke-width="2"/>
+      <rect x="258" y="548" width="94" height="64" rx="10" fill="#f6efe2" stroke="#a67a57" stroke-width="2"/>
+      <text x="305" y="587" class="tiny" text-anchor="middle">tiles low</text>
+      <text x="326" y="386" class="tiny" text-anchor="middle">deep top</text>
+
+      <polygon points="1240,160 1440,194 1364,662 1032,662 1032,462 1240,160" fill="#cfe3e3" stroke="#446a6a" stroke-width="3"/>
+      <polygon points="1032,462 1240,160 1440,194 1248,492" fill="#d8ece8" stroke="#446a6a" stroke-width="2"/>
+      <rect x="1062" y="542" width="104" height="92" rx="12" fill="#f6efe2" stroke="#a67a57" stroke-width="2"/>
+      <rect x="1180" y="560" width="116" height="74" rx="12" fill="#f1e2d7" stroke="#9a6c58" stroke-width="2"/>
+      <text x="1114" y="596" class="tiny" text-anchor="middle">Kärcher</text>
+      <text x="1238" y="604" class="tiny" text-anchor="middle">toolbox</text>
+
+      <line x1="1068" y1="390" x2="1330" y2="390" stroke="#446a6a" stroke-width="6"/>
+      <circle cx="1110" cy="350" r="10" fill="#60785b"/>
+      <circle cx="1180" cy="350" r="10" fill="#60785b"/>
+      <circle cx="1250" cy="350" r="10" fill="#60785b"/>
+      <rect x="1300" y="326" width="36" height="84" rx="12" fill="#dce8df" stroke="#4f6f66" stroke-width="2"/>
+      <text x="1318" y="368" class="tiny" transform="rotate(-90 1318 368)" text-anchor="middle">saw</text>
+      <text x="1196" y="430" class="tiny" text-anchor="middle">tool board and cutter rail</text>
+
+      <rect x="1290" y="624" width="104" height="82" rx="14" fill="#dde8db" stroke="#5b7353" stroke-width="2"/>
+      <text x="1342" y="672" class="tiny" text-anchor="middle">BBQ</text>
+
+      <rect x="188" y="302" width="48" height="224" rx="12" fill="#dde8db" stroke="#5b7353" stroke-width="2"/>
+      <text x="212" y="414" class="tiny" transform="rotate(-90 212 414)" text-anchor="middle">folding ladder</text>
+
+      <text x="736" y="708" class="small" text-anchor="middle">central clear floor remains usable</text>
+    </g>
+
+    <g transform="translate(1960 240)">
+      <rect x="0" y="0" width="1180" height="660" rx="18" fill="#fff9ef" filter="url(#shadow)"/>
+      <text x="34" y="48" class="label">Items visibly accounted for</text>
+      <text x="34" y="92" class="small">Left side: tile dock and folding ladder.</text>
+      <text x="34" y="126" class="small">Back wall: repeated shelf field, paint bay, long ladder rack.</text>
+      <text x="34" y="160" class="small">Right side: workbench, tool wall, Kärcher, toolbox, and front BBQ pocket.</text>
+
+      <text x="34" y="232" class="label">Why the shed still works</text>
+      <text x="34" y="276" class="small">The two short walls do not run full-height and full-depth all the way to the front.</text>
+      <text x="34" y="310" class="small">That is what prevents the layout from becoming a narrow corridor.</text>
+
+      <text x="34" y="382" class="label">Centre-floor test</text>
+      <text x="34" y="426" class="small">The clear floor is not a perfect rectangle in perspective, but the view shows a real standing zone</text>
+      <text x="34" y="460" class="small">between the deep left dock and the shallower right bench.</text>
+    </g>
+  </g>
+</svg>
