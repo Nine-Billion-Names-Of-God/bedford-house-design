@@ -1,0 +1,12 @@
+{
+  "label": "Back Garden",
+  "description": "Back garden markdown studies and the current layout reference image.",
+  "eyebrow": "Back collection",
+  "order": 3,
+  "asset": {
+    "path": "back-layout.jpeg",
+    "alt": "Back garden layout plan",
+    "caption": "Current back garden reference layout. Click to open the full image.",
+    "title": "Back Garden Layout"
+  }
+}

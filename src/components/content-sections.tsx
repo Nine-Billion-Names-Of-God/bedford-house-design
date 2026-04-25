@@ -1,12 +1,10 @@
 import Link from "next/link";
 import { type ContentTreeNode, countDocuments } from "@/lib/content";
 
-const sectionTones = {
-  back: "from-[rgba(240,228,209,0.92)] via-[rgba(255,250,241,0.86)] to-[rgba(255,255,255,0.72)]",
-  "flower-bed":
-    "from-[rgba(230,218,190,0.92)] via-[rgba(255,247,236,0.86)] to-[rgba(255,255,255,0.72)]",
-  front:
+const domainTones = {
+  garden:
     "from-[rgba(215,225,209,0.92)] via-[rgba(255,250,241,0.86)] to-[rgba(255,255,255,0.72)]",
+  shed: "from-[rgba(227,220,205,0.94)] via-[rgba(247,241,233,0.88)] to-[rgba(255,255,255,0.72)]",
   neutral:
     "from-[rgba(225,234,221,0.92)] via-[rgba(255,250,241,0.86)] to-[rgba(255,255,255,0.72)]",
 };
@@ -125,17 +123,15 @@ function ModelGroups({ nodes }: { nodes: ContentTreeNode[] }) {
 }
 
 export function SectionPanel({
-  eyebrow = "Section",
   node,
 }: {
-  eyebrow?: string;
   node: ContentTreeNode;
 }) {
   const tone =
     node.kind === "folder"
-      ? sectionTones[node.segment as keyof typeof sectionTones] ??
-        sectionTones.neutral
-      : sectionTones.neutral;
+      ? domainTones[node.domain as keyof typeof domainTones] ?? domainTones.neutral
+      : domainTones[node.document.domain as keyof typeof domainTones] ??
+        domainTones.neutral;
 
   return (
     <article
@@ -144,7 +140,7 @@ export function SectionPanel({
       <div className="flex items-start justify-between gap-4 border-b border-[color:var(--color-line)] pb-5">
         <div>
           <p className="text-xs uppercase tracking-[0.24em] text-[color:var(--color-accent-strong)]">
-            {eyebrow}
+            {node.kind === "folder" ? node.eyebrow : "Document"}
           </p>
           <h2 className="mt-2 font-[family-name:var(--font-display)] text-4xl leading-none text-[color:var(--color-foreground)]">
             {node.label}
@@ -156,8 +152,17 @@ export function SectionPanel({
       </div>
 
       <div className="mt-6">
-        {node.kind === "folder" &&
-        node.children.every((childNode) => childNode.kind === "document") ? (
+        {node.kind === "folder" && node.children.length === 0 ? (
+          <section className="rounded-lg border border-dashed border-[color:var(--color-line)] bg-white/30 px-5 py-6 text-[color:var(--color-copy)]">
+            <p className="text-xs uppercase tracking-[0.22em] text-[color:var(--color-muted)]">
+              Empty collection
+            </p>
+            <p className="mt-3 max-w-2xl leading-7">
+              This folder is ready for documents, but nothing has been added yet.
+            </p>
+          </section>
+        ) : node.kind === "folder" &&
+          node.children.every((childNode) => childNode.kind === "document") ? (
           <ModelGroups nodes={node.children} />
         ) : node.kind === "folder" ? (
           <TreeBranch nodes={node.children} />

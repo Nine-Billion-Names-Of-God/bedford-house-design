@@ -4,13 +4,11 @@ import { PageBackdrop, TopNavigation } from "@/components/site-shell";
 import { getDocumentBySegments, renderMarkdown } from "@/lib/content";
 
 export async function MarkdownDocumentPage({
-  section,
-  slug,
+  segments,
 }: {
-  section: string;
-  slug: string[];
+  segments: string[];
 }) {
-  const document = await getDocumentBySegments([section, ...slug]);
+  const document = await getDocumentBySegments(segments);
 
   if (!document) {
     notFound();
@@ -31,13 +29,13 @@ export async function MarkdownDocumentPage({
               href="/"
               className="rounded-md border border-[color:var(--color-line)] bg-white/45 px-4 py-2 transition-colors hover:border-[color:var(--color-accent)] hover:bg-white/60 hover:text-[color:var(--color-accent-strong)]"
             >
-              All plans
+              All designs
             </Link>
             <Link
-              href={`/${document.section}`}
+              href={document.collectionRoute}
               className="rounded-md bg-[color:var(--color-accent-soft)] px-4 py-2 uppercase tracking-[0.18em] text-[color:var(--color-accent-strong)] transition-colors hover:bg-[color:var(--color-accent)]/14"
             >
-              {document.sectionLabel}
+              {document.collectionLabel}
             </Link>
           </div>
 
@@ -52,7 +50,7 @@ export async function MarkdownDocumentPage({
 
           {document.body.trim() ? (
             <article
-              className="garden-prose prose prose-stone mt-10 max-w-none prose-a:no-underline hover:prose-a:text-[color:var(--color-highlight)] prose-code:font-medium prose-headings:font-semibold prose-img:rounded-[1.5rem] prose-pre:rounded-[1.5rem] prose-table:text-sm sm:prose-lg"
+              className="design-prose prose prose-stone mt-10 max-w-none prose-a:no-underline hover:prose-a:text-[color:var(--color-highlight)] prose-code:font-medium prose-headings:font-semibold prose-img:rounded-[1.5rem] prose-pre:rounded-[1.5rem] prose-table:text-sm sm:prose-lg"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           ) : (

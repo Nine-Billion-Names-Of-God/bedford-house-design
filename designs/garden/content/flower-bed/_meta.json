@@ -1,0 +1,12 @@
+{
+  "label": "Flower Bed",
+  "description": "Flower bed studies and narrow-bed planting proposals with the current layout reference image.",
+  "eyebrow": "Flower bed collection",
+  "order": 2,
+  "asset": {
+    "path": "flower-bed-layout.jpeg",
+    "alt": "Flower bed layout plan",
+    "caption": "Current flower bed reference layout. Click to open the full image.",
+    "title": "Flower Bed Layout"
+  }
+}

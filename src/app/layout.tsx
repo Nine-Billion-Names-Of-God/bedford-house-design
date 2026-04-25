@@ -16,10 +16,10 @@ const displayFont = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Bedford Garden",
-    template: "%s | Bedford Garden",
+    default: "Bedford Designs",
+    template: "%s | Bedford Designs",
   },
-  description: "Local markdown plans for Bedford Garden design sections.",
+  description: "Local markdown design collections for Bedford domains and studies.",
 };
 
 export default function RootLayout({

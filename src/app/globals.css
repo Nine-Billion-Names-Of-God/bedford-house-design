@@ -51,7 +51,7 @@ body {
   color: var(--foreground);
 }
 
-.garden-prose {
+.design-prose {
   --tw-prose-body: var(--copy);
   --tw-prose-headings: var(--foreground);
   --tw-prose-lead: var(--muted);
@@ -70,12 +70,12 @@ body {
   --tw-prose-td-borders: rgba(56, 86, 66, 0.14);
 }
 
-.garden-prose :where(h1, h2, h3, h4) {
+.design-prose :where(h1, h2, h3, h4) {
   font-family: var(--font-cormorant-garamond), serif;
   letter-spacing: -0.02em;
 }
 
-.garden-prose :where(table) {
+.design-prose :where(table) {
   display: table;
   width: 100%;
   min-width: 0;
@@ -83,19 +83,19 @@ body {
   table-layout: auto;
 }
 
-.garden-prose :where(th, td) {
+.design-prose :where(th, td) {
   white-space: normal;
   overflow-wrap: anywhere;
   vertical-align: top;
 }
 
-.garden-prose :where(code):not(:where(pre code)) {
+.design-prose :where(code):not(:where(pre code)) {
   border-radius: 999px;
   background: rgba(45, 90, 66, 0.08);
   padding: 0.22rem 0.5rem;
 }
 
-.garden-prose :where(blockquote) {
+.design-prose :where(blockquote) {
   background: rgba(255, 251, 243, 0.85);
   border-radius: 1rem;
   padding-block: 0.35rem;

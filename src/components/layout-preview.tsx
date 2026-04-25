@@ -1,22 +1,21 @@
 "use client";
 
-import type { StaticImageData } from "next/image";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-type GardenLayoutPreviewProps = {
+type LayoutPreviewProps = {
   alt: string;
   caption: string;
-  image: StaticImageData;
+  imageSrc: string;
   title: string;
 };
 
-export function GardenLayoutPreview({
+export function LayoutPreview({
   alt,
   caption,
-  image,
+  imageSrc,
   title,
-}: GardenLayoutPreviewProps) {
+}: LayoutPreviewProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -45,7 +44,7 @@ export function GardenLayoutPreview({
         >
           <div className="relative aspect-[4/3] overflow-hidden rounded-md border border-[color:var(--color-line)] bg-[color:var(--color-surface-strong)]">
             <Image
-              src={image}
+              src={imageSrc}
               alt={alt}
               fill
               priority
@@ -96,7 +95,7 @@ export function GardenLayoutPreview({
             <div className="mt-5">
               <div className="relative aspect-[4/3] w-full overflow-hidden border border-[color:var(--color-line)] bg-[color:var(--color-surface-strong)]">
                 <Image
-                  src={image}
+                  src={imageSrc}
                   alt={alt}
                   fill
                   className="object-contain"

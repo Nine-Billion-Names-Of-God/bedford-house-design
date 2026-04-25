@@ -14,7 +14,7 @@ export function PageBackdrop() {
 export async function TopNavigation() {
   const sections = await getOrderedContentTree();
   const navItems = [
-    { href: "/", label: "All plans" },
+    { href: "/", label: "All designs" },
     ...sections
       .filter((node) => node.kind === "folder")
       .map((node) => ({ href: node.route, label: node.label })),

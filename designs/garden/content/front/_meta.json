@@ -1,0 +1,12 @@
+{
+  "label": "Front Garden",
+  "description": "Front garden proposals, summaries, and the current reference layout for the Bedford frontage.",
+  "eyebrow": "Front collection",
+  "order": 1,
+  "asset": {
+    "path": "front-layout.jpeg",
+    "alt": "Front garden layout plan",
+    "caption": "Current front garden reference layout. Click to open the full image.",
+    "title": "Front Garden Layout"
+  }
+}

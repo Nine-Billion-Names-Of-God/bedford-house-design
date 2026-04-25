@@ -14,15 +14,15 @@ export default async function Home() {
 
         <section className="max-w-3xl border-b border-[color:var(--color-line)] pb-12">
           <p className="text-xs uppercase tracking-[0.32em] text-[color:var(--color-accent-strong)]">
-            Internal Garden Study
+            Internal Design Library
           </p>
           <h1 className="mt-4 font-[family-name:var(--font-display)] text-5xl leading-none text-[color:var(--color-foreground)] sm:text-6xl">
-            Bedford Garden plans
+            Bedford design collections
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-[color:var(--color-copy)] sm:text-lg">
-            The main page lists every markdown document in sequence. Use the top
-            navigation to jump between the generated section views as new
-            markdown folders are added.
+            The main page groups each design domain at the top level. Open a
+            domain to browse its generated folder views, markdown studies, and
+            reference assets.
           </p>
         </section>
 
