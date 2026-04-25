@@ -43,14 +43,6 @@
     <rect x="916" y="378" width="16" height="170" rx="8" fill="#eef5f4" stroke="#24313a" stroke-width="2" />
     <text x="814" y="231" class="tiny" text-anchor="start" >folding ladder + tool clips</text>
 
-    
-    <rect x="940" y="176" width="360" height="104" rx="16" fill="#fffaf0" stroke="none" stroke-width="0" filter="url(#shadow)"/>
-    <text x="958" y="206" class="label" text-anchor="start" >Deep-bay logic</text>
-    <text x="958" y="228" class="small" text-anchor="start" >60 cm depth exists only here, where tile storage genuinely needs it</text>
-    
-    <rect x="920" y="680" width="360" height="98" rx="16" fill="#fffaf0" stroke="none" stroke-width="0" filter="url(#shadow)"/>
-    <text x="938" y="710" class="label" text-anchor="start" >Low heavy storage</text>
-    <text x="938" y="732" class="small" text-anchor="start" >Tiles stay at floor level; bench top remains usable</text>
 
     <text x="230" y="500" class="small" text-anchor="start" >92 cm deep bench</text>
     <text x="230" y="384.5" class="small" text-anchor="start" >125 cm shelf</text>

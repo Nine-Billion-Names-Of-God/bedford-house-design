@@ -43,10 +43,6 @@
     <line x1="839.55" y1="351.1" x2="760" y2="226" stroke="#6f7c82" stroke-width="2" /><text x="770" y="220" class="small" text-anchor="start" >Back wall uses the highest roof area</text>
     <line x1="779.3" y1="767.84" x2="760" y2="740" stroke="#6f7c82" stroke-width="2" /><text x="770" y="734" class="small" text-anchor="start" >Open centre for standing and sorting</text>
 
-    
-    <rect x="900" y="770" width="560" height="124" rx="16" fill="#fffaf0" stroke="none" stroke-width="0" filter="url(#shadow)"/>
-    <text x="918" y="800" class="label" text-anchor="start" >Spatial takeaway</text>
-    <text x="918" y="822" class="small" text-anchor="start" >Only one short wall is allowed to become deep. The opposite wall stays lighter so the shed does not turn into a narrow passage.</text>
   
   </g>
 </svg>
