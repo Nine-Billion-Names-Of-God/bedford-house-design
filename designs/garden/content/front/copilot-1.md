@@ -38,9 +38,9 @@ Vertical timber battens are fixed to the wall first; the trellis panels are then
 
 | Detail | Specification |
 |---|---|
-| Batten size | **50 mm × 25 mm** pressure treated timber |
+| Batten size | **50 mm × 25 mm** pressure treated timber (50 mm = face width; 25 mm = depth projecting off wall) |
 | Batten length | **1800 mm** (matching panel height) |
-| Air gap created | 38–50 mm off the wall |
+| Air gap behind trellis | ~25 mm (batten depth) + 28 mm (trellis frame) = **~53 mm** total from wall to trellis face |
 | Number of battens | One at each outer edge + one where panels meet = **4 battens for 3 panels**, **5 battens for 4 panels** |
 | Fixings to wall | Masonry drill + rawlplugs + screws (for brick/render wall) |
 
