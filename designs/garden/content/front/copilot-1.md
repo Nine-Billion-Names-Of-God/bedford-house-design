@@ -46,17 +46,33 @@ Vertical timber battens are fixed to the wall first; the trellis panels are then
 
 ### Screws — two types needed
 
-#### 1. Batten → Wall (frame fixings)
-Frame fixings are a screw + nylon plug in one unit — the easiest option for brick walls.
+#### 1. Batten → Wall
+
+Two options — choose one:
+
+**Option A: Frame fixings** (screw + nylon plug in one unit — quickest)
 
 | Detail | Specification |
 |---|---|
 | Size | **7.5 mm × 72 mm** frame fixing |
 | Why | 25 mm batten + ~45 mm into brick = secure hold |
 | Quantity | 3 per batten × 4–5 battens = **~12–15** (buy a box of 20) |
-| Note | If your wall is render over brick, use **7.5 mm × 100 mm** to reach well into the brick beneath |
+| Note | If wall is render over brick, use **7.5 mm × 100 mm** to reach well into the brick beneath |
 
 Search Wickes: [frame fixings 7.5 x 72mm](https://www.wickes.co.uk/search?q=frame+fixings+7.5+x+72mm)
+
+**Option B: Separate screw + wall plug** (traditional approach)
+
+| Item | Specification | Detail |
+|---|---|---|
+| Screw | **6 mm × 70 mm** zinc-plated countersunk Pozi | 25 mm batten + 45 mm into brick |
+| Wall plug | **Brown** wall plug | Brown = correct match for a 6 mm screw |
+| Masonry drill bit | **7 mm** | Brown plugs require a 7 mm hole |
+| Quantity | ~12–15 screws + plugs | 3 per batten; buy packs of 20+ |
+
+Drill tip: mark your bit with tape so the hole goes ~50 mm into the wall itself (batten is 25 mm, so drill to ~75 mm total depth from the wall face).
+
+Search Wickes: [6mm × 70mm zinc screws](https://www.wickes.co.uk/search?q=zinc+screws+6+x+70mm) · [brown wall plugs](https://www.wickes.co.uk/search?q=brown+wall+plugs) · [7mm masonry drill bit](https://www.wickes.co.uk/search?q=masonry+drill+bit+7mm)
 
 #### 2. Trellis panel → Batten (exterior wood screws)
 Must be stainless steel or exterior-coated (green/gold) — plain steel will rust outdoors.
