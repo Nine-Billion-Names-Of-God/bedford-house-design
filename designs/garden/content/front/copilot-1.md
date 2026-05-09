@@ -42,9 +42,35 @@ Vertical timber battens are fixed to the wall first; the trellis panels are then
 | Batten length | **1800 mm** (matching panel height) |
 | Air gap behind trellis | ~25 mm (batten depth) + 28 mm (trellis frame) = **~53 mm** total from wall to trellis face |
 | Number of battens | One at each outer edge + one where panels meet = **4 battens for 3 panels**, **5 battens for 4 panels** |
-| Fixings to wall | Masonry drill + rawlplugs + screws (for brick/render wall) |
+| Fixings to wall | See screw spec below |
 
-### Starting height of the trellis
+### Screws — two types needed
+
+#### 1. Batten → Wall (frame fixings)
+Frame fixings are a screw + nylon plug in one unit — the easiest option for brick walls.
+
+| Detail | Specification |
+|---|---|
+| Size | **7.5 mm × 72 mm** frame fixing |
+| Why | 25 mm batten + ~45 mm into brick = secure hold |
+| Quantity | 3 per batten × 4–5 battens = **~12–15** (buy a box of 20) |
+| Note | If your wall is render over brick, use **7.5 mm × 100 mm** to reach well into the brick beneath |
+
+Search Wickes: [frame fixings 7.5 x 72mm](https://www.wickes.co.uk/search?q=frame+fixings+7.5+x+72mm)
+
+#### 2. Trellis panel → Batten (exterior wood screws)
+Must be stainless steel or exterior-coated (green/gold) — plain steel will rust outdoors.
+
+| Detail | Specification |
+|---|---|
+| Size | **5 mm × 50 mm** exterior wood screw |
+| Why | 28 mm trellis frame + ~20 mm into batten = firm without splitting |
+| Quantity | ~4 per panel × 3–4 panels = **~12–16** (buy a box of 50–100) |
+| Material | **Stainless steel** or exterior-coated — not plain steel |
+
+Search Wickes: [exterior wood screws 5 x 50mm stainless](https://www.wickes.co.uk/search?q=exterior+wood+screws+5+x+50mm+stainless)
+
+
 
 **Fix the bottom of the trellis approximately 15–20 cm above ground level.**
 
