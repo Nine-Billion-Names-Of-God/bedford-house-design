@@ -56,7 +56,7 @@ Two options — choose one:
 |---|---|
 | Size | **7.5 mm × 72 mm** frame fixing |
 | Why | 25 mm batten + ~45 mm into brick = secure hold |
-| Quantity | 3 per batten × 4–5 battens = **~12–15** (buy a box of 20) |
+| Quantity | 3 per batten × 4–5 battens = **~12–15** (buy a box of 20) | 
 | Note | If wall is render over brick, use **7.5 mm × 100 mm** to reach well into the brick beneath |
 
 Search Wickes: [frame fixings 7.5 x 72mm](https://www.wickes.co.uk/search?q=frame+fixings+7.5+x+72mm)
