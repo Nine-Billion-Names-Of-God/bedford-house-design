@@ -1,0 +1,6 @@
+{
+  "label": "Image Briefs",
+  "description": "Versioned art-direction briefs, one folder per room. Each brief sets out the design decisions and exact instructions that the image generator (ChatGPT) follows to produce the next photorealistic iteration.",
+  "eyebrow": "Design direction for image generation",
+  "order": 90
+}

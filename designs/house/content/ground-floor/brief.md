@@ -2,7 +2,16 @@
 
 This is the living record for the ground floor redesign at 92 Woodstock Road. It captures inputs, constraints, decisions and open questions as the conversation progresses, so nothing lives only in chat history. It is updated as we go; design iterations themselves live in separate versioned files.
 
-**Latest focus:** middle TV/living area. [Living Room 02](/house/ground-floor/living-room-02/design) responds to rejection of the modern floating cabinet, repetitive rugs and generic decor: older oak coffer/table profiles, a brick/ochre/slate geometric kilim-style rug, restored clock and a shelf based on the user's actual ornaments. Two opposite views and notes are saved; new choices await review. Across the house, preserve personal objects and develop distinct room identities rather than repeating one styling formula. Other rooms' latest proposals remain unapproved unless explicitly confirmed.
+**Latest focus (2026-10-25):** the entrance and hallway, the reception room and the living room are being redesigned from scratch through versioned image briefs. None of the earlier iterations was agreed.
+
+| Brief | Room identity |
+|---|---|
+| [House Direction V1](/house/ground-floor/image-briefs/house-direction/v1) (read first) | "A Bedford Park house of collectors": room identities, the terracotta thread, shared rules |
+| [Entrance & Hallway V1](/house/ground-floor/image-briefs/entrance-hallway/v1) | The Aesthetic hall |
+| [Reception Room V1](/house/ground-floor/image-briefs/reception-room/v1) | Library and music room |
+| [Living Room V2](/house/ground-floor/image-briefs/living-room/v2) | Mid-century hinge |
+
+ChatGPT generates the images from these briefs. The user's feedback then goes into the next brief version.
 
 ---
 
@@ -125,6 +134,16 @@ Items already owned or recently bought that the design must work around, and ite
 4. **Every mockup has detailed design notes.** Each iteration must be understandable on its own: include the design intent and reasoning, reference inputs, constraints, what stays/changes/is added/is removed, item placement and suggested dimensions, materials and palette, practical trade-offs, assumptions and measurements to confirm, and review status. Explain each image separately within the notes, so every view has a clear account of what it shows. For later iterations, explain the changes from the previous version and why. These notes are separate from the live brief.
 5. **Publish notes with the images using the existing repository convention.** Follow the shed's paired-folder structure: `designs/house/content/ground-floor/<iteration>/design.md` for the website-readable design notes, and `designs/house/assets/ground-floor/<iteration>/` for the corresponding images. The shared iteration slug associates the notes with their companion gallery. Use Markdown for the detailed narrative, as the existing website renders Markdown documents; JSON metadata is optional for labels and ordering, not a substitute for the design notes. Record the image filenames and their view descriptions in the notes. Save generation prompts in the iteration's notes or an accompanying referenced file for reproducibility.
 6. **Use photorealistic visuals for the room mockups.** Use image generation with the current house photos as references, preserving the actual architecture, paint, floors and retained furniture. The earlier simplified drawings remain historical iterations. Generated images are design studies, not confirmation of exact dimensions or product fit; record material deviations from the references in the design notes.
+7. **Design direction comes from versioned image briefs (from 2026-10-25).**
+   - **Who owns what:** Copilot owns the design. ChatGPT is the image tool and adds no styling of its own. The user reviews the images and gives feedback to Copilot.
+   - **The briefs:**
+     - `image-briefs/house-direction/` holds the shared house story, room identities, rules and the formula to avoid.
+     - `image-briefs/<room>/` holds each room's specification and paste-ready prompts.
+     - Each brief is versioned separately (`v1.md`, `v2.md`…), so rooms can move at their own pace.
+     - A version is never edited once handed over.
+   - **Generating:** ChatGPT edits the **original photos**, one room per session, and saves the result as the next iteration.
+   - **Records:** each iteration's `design.md` names the room-brief and House Direction versions it implements.
+8. **Moving on is not approval.** Moving to another room, or asking for changes between iterations, does not mean a mockup is agreed. Only an explicit confirmation counts.
 
 ## 7. Design philosophy
 
@@ -140,7 +159,18 @@ Items already owned or recently bought that the design must work around, and ite
 
 ### 8.1 Entrance and hallway
 
-**Current status (2026-10-25): Mockup 04, "Softly Faded", generated following feedback on 03 and awaiting review.** See [Mockup 04](/house/ground-floor/entrance-hallway-04/design) for both photorealistic views and detailed notes. **Confirmed direction: curated, elegant and chic; fewer console objects; a brown Persian-style hall rug with softly faded, low-contrast motifs that sit comfortably beside the patterned tiles.** Keep bare oak stairs and three traditional pictures arranged diagonally above the stair panelling; no modern-looking art. Exact rug tone and final object choices remain proposals. Next step: review 04, then confirm upper-wall, rug and console/nook dimensions before specifying items.
+**Current status (2026-10-25): being redesigned from scratch in [Entrance & Hallway Image Brief V1](/house/ground-floor/image-briefs/entrance-hallway/v1).** The user clarified that iterations 01–04 were never agreed. The brief keeps every confirmed user preference below and sets out the "Aesthetic hall":
+- ebonised bentwood coat stand
+- console with only a blue-and-white ginger-jar lamp, an aspidistra in terracotta and a brass key dish
+- the hamper under the console
+- plain coir mat
+- **geometric** (Heriz/Serapi-style) faded terracotta-brown runner, so it doesn't clash with the tiles
+- three Japanese woodblock bird-and-flower prints in black frames rising above the panelling
+- bare oak stairs
+
+Expected output: `entrance-hallway-05`. The text below is history.
+
+**Earlier status: Mockup 04, "Softly Faded", generated following feedback on 03 and awaiting review.** See [Mockup 04](/house/ground-floor/entrance-hallway-04/design) for both photorealistic views and detailed notes. **Confirmed direction: curated, elegant and chic; fewer console objects; a brown Persian-style hall rug with softly faded, low-contrast motifs that sit comfortably beside the patterned tiles.** Keep bare oak stairs and three traditional pictures arranged diagonally above the stair panelling; no modern-looking art. Exact rug tone and final object choices remain proposals. Next step: review 04, then confirm upper-wall, rug and console/nook dimensions before specifying items.
 
 **Previous proposal retained for context:** v2 was recorded as agreed (2026-10-25); illustrated Mockup 01 (`entrance-hallway-01`) remains awaiting review. The recommendations below describe that earlier proposal, not a requirement to repeat every item in the fresh assessment. Confirmed user constraints still apply: in particular, no painting and the console stays. Previous images and notes must remain intact.
 
@@ -190,7 +220,22 @@ Items already owned or recently bought that the design must work around, and ite
 
 ### 8.2 Front reception room / lounge and study
 
-**Status (2026-10-25): Reception Room 04 light/dark rug comparison generated, awaiting review.** User requested only a lighter rug, still brown, to judge which tone is right. One lighter-rug image is compared with an unchanged copy of 03B's fireplace view; the choice of base does not imply scheme approval. Keep the established rug footprint and modest oak gap. The paintings/shelves/cushions remain the alternatives shown in 03. No wall painting or new room styling in this step; neither a complete scheme nor individual choices are approved yet.
+**Current status (2026-10-25): being redesigned from scratch in [Reception Room Image Brief V1](/house/ground-floor/image-briefs/reception-room/v1).** The user clarified that iterations 01–04 were never agreed. The brief sets out the "library and music room":
+- the user's **panoramic skyline drawing stays over the mantel**, after earlier mockups replaced it with an oil painting
+- the user's family photos stay on the shelves
+- a Morris/Hammersmith-style rug on an indigo ground, with a wheat-ground comparison; it keeps the modest 20–25 cm gap before the rear screen
+- one madder-red cushion per chair
+- a mahogany octagonal occasional table
+- a bronze reading lamp in place of both uplighters
+- a green banker's lamp on the piano
+- an antique-style map of Chiswick above the piano
+- library-first shelves with one Imari plate per alcove
+- a mantel holding only the terracotta aloe and an Imari jar
+- a clear hearth, with the pedestal under the desk
+
+Expected output: `reception-room-05`. The text below is history.
+
+**Earlier status: Reception Room 04 light/dark rug comparison generated, awaiting review.** User requested only a lighter rug, still brown, to judge which tone is right. One lighter-rug image is compared with an unchanged copy of 03B's fireplace view; the choice of base does not imply scheme approval. Keep the established rug footprint and modest oak gap. The paintings/shelves/cushions remain the alternatives shown in 03. No wall painting or new room styling in this step; neither a complete scheme nor individual choices are approved yet.
 
 - **Keep for this proposal:** two existing green velvet/bentwood armchairs, piano and bench, sit-stand desk, two monitors and task chair, fireplace, alcove joinery, sheers, chandelier, oak floor, wall/ceiling/joinery colours, mouldings and steel glazing. The existing architectural print is retained as a possession/alternative while 03 trials different artwork in that position; do not discard it. No new joinery or structural changes.
 - **Layout reasoning:** keep the desk in the bay and piano on the hall-side wall; define a seating area beside the fireplace with chairs slightly forward/angled inward, front feet on a rug, and one small round walnut table. Keep an exposed oak route towards the desk and piano. Move the floating oak pedestal to the desk's right end only if it fits and permits the desk's lift movement and chair use.
@@ -207,7 +252,16 @@ Items already owned or recently bought that the design must work around, and ite
 
 ### 8.3 Living room / middle TV area
 
-**Status (2026-10-25): Living Room 02 generated, awaiting review.** The user rejected 01's floating cabinet as too modern, asked for an older look, more individual/interesting pieces and a rug unlike those repeated elsewhere. They also challenged the replacement of their shelf ornaments with generic decor. The mounted TV remains confirmed. No painting remains a whole-floor constraint. Two new opposite views explore an oak coffer, turned-leg table, geometric kilim-style rug, restored clock and actual shelf collection.
+**Current status (2026-10-25): [Living Room Image Brief V2](/house/ground-floor/image-briefs/living-room/v2) supersedes V1.** The mid-century design is the same as V1. What changes in V2:
+- It now sits within House Direction V1, which replaces V1's zone table.
+- It edits the original photos instead of the 02 renders.
+- It lists every removal.
+- It mounts the TV and moves the hat above the shelf.
+- It puts the dog bed at the kitchen end of the sofa.
+
+Expected output: `living-room-03`. The text below is history.
+
+**Earlier status: Living Room 02 generated, awaiting review.** The user rejected 01's floating cabinet as too modern, asked for an older look, more individual/interesting pieces and a rug unlike those repeated elsewhere. They also challenged the replacement of their shelf ornaments with generic decor. The mounted TV remains confirmed. No painting remains a whole-floor constraint. Two new opposite views explore an oak coffer, turned-leg table, geometric kilim-style rug, restored clock and actual shelf collection.
 
 - **TV wall:** mount the existing screen on its current wall at a seated-viewing position. Modern floating cabinet from 01 is rejected. In 02, explore a low older-style oak coffer/blanket chest, approximately 130–140 × 35–40 × 45–48 cm as an initial envelope, subject to fit. This is an unsourced concept, not an authenticated antique or a media unit with proven device provision. Actual mounting/cable/socket/device arrangements remain unresolved.
 - **Seating:** trial a straight warm mushroom/putty-taupe three-seater, about 220–225 cm × 90–95 cm as starting proportions, rather than the large leather chaise. Three cushions in muted cinnamon/rust, moss and flax; one optional oatmeal throw. Keep the table and accessories restrained.
@@ -217,6 +271,15 @@ Items already owned or recently bought that the design must work around, and ite
 - **Dog bed:** retain actual raised grey bed and trial kitchen end of sofa against the same wall, outside the central route. Check it at full size together with the sofa; revise layout if it cannot fit. It is partly cropped in one view. Feeding location remains open.
 - **Deliverables:** 01 remains intact. [Living Room 02 · Collected, Not Matching](/house/ground-floor/living-room-02/design) has two opposite views, detailed notes, exact prompts and a retained inspection crop of the original shelf under `process/owned-shelf-reference.jpg`; paired content/assets folders `living-room-02`. Other rooms' iterations remain unchanged.
 - **Outstanding:** review of older coffer/table forms, geometric rug and restored collection; actual sofa/bed/door/cabinet clearances, shelf/hat measurements, rug template and TV mount/device/cable provision. Rendered objects and antique-style details are approximations, not verified products/authenticity or measured fit. No new choice beyond the TV-mounting instruction is recorded as approved.
+- **Next: [Image Brief V1](/house/ground-floor/image-briefs/living-room/v1) (2026-10-25).** User feedback: 02 repeats the front-of-house design instead of acting as the hinge to the modern kitchen. V1 proposes a **mid-century (about 1955–75) hinge**:
+  - cognac leather sofa on walnut legs
+  - low walnut sideboard on legs
+  - charcoal-stone and black-steel racetrack coffee table
+  - mostly plain oat wool rug with sparse charcoal, ochre and terracotta geometry
+  - terracotta ceramic lamp
+  - two cushions; no brass, gilt or traditional rugs
+
+  It keeps the shelf collection, hat, clock, monstera, marble side table and dog bed. It also sets a three-zone material table (front / hinge / rear) for all rooms. Expected output: `living-room-03`.
 
 ## 9. Open questions
 
@@ -260,3 +323,5 @@ Items already owned or recently bought that the design must work around, and ite
 | 2026-10-25 | Produced Living Room 01, "Warm & Personal", using built-in image generation: mounted TV, optional shallow floating walnut cabinet, straight taupe sofa, faded brown rug/oval table, edited existing shelf, red hat above shelf, table lamp and retained plant/bed relocation. Two opposite views, first TV pass, detailed notes, metadata and prompts saved. New choices await review and fit checks. Other room work preserved; no implied approval by moving rooms. |
 | 2026-10-25 | Feedback on Living Room 01: floating cabinet is too modern; user wants an older look, more individual interesting pieces and rugs with different character across rooms. They objected to the original shelf ornaments being replaced with generic decor. Record this as a whole-project direction: preserve actual personal pieces and avoid a repeated styling formula. |
 | 2026-10-25 | Inspected original shelf at higher resolution and retained a reference crop. Produced Living Room 02 using built-in image generation: low older-style oak coffer, turned-leg table, brick/ochre/slate geometric kilim-style rug, restored original clock, actual ornament groups and existing hat/shelf. Saved two views, notes, metadata and exact prompts. All new pieces unsourced concepts; approval/fit outstanding; 01 and other room work preserved. |
+| 2026-10-25 | User feedback: ChatGPT is applying the same design to every room. The TV area should be the link between the traditional front and the modern kitchen, but 02 repeats the front. New workflow agreed: Copilot reviews iterations and writes versioned image briefs (`image-briefs/<room>/vN.md`); ChatGPT generates the images by following them. Wrote Living Room Image Brief V1, which proposes a mid-century hinge and a three-zone material table. |
+| 2026-10-25 | User clarified that none of the hallway or reception iterations were agreed: they were explorations before moving on. They asked Copilot to design all three rooms from scratch, with ChatGPT doing only the image generation. Copilot reviewed the renders: all repeat one formula, and they edited out the user's own skyline drawing, family photos and shelf ornaments. Copilot wrote House Direction V1, Entrance & Hallway V1, Reception Room V1 and Living Room V2. Structure: one shared direction plus one brief per room, each versioned separately. Deliberate departures for the user to review: the indigo Morris-style reception rug (with a wheat comparison) and the Japanese prints in the hall. |
