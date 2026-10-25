@@ -9,7 +9,7 @@ This is the living record for the ground floor redesign at 92 Woodstock Road. It
 | [House Direction V1](/house/ground-floor/image-briefs/house-direction/v1) (read first) | "A Bedford Park house of collectors": room identities, the terracotta thread, shared rules |
 | [Entrance & Hallway V1](/house/ground-floor/image-briefs/entrance-hallway/v1) | The Aesthetic hall |
 | [Reception Room V1](/house/ground-floor/image-briefs/reception-room/v1) | Library and music room |
-| [Living Room V2](/house/ground-floor/image-briefs/living-room/v2) | Mid-century hinge |
+| [Living Room V3](/house/ground-floor/image-briefs/living-room/v3) | The collector's snug (London townhouse) |
 
 ChatGPT generates the images from these briefs. The user's feedback then goes into the next brief version.
 
@@ -252,12 +252,36 @@ Items already owned or recently bought that the design must work around, and ite
 
 ### 8.3 Living room / middle TV area
 
-**Current status (2026-10-25): [Living Room Image Brief V2](/house/ground-floor/image-briefs/living-room/v2) supersedes V1.** The mid-century design is the same as V1. What changes in V2:
-- It now sits within House Direction V1, which replaces V1's zone table.
-- It edits the original photos instead of the 02 renders.
-- It lists every removal.
-- It mounts the TV and moves the hat above the shelf.
-- It puts the dog bed at the kitchen end of the sofa.
+**Current status (2026-10-25): [Living Room Image Brief V3](/house/ground-floor/image-briefs/living-room/v3) supersedes V1 and V2.** The user rejected Living Room 05 as too modern, so the mid-century hinge is dropped.
+
+**The user's direction:**
+- Go with the old-style furniture elsewhere: wooden pieces, dark wood under the TV.
+- Not a modern rug.
+- A fabric sofa, not in boring colours like brown.
+- A new colour that works with the house's greens and terracotta: plums, pinks and reds, with browns and the earlier accents where needed.
+- A curated London-townhouse feel.
+- The clock replaced by a painting, and a different lamp colour.
+- Unique pieces.
+
+**V3, "the collector's snug":**
+- a Howard-style sofa in deep plum velvet, with a dusty-rose comparison image
+- an antique-style dark Chinese elm low cabinet under the wall-mounted TV
+- a Regency faux-bamboo coffee table
+- a faded rose-and-apricot Oushak rug
+- a dark-ground floral still life with a picture light in place of the clock
+- a celadon lamp with a blush shade
+- block-print and old-gold velvet cushions
+
+The shelf collection, hat above the shelf, monstera, marble side table and dog bed stay. Expected output: `living-room-06`.
+
+**Earlier status: [Living Room Image Brief V2](/house/ground-floor/image-briefs/living-room/v2), now superseded.** It kept V1's mid-century design, but changed how it was generated:
+- It sat within House Direction V1, which replaced V1's zone table.
+- It edited the original photos instead of the 02 renders.
+- It listed every removal.
+- It mounted the TV and moved the hat above the shelf.
+- It put the dog bed at the kitchen end of the sofa.
+
+Living Room 05 was generated from it, and the user rejected it as too modern (see above).
 
 **Images produced:** [Living Room 05 · The Mid-century Hinge](/house/ground-floor/living-room-05/design), following Living Room V2 and House Direction V1. Two original-photo viewpoints show cognac leather, a legged walnut sideboard, charcoal-stone coffee table, sparse oat rug and terracotta lamp around the retained collection. Number 05 is the next free iteration; 03 and 04 remain history. Notes, exact prompts/inputs and first passes are saved. Awaiting review; sofa/bed fit, TV/circulation measurements and small cross-view/detail differences remain documented limitations. The text below is history.
 
@@ -329,3 +353,4 @@ Items already owned or recently bought that the design must work around, and ite
 | 2026-10-25 | User authorised entrance/hallway image generation after the V1 briefs were read and summarised. Produced Entrance & Hallway 05 from original photos: black bentwood stand, three-item porcelain-lamp/aspidistra/brass-dish console, hamper underneath, plain coir mat, faded geometric terracotta-brown runner and three Japanese bird-and-flower prints above bare oak stairs. Built-in image generation; runner refined in a second pass. Saved both selected images, first passes, exact inputs/prompts, checklist and detailed notes. Awaiting review; inferred upper wall, actual hamper fit, object sizes and runner gaps are documented limitations. Earlier iterations and handed-over briefs preserved unchanged. |
 | 2026-10-25 | User requested the first lounge next. Read House Direction V1 and Reception Room V1, then generated Reception Room 05 using the original photos: two indigo Morris-style rug views and the specified wheat comparison, with retained skyline-drawing subject, red cushions, library shelves/Imari, bronze lamps, local map and tidied workstation. Corrected lamp finishes/placement and table details; saved all process passes, exact prompts/inputs and per-view notes/checklist. Awaiting review; exact photo/object fidelity, cross-view consistency, measured rug gap and the full task-chair rolling zone remain limitations. Previous versions and authoritative briefs unchanged. Moving rooms does not approve Entrance & Hallway 05. |
 | 2026-10-25 | User requested Living Room V2 mockups. Read V2 and House Direction V1 and edited original IMG_8641/IMG_8640 using kitchen/dining photos and the owned-shelf crop as references. Produced Living Room 05, the next free number: two opposite views of the mid-century cognac/walnut/charcoal/oat scheme, mounted TV, hat above shelf and original raised bed relocated to kitchen end of sofa. Refined sofa seat, lamp glaze, shelf objects and bed representation. Saved selected images, first passes, exact prompts/inputs and detailed per-view notes/checklist. Awaiting review; bed remains partly obscured/cropped and full-size sofa/bed fit is unverified; exact TV height, circulation and small object/cross-view fidelity also need confirmation. All earlier iterations and authoritative briefs unchanged; no approval of the reception or entrance schemes implied. |
+| 2026-10-25 | User feedback on Living Room 05: too modern, not what they want at all. The room should suit the old-style furniture elsewhere: wooden pieces, dark wood under the TV, no modern rug, a fabric sofa that isn't brown or another boring colour. Introduce a new colour that works with the existing greens and terracotta (plums, pinks, reds, with browns and earlier accents as needed), in a curated London-townhouse style. Replace the clock with a painting, change the lamp colour and choose unique pieces. Copilot wrote Living Room Image Brief V3, "the collector's snug", which drops the mid-century hinge. House Direction V2 is deferred until the user's feedback on the hall and reception, which is still to come. |
