@@ -1,0 +1,77 @@
+{
+  "iteration": "entrance-hallway-05",
+  "date": "2026-10-25",
+  "status": "Concept images awaiting user review",
+  "mode": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "briefs": {
+    "house": "designs/house/content/ground-floor/image-briefs/house-direction/v1.md",
+    "room": "designs/house/content/ground-floor/image-briefs/entrance-hallway/v1.md"
+  },
+  "inputs": [
+    {
+      "original": "assets/ground-floor/images/IMG_8635.HEIC",
+      "passed_path": "/tmp/bedford-ground-floor-review/entrance.jpg",
+      "archived_input": "designs/house/assets/ground-floor/entrance-hallway-05/process/inputs/entrance.jpg",
+      "role": "Entrance original edit target; auto-oriented JPEG derivative, 1050x1400"
+    },
+    {
+      "original": "assets/ground-floor/images/IMG_8636.HEIC",
+      "passed_path": "/tmp/bedford-ground-floor-review/hallway.jpg",
+      "archived_input": "designs/house/assets/ground-floor/entrance-hallway-05/process/inputs/hallway.jpg",
+      "role": "Hallway original edit target; auto-oriented JPEG derivative, 1050x1400"
+    },
+    {
+      "original": "assets/ground-floor/images/IMG_8646.HEIC",
+      "passed_path": "/tmp/bedford-ground-floor-review/IMG_8646.jpg",
+      "archived_input": "designs/house/assets/ground-floor/entrance-hallway-05/process/inputs/cloakroom-colour.jpg",
+      "role": "Terracotta colour reference only; auto-oriented JPEG derivative, 1000x750"
+    }
+  ],
+  "framing_reference": {
+    "path": "designs/house/assets/ground-floor/entrance-hallway-04/hallway-view.png",
+    "usage": "Viewed only to understand upward framing allowed by V1; never attached to generator; its styling was not used."
+  },
+  "generations": [
+    {
+      "id": "entrance-first-pass-selected",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior design mockup implementing House Direction V1 and Entrance & Hallway Image Brief V1.\nEdit only the specified original house photograph, preserving its actual architecture, perspective, materials, camera location and natural daylight. This is a precise photographic edit, not a newly invented room. No golden-hour filter, darkening or haze. Do not paint or recolour walls, ceiling or joinery. Add only the listed objects.\nInput image 1 is the EDIT TARGET: original entrance IMG_8635. Input image 2 is a COLOUR REFERENCE ONLY: the terracotta cloakroom IMG_8646; do not transplant its walls or objects.\nKeep camera, lens and framing of image 1. Keep EXACTLY: white front door, brass furniture, tulip stained glass, fanlight and exterior lantern, stained-glass sidelight to door's right, actual grey/black/white geometric floor tiles, original wall colours/panelling/cornice/ceiling, ribbed glass pendant cluster, black steel glazed door at left, existing dark mahogany demi-lune console and hammered dark mirror at right. Preserve the little cobalt blue glass ornament dangling on the LEFT door jamb, around mid-window height. Retain the white stair newel visible at lower right, removing its coat.\nREMOVE white coat pole with everything on it, pink towel, black coat at right edge, tree motif doormat, and ALL existing objects on console including clock, boxes, tray, plant and ornament.\nADD ONLY:\n1. In the nook to the right of the front door, set back towards the corner, a BLACK EBONISED BENTWOOD Thonet-style hat-and-coat stand, about190cm high, footprint<=45cm: 6–8 fine curled bentwood hooks at the top, a round umbrella ring lower down and small drip tray at base. One coat and one leather dog lead only. Its thin curved lines allow the stained-glass sidelight to remain clearly visible. NOT a solid turned post.\n2. Move the ACTUAL existing rectangular Fortnum & Mason wicker hamper, without changing its size, weave, shape or lid, to the floor UNDER the existing console, front roughly flush with table front. Do not shrink it. Do not replace the console.\n3. On console EXACTLY THREE ITEMS: at the DOOR end a blue-and-white porcelain GINGER-JAR lamp overall45–50cm tall, plain BLACK EMPIRE shade with gold-coloured lining and modest local warm glow; at the opposite FAR end an ASPIDISTRA (broad upright cast-iron-plant leaves) in a plain weathered TERRACOTTA pot about20cm diameter on a saucer; in the middle under mirror ONE SMALL AGED BRASS KEY DISH directly on wood. Keep clear visible tabletop between the three. No extra objects or second lamp.\n4. Plain natural coir doormat with dark border, about90x60cm, door-opening width, no motif.\nNO RUNNER IN ENTRANCE SQUARE. No extra art/books/candles/flowers/trays/decor. No brass lamp or pleated/linen shade. Real textures and accurate source daylight, no global warm tint. Return one portrait image.",
+      "referenced_image_paths": [
+        "/tmp/bedford-ground-floor-review/entrance.jpg",
+        "/tmp/bedford-ground-floor-review/IMG_8646.jpg"
+      ],
+      "transparent_background": false,
+      "generated_file": "/Users/uday/.codex/generated_images/01a1731b-af53-7a01-ac03-a337f2fbcc93/exec-33b8ff03-e706-44a5-99b0-3d29f276f947.png",
+      "selected_asset": "designs/house/assets/ground-floor/entrance-hallway-05/entrance-view.png",
+      "preserved_first_pass": "designs/house/assets/ground-floor/entrance-hallway-05/process/entrance-first-pass.png"
+    },
+    {
+      "id": "hallway-first-pass",
+      "prompt": "Use case: precise-object-edit.\nAsset type: photorealistic interior design mockup implementing House Direction V1 and Entrance & Hallway Image Brief V1.\nEdit only the specified original house photograph, preserving its actual architecture, perspective, materials, camera location and natural daylight. This is a precise photographic edit, not a newly invented room. No golden-hour filter, darkening or haze. Do not paint or recolour walls, ceiling or joinery. Add only the listed objects.\nInput image 1 is the EDIT TARGET: original hallway IMG_8636. Input image 2 is a COLOUR REFERENCE ONLY: terracotta cloakroom IMG_8646, not a room or furniture reference.\nMaintain camera position, lens, perspective and the geometry and position of everything already visible in image1. Extend the canvas UPWARDS ONLY into a taller portrait, enough to reveal the stair wall ABOVE the sloping panelling and fit the three prints. Do not gain art space by lowering the panelling, rotating the camera, moving stairs or shrinking objects. Infer only the newly revealed upper wall.\nKeep EXACTLY: bare oak stair TREADS AND RISERS, white balusters and turned white newel, dark handrail, existing stair panelling/top rail and wall colour, actual geometric grey/black/white tiles, tall flush hall cupboards right, black steel glazed doors right, rear door and fanlight, kitchen and garden beyond. Preserve source photo's daylight and neutral colours, including wood colour.\nREMOVE the coat on newel, cap/hat on stair and grey storage box bottom left.\nADD ONLY:\n1. On tiled narrow hall beside stairs, a hand-knotted wool Heriz/Serapi-style GEOMETRIC Persian runner, approximately65–70cm wide and300cm long. Faded TERRACOTTA-BROWN ground with CAMEL and SOFT CHARCOAL motifs, antique-washed and LOW CONTRAST. LARGE ANGULAR CENTRAL MEDALLIONS, angular corner motifs and angular vine border, narrow border, short/no fringe. No curvy floral motifs. Wool drawing is softly worn but the photograph remains sharp. The terracotta-brown echoes the reference's terracotta in a faded brown wool material. Tiles clearly visible both sides. Start about30cm past foot of stairs (show a visible uncovered band of tiles between entrance square and runner's near end); stop about30cm BEFORE rear doorway (show uncovered tiles at far end). No runner in entrance square or on stairs. Don't extend runner beyond photo bottom.\n2. THREE traditional Japanese woodblock bird-and-flower prints in19th-century ukiyo-e kacho-e style: a heron in snow; a kingfisher with irises; a small bird on flowering branch. Each PORTRAIT, narrow BLACK EBONISED frame, WIDE IVORY mount, approximately45x60cm framed. Hang ABOVE sloping stair panelling, with bottom edges about20–25cm ABOVE its top rail. ALL THREE fully visible in the upward extension, evenly spaced and rising diagonally with stairs. No frame inside or overlapping panelling. No gilt, oil paintings, modern botanical posters or picture lights.\nNo other additions. No stair carpet. No paint changes. Natural daylight of source, no golden filter. Return a single taller portrait photograph.",
+      "referenced_image_paths": [
+        "/tmp/bedford-ground-floor-review/hallway.jpg",
+        "/tmp/bedford-ground-floor-review/IMG_8646.jpg"
+      ],
+      "transparent_background": false,
+      "generated_file": "/Users/uday/.codex/generated_images/01a1731b-af53-7a01-ac03-a337f2fbcc93/exec-bd7b97f8-2081-4510-8795-515bf979d932.png",
+      "preserved_first_pass": "designs/house/assets/ground-floor/entrance-hallway-05/process/hallway-first-pass.png",
+      "review": "Runner contrast too strong and end gaps insufficiently clear; refined within this same V1 generation session."
+    },
+    {
+      "id": "hallway-runner-refinement-selected",
+      "prompt": "Use case: precise-object-edit. Target is this current first-pass hallway mockup implementing Entrance & Hallway V1, not an earlier design iteration.\nChange ONLY the runner: retain its Heriz/Serapi angular medallions, angular corners and geometric vine border, but substantially lower motif contrast over the WHOLE RUG including border. Make the wool field FADED TERRACOTTA-BROWN with camel and SOFT charcoal drawing, softly antique-washed, partially worn-away motifs close to field in value. Not mushroom/beige, not floral, not a blurry photograph. Keep material texture sharp. The present black outlines and black border are too bold; fade them to soft muted charcoal-brown so this runner harmonises with sharp black/white geometric floor tiles.\nAlso shorten the rug at BOTH ends so a visible band of UNCOVERED ORIGINAL TILE about30cm separates its near edge from the stair foot, and another about30cm separates its far edge from rear doorway. Keep its width ~65–70cm, central alignment and exposed tiles both sides. No entrance-square or stair rug.\nEverything else must remain EXACTLY as in this target: all stairs, panelling, wall and wood colours, three Japanese prints/black frames/wide ivory mounts and positions, newel/rail, tile pattern, doors/cupboards, architecture, garden/kitchen, lighting, camera and framing. No additions or restyling. Natural source daylight, no filter. Return one taller portrait image.",
+      "referenced_image_paths": [
+        "/Users/uday/.codex/generated_images/01a1731b-af53-7a01-ac03-a337f2fbcc93/exec-bd7b97f8-2081-4510-8795-515bf979d932.png"
+      ],
+      "transparent_background": false,
+      "generated_file": "/Users/uday/.codex/generated_images/01a1731b-af53-7a01-ac03-a337f2fbcc93/exec-618047bc-5e17-45cd-8065-33188abc681f.png",
+      "selected_asset": "designs/house/assets/ground-floor/entrance-hallway-05/hallway-view.png"
+    }
+  ],
+  "limitations": [
+    "Dimensions and clearances remain unverified, especially hamper/console fit and 30cm runner end margins.",
+    "Extended upper stair wall is inferred, not measured.",
+    "Generative edits approximate fine details of tilework, glass, joinery, hamper weave, reflections and framing; original photos remain the factual reference.",
+    "Prints and new furnishings are unsourced concepts, not product selections."
+  ]
+}
