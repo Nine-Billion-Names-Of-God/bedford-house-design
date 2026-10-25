@@ -129,6 +129,14 @@ const VISUAL_ASSET_COPY: Record<string, { caption: string; title: string }> = {
     caption: "Interior perspective from the doorway looking inward.",
     title: "View From Door",
   },
+  "entrance-view": {
+    caption: "Illustrative perspective from the hall looking back towards the front door.",
+    title: "Entrance View",
+  },
+  "hallway-view": {
+    caption: "Illustrative perspective from the front door looking down the hall to the garden.",
+    title: "Hallway View",
+  },
 };
 
 function humanizeSegment(segment: string) {
