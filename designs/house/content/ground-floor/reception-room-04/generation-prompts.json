@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-25",
+  "iteration": "reception-room-04",
+  "mode": "built-in image_gen",
+  "useCase": "precise-object-edit",
+  "editTarget": "designs/house/assets/ground-floor/reception-room-03/b-fireplace-wall.png",
+  "assets": [
+    {
+      "filename": "a-current-brown-reference.png",
+      "role": "Unmodified copy of the source image for comparison; no regeneration."
+    },
+    {
+      "filename": "b-lighter-brown.png",
+      "role": "Single generated lighter-rug edit.",
+      "prompt": "Use case: precise-object-edit.\nInput image is EDIT TARGET, the latest reception room design (Warm Collected, fireplace-side view).\nMake ONE isolated change: the rug becomes a NOTICEABLY LIGHTER BROWN so the user can compare light vs dark. Absolutely all room pixels outside rug should remain as close to unchanged as possible.\nRug colour: light warm mushroom-brown / soft camel-taupe / pale walnut brown, approximately 20-25 percent lighter overall than input. Clearly still a BROWN rug, not ivory, white, cream, pale yellow, pink or cold silver-grey. Keep the same traditional Persian-style floral design, same motif scale, aged matte low-pile wool and same exact border design, but lift both field and border to lighter brown tones with subdued medium-taupe pattern. No stark dark frame or bright outlines, no replacing rug with plain fabric or modern abstract.\nFit: EXACT rug rectangle, size, orientation, chair/table foot contact and modest exposed-oak gap before black grid doors as in input. Do not enlarge or reposition rug.\nLOCK ENTIRE REST OF IMAGE: both original green velvet bentwood armchairs, nearer tobacco velvet cushion and farther flax striped cushion, round walnut table with one small dish, same shelf ceramics/decorative plate/frames/books, still-life painting over white fireplace, landscape painting at piano wall, all original taupe/white paint, black steel doors, plank floor, bay windows/curtains, black upright piano/bench, desk TWO monitors and task chair, pedestal/lamp positions, ceiling mouldings and chandelier. Preserve exact framing, perspective, natural daylight and warm lamp illumination.\nDo NOT brighten entire photograph to simulate lighter rug. Change rug colour only, preserve visible real wool texture, all shadows and realistic occlusion, no Gaussian blur. Single photorealistic portrait photograph, no text, captions, borders, watermark or collage."
+    }
+  ],
+  "notes": "Only a noticeably lighter brown rug was requested. The darker source was copied byte-for-byte; one built-in image generation call produced the lighter version. Existing styling used for continuity, not treated as user-selected. Earlier files preserved. Small generated texture/background differences may remain; colour is not a physical sample."
+}
