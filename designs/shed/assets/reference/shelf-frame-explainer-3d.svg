@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+  <title id="title">3D shelf frame explainer</title>
+  <desc id="desc">Open-frame isometric diagram of a freestanding timber shelf unit showing base frame, uprights, cleats, and plywood shelves.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f6f1e7; }
+      .panel { fill: #fffaf2; stroke: #d8ccb8; stroke-width: 2; }
+      .title { font: 700 28px 'IBM Plex Sans', Arial, sans-serif; fill: #22352b; }
+      .subtitle { font: 600 18px 'IBM Plex Sans', Arial, sans-serif; fill: #335344; }
+      .label { font: 500 16px 'IBM Plex Sans', Arial, sans-serif; fill: #294236; }
+      .small { font: 500 14px 'IBM Plex Sans', Arial, sans-serif; fill: #4f6256; }
+      .timber-top { fill: #bc8350; stroke: #734620; stroke-width: 2; }
+      .timber-front { fill: #8d5a31; stroke: #734620; stroke-width: 2; }
+      .timber-side { fill: #9f693b; stroke: #734620; stroke-width: 2; }
+      .cleat-top { fill: #d6a36b; stroke: #84532c; stroke-width: 2; }
+      .cleat-front { fill: #b87e47; stroke: #84532c; stroke-width: 2; }
+      .cleat-side { fill: #c38a54; stroke: #84532c; stroke-width: 2; }
+      .ply-top { fill: #ead8b3; stroke: #8b6f3f; stroke-width: 2; }
+      .ply-front { fill: #b89460; stroke: #8b6f3f; stroke-width: 2; }
+      .ply-side { fill: #c9ae7a; stroke: #8b6f3f; stroke-width: 2; }
+      .ghost { fill: none; stroke: #99aa9f; stroke-width: 2; stroke-dasharray: 7 7; }
+      .arrow { fill: none; stroke: #486154; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#486154"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="980"/>
+  <rect class="panel" x="42" y="118" width="1316" height="810" rx="18"/>
+
+  <text class="title" x="64" y="66">3D Shelf Frame Explainer</text>
+  <text class="subtitle" x="64" y="98">Open-frame isometric view: the side assemblies are timber frames, not solid filled panels.</text>
+
+  <!-- Ghost wall -->
+  <polygon class="ghost" points="1060,206 1220,130 1220,666 1060,742"/>
+  <text class="small" x="1118" y="172">shed wall behind unit</text>
+
+  <!-- Base frame: front rail -->
+  <polygon class="timber-top" points="276,760 756,760 774,752 294,752"/>
+  <polygon class="timber-front" points="276,760 294,752 294,780 276,788"/>
+  <polygon class="timber-side" points="756,760 774,752 774,780 756,788"/>
+
+  <!-- Base frame: back rail -->
+  <polygon class="timber-top" points="454,676 934,676 952,668 472,668"/>
+  <polygon class="timber-front" points="454,676 472,668 472,696 454,704"/>
+  <polygon class="timber-side" points="934,676 952,668 952,696 934,704"/>
+
+  <!-- Base frame: left side rail -->
+  <polygon class="timber-top" points="276,760 454,676 472,668 294,752"/>
+  <polygon class="timber-front" points="276,760 294,752 294,780 276,788"/>
+  <polygon class="timber-side" points="454,676 472,668 472,696 454,704"/>
+
+  <!-- Base frame: right side rail -->
+  <polygon class="timber-top" points="756,760 934,676 952,668 774,752"/>
+  <polygon class="timber-front" points="756,760 774,752 774,780 756,788"/>
+  <polygon class="timber-side" points="934,676 952,668 952,696 934,704"/>
+
+  <!-- Base frame: intermediate cross rails -->
+  <polygon class="timber-top" points="436,760 614,676 632,668 454,752"/>
+  <polygon class="timber-front" points="436,760 454,752 454,780 436,788"/>
+  <polygon class="timber-side" points="614,676 632,668 632,696 614,704"/>
+
+  <polygon class="timber-top" points="596,760 774,676 792,668 614,752"/>
+  <polygon class="timber-front" points="596,760 614,752 614,780 596,788"/>
+  <polygon class="timber-side" points="774,676 792,668 792,696 774,704"/>
+
+  <!-- Uprights: front row -->
+  <polygon class="timber-front" points="294,336 314,336 314,752 294,760"/>
+  <polygon class="timber-side" points="314,336 332,328 332,744 314,752"/>
+  <polygon class="timber-top" points="294,336 314,336 332,328 312,328"/>
+
+  <polygon class="timber-front" points="454,336 474,336 474,752 454,760"/>
+  <polygon class="timber-side" points="474,336 492,328 492,744 474,752"/>
+  <polygon class="timber-top" points="454,336 474,336 492,328 472,328"/>
+
+  <polygon class="timber-front" points="614,336 634,336 634,752 614,760"/>
+  <polygon class="timber-side" points="634,336 652,328 652,744 634,752"/>
+  <polygon class="timber-top" points="614,336 634,336 652,328 632,328"/>
+
+  <polygon class="timber-front" points="774,336 794,336 794,752 774,760"/>
+  <polygon class="timber-side" points="794,336 812,328 812,744 794,752"/>
+  <polygon class="timber-top" points="774,336 794,336 812,328 792,328"/>
+
+  <!-- Uprights: back row -->
+  <polygon class="timber-front" points="472,252 492,252 492,668 472,676"/>
+  <polygon class="timber-side" points="492,252 510,244 510,660 492,668"/>
+  <polygon class="timber-top" points="472,252 492,252 510,244 490,244"/>
+
+  <polygon class="timber-front" points="632,252 652,252 652,668 632,676"/>
+  <polygon class="timber-side" points="652,252 670,244 670,660 652,668"/>
+  <polygon class="timber-top" points="632,252 652,252 670,244 650,244"/>
+
+  <polygon class="timber-front" points="792,252 812,252 812,668 792,676"/>
+  <polygon class="timber-side" points="812,252 830,244 830,660 812,668"/>
+  <polygon class="timber-top" points="792,252 812,252 830,244 810,244"/>
+
+  <polygon class="timber-front" points="952,252 972,252 972,668 952,676"/>
+  <polygon class="timber-side" points="972,252 990,244 990,660 972,668"/>
+  <polygon class="timber-top" points="952,252 972,252 990,244 970,244"/>
+
+  <!-- Top frame rails -->
+  <polygon class="timber-top" points="294,336 774,336 792,328 312,328"/>
+  <polygon class="timber-front" points="294,336 312,328 312,348 294,356"/>
+  <polygon class="timber-side" points="774,336 792,328 792,348 774,356"/>
+
+  <polygon class="timber-top" points="472,252 952,252 970,244 490,244"/>
+  <polygon class="timber-front" points="472,252 490,244 490,264 472,272"/>
+  <polygon class="timber-side" points="952,252 970,244 970,264 952,272"/>
+
+  <!-- Top cross ties -->
+  <polygon class="timber-top" points="294,336 472,252 490,244 312,328"/>
+  <polygon class="timber-front" points="294,336 312,328 312,348 294,356"/>
+  <polygon class="timber-side" points="472,252 490,244 490,264 472,272"/>
+
+  <polygon class="timber-top" points="454,336 632,252 650,244 472,328"/>
+  <polygon class="timber-front" points="454,336 472,328 472,348 454,356"/>
+  <polygon class="timber-side" points="632,252 650,244 650,264 632,272"/>
+
+  <polygon class="timber-top" points="614,336 792,252 810,244 632,328"/>
+  <polygon class="timber-front" points="614,336 632,328 632,348 614,356"/>
+  <polygon class="timber-side" points="792,252 810,244 810,264 792,272"/>
+
+  <polygon class="timber-top" points="774,336 952,252 970,244 792,328"/>
+  <polygon class="timber-front" points="774,336 792,328 792,348 774,356"/>
+  <polygon class="timber-side" points="952,252 970,244 970,264 952,272"/>
+
+  <!-- Shelf 1 cleats -->
+  <polygon class="cleat-top" points="312,648 792,648 810,640 330,640"/>
+  <polygon class="cleat-front" points="312,648 330,640 330,654 312,662"/>
+  <polygon class="cleat-side" points="792,648 810,640 810,654 792,662"/>
+
+  <polygon class="cleat-top" points="490,564 970,564 988,556 508,556"/>
+  <polygon class="cleat-front" points="490,564 508,556 508,570 490,578"/>
+  <polygon class="cleat-side" points="970,564 988,556 988,570 970,578"/>
+
+  <!-- Shelf 1 board -->
+  <polygon class="ply-top" points="308,630 788,630 966,546 486,546"/>
+  <polygon class="ply-front" points="308,630 486,546 486,564 308,648"/>
+  <polygon class="ply-side" points="788,630 966,546 966,564 788,648"/>
+
+  <!-- Shelf 2 cleats -->
+  <polygon class="cleat-top" points="312,528 792,528 810,520 330,520"/>
+  <polygon class="cleat-front" points="312,528 330,520 330,534 312,542"/>
+  <polygon class="cleat-side" points="792,528 810,520 810,534 792,542"/>
+
+  <polygon class="cleat-top" points="490,444 970,444 988,436 508,436"/>
+  <polygon class="cleat-front" points="490,444 508,436 508,450 490,458"/>
+  <polygon class="cleat-side" points="970,444 988,436 988,450 970,458"/>
+
+  <!-- Shelf 2 board -->
+  <polygon class="ply-top" points="308,510 788,510 966,426 486,426"/>
+  <polygon class="ply-front" points="308,510 486,426 486,444 308,528"/>
+  <polygon class="ply-side" points="788,510 966,426 966,444 788,528"/>
+
+  <!-- Shelf 3 cleats -->
+  <polygon class="cleat-top" points="312,408 792,408 810,400 330,400"/>
+  <polygon class="cleat-front" points="312,408 330,400 330,414 312,422"/>
+  <polygon class="cleat-side" points="792,408 810,400 810,414 792,422"/>
+
+  <polygon class="cleat-top" points="490,324 970,324 988,316 508,316"/>
+  <polygon class="cleat-front" points="490,324 508,316 508,330 490,338"/>
+  <polygon class="cleat-side" points="970,324 988,316 988,330 970,338"/>
+
+  <!-- Shelf 3 board -->
+  <polygon class="ply-top" points="308,390 788,390 966,306 486,306"/>
+  <polygon class="ply-front" points="308,390 486,306 486,324 308,408"/>
+  <polygon class="ply-side" points="788,390 966,306 966,324 788,408"/>
+
+  <!-- Annotations -->
+  <path class="arrow" d="M 1080 242 C 1160 242, 1170 242, 968 252"/>
+  <text class="label" x="1084" y="236">light tie-back to wall</text>
+
+  <path class="arrow" d="M 1080 358 C 1180 358, 1180 330, 970 316"/>
+  <text class="label" x="1084" y="352">18 mm plywood shelf</text>
+
+  <path class="arrow" d="M 1080 470 C 1180 470, 1180 454, 988 444"/>
+  <text class="label" x="1084" y="464">cleat under the shelf</text>
+
+  <path class="arrow" d="M 1066 640 C 1180 640, 1180 694, 952 690"/>
+  <text class="label" x="1070" y="634">base frame spreads load</text>
+
+  <path class="arrow" d="M 126 366 C 224 366, 252 360, 294 348"/>
+  <text class="label" x="82" y="360">upright</text>
+
+  <path class="arrow" d="M 114 806 C 214 806, 244 780, 276 780"/>
+  <text class="label" x="82" y="800">bottom rail / plinth</text>
+
+  <path class="arrow" d="M 112 604 C 212 604, 240 620, 308 640"/>
+  <text class="label" x="82" y="598">shelf rests on cleats</text>
+
+  <text class="subtitle" x="78" y="836">Read this as an open frame</text>
+  <text class="small" x="78" y="864">The side assemblies are not solid timber walls. They are just rails and uprights with empty space between them.</text>
+  <text class="small" x="78" y="890">You only add plywood side panels or backs where you actually want stiffening, a backboard, or a tool panel.</text>
+  <text class="small" x="78" y="916">Most of the structure is open so boxes, tools, and tall items can sit within the frame rather than behind a solid side.</text>
+</svg>

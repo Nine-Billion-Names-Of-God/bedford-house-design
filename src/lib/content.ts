@@ -151,11 +151,23 @@ function formatModelName(segment: string) {
   return humanizeSegment(segment);
 }
 
-function formatDocumentTitle(collectionLabel: string, slug: string) {
+function formatDocumentTitle(collectionLabel: string, slug: string, segments: string[]) {
+  const parentSegment = segments.at(-2);
+
+  if (slug === "design" && parentSegment) {
+    const parentIdentity = parseDocumentIdentity(parentSegment);
+
+    if (parentIdentity.optionNumber !== null) {
+      return `${collectionLabel} · ${parentIdentity.modelName} · Design Option ${parentIdentity.optionNumber}`;
+    }
+
+    return `${collectionLabel} · ${humanizeSegment(parentSegment)} · Design`;
+  }
+
   const optionMatch = slug.match(/^(.*)-(\d+)$/);
 
   if (!optionMatch) {
-    return `${collectionLabel} · ${humanizeSegment(slug)} · Design`;
+    return `${collectionLabel} · ${humanizeSegment(slug)}`;
   }
 
   const [, rawModelName, optionNumber] = optionMatch;
@@ -519,7 +531,7 @@ async function readFolder({
         body: source,
         collectionLabel: label,
         collectionRoute: toRoute(routeSegments),
-        displayTitle: formatDocumentTitle(label, slug),
+        displayTitle: formatDocumentTitle(label, slug, segments),
         domain,
         domainLabel,
         listTitle: documentIdentity.listTitle,
@@ -532,7 +544,7 @@ async function readFolder({
         slug,
         sourcePath: fullPath,
         summary: extractSummary(source),
-        title: formatDocumentTitle(label, slug),
+        title: formatDocumentTitle(label, slug, segments),
         visualAssets,
       },
       kind: "document",
